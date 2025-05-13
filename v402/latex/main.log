@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  13 MAY 2025 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  13 MAY 2025 17:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,7 +394,7 @@ Package typearea Info: These are the values describing the layout:
 LaTeX Warning: Unused global option(s):
     [ngerman].
 
-(./main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -422,7 +422,7 @@ Package scrbase Info: activating english \refname on input line 15.
 Package scrbase Info: activating english \indexname on input line 15.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -954,8 +954,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11764 strings out of 477884
- 243888 string characters out of 5835938
+ 11762 strings out of 477884
+ 243870 string characters out of 5835938
  1858330 words of memory out of 5000000
  31857 multiletter control sequences out of 15000+600000
  524089 words of font info for 57 fonts, out of 8000000 for 9000
