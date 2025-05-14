@@ -1,0 +1,122 @@
+\chapter{Formeln: To be deleted at the end}
+
+\section*{Spannungsteiler}
+
+\begin{equation}
+  U = \frac{R_2}{R_1 + R_2}\,U_{\mathrm{ges}}
+\end{equation}
+
+mit $U$ als Spannung am Widerstand $R_2$, $R_1$ und $R_2$ als Widerstände und $U_{\mathrm{ges}}$ als Gesamtspannung.
+
+\section*{Energieerhaltung}
+
+\begin{equation}
+  h\,f = E_{\mathrm{kin}} + W_A,
+  \quad
+  E_{\mathrm{kin}} = e\,U_G
+\end{equation}
+
+mit $h$ dem Planckschen Wirkungsquantum, $f$ der Photonfrequenz, $e$ der Elementarladung, $U_G$ der Gegenspannung und $W_A$ der Austrittsarbeit.
+
+\section*{Fehlerfortpflanzung I}
+
+\begin{equation}
+  \Delta\bigl(\sqrt{I - I_0}\bigr)
+  = \sqrt{
+    \Bigl(\tfrac{\Delta I}{2\,\sqrt{I - I_0}}\Bigr)^{2}
+   +\Bigl(\tfrac{\Delta I_0}{2\,\sqrt{I - I_0}}\Bigr)^{2}
+  }.
+\end{equation}
+
+\section*{Beugungsgitter}
+
+\begin{equation}
+  g\bigl(\sin\theta_m + \sin\beta\bigr) = m\,\lambda
+  \quad\Longrightarrow\quad
+  g = \frac{m\,\lambda}{\sin\theta_m + \sin\beta}
+\end{equation}
+
+\begin{equation}
+  \Delta g
+  = \sqrt{
+    \Bigl(\tfrac{\partial g}{\partial\theta_m}\,\Delta\theta_m\Bigr)^{2}
+   +\Bigl(\tfrac{\partial g}{\partial\beta}\,\Delta\beta\Bigr)^{2}
+  }.
+\end{equation}
+
+\begin{equation}
+  \frac{\partial g}{\partial\theta_m}
+  = \frac{m\,\lambda\,\cos\theta_m}{(\sin\theta_m + \sin\beta)^{2}},
+  \quad
+  \frac{\partial g}{\partial\beta}
+  = \frac{m\,\lambda\,\cos\beta}{(\sin\theta_m + \sin\beta)^{2}}.
+\end{equation}
+
+\section*{Mittelwert der Gitterkonstante}
+
+\begin{equation}
+  \overline{g}
+  = \frac{\sum_{i=1}^{N} \bigl(g_i/\Delta g_i\bigr)}
+         {\sum_{i=1}^{N} \bigl(1/\Delta g_i\bigr)},
+  \quad
+  \Delta\overline{g}
+  = \sqrt{\frac{N}{\sum_{i=1}^{N} 1/(\Delta g_i)^{2}}}\,.
+\end{equation}
+
+\section*{Isotopenverhältnis}
+
+\begin{equation}
+  \lambda = g\,(\sin\theta_m + \sin\beta),
+  \quad
+  \frac{\partial\lambda}{\partial\beta} = g\,\cos\beta,
+  \quad
+  \Delta\beta \approx \frac{d}{f}.
+\end{equation}
+
+\section*{Fehlerfortpflanzung II}
+
+\begin{equation}
+  \Delta\lambda
+  = \sqrt{
+      \Bigl(\tfrac{\lambda}{g}\,\Delta g\Bigr)^{2}
+    + \Bigl(g\,\cos\alpha\,\Delta\alpha\Bigr)^{2}
+    + \Bigl(g\,\cos\beta\,\Delta\beta\Bigr)^{2}
+  }.
+\end{equation}
+
+\begin{equation}
+  \Delta(\Delta\lambda)
+  = \sqrt{
+      \Bigl(\tfrac{d\,\cos\beta}{f}\,\Delta g\Bigr)^{2}
+    + \Bigl(\tfrac{-d\,\sin\beta}{f\,g}\,\Delta\beta\Bigr)^{2}
+    + \Bigl(\tfrac{g\,\cos\beta}{f}\,\Delta d\Bigr)^{2}
+  }.
+\end{equation}
+
+\section*{Balmer‐Formel}
+
+\begin{equation}
+  \frac{1}{\lambda}
+  = R_H\Bigl(\tfrac{1}{2^{2}} - \tfrac{1}{n^{2}}\Bigr),
+  \quad n=3,4,5,\dots
+\end{equation}
+
+\begin{equation}
+  R_H
+  = \frac{1/\lambda}{\bigl(\tfrac{1}{4} - \tfrac{1}{n^{2}}\bigr)},
+  \quad
+  \Delta R_H
+  = \frac{\Delta\lambda}{\lambda^{2}\,\bigl(\tfrac{1}{4} - \tfrac{1}{n^{2}}\bigr)}.
+\end{equation}
+
+\section*{Plancksches Wirkungsquantum}
+
+\begin{equation}
+  h
+  = \Bigl(\tfrac{m_e\,e^{4}}{8\,\varepsilon_{0}^{2}\,c\,R_H}\Bigr)^{1/3},
+  \quad
+  \Delta h
+  = \frac{1}{3}
+    \Bigl(\tfrac{m_e\,e^{4}}{8\,\varepsilon_{0}^{2}\,c}\Bigr)^{1/3}
+    R_H^{-4/3}\,\Delta R_H.
+\end{equation}
