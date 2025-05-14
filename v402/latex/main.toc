@@ -43,4 +43,6 @@
 \contentsline {chapter}{Abbildungsverzeichnis}{11}{chapter*.32}%
 \contentsline {chapter}{Tabellenverzeichnis}{12}{chapter*.33}%
 \contentsline {chapter}{\numberline {A}Anhang}{13}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Abbildungen}{13}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tabellen}{13}{section.A.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
