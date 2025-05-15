@@ -1,0 +1,1 @@
+Plancksche Konstante: h = (6.6104e-34 ± 1.09e-35) J·s
