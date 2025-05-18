@@ -125,6 +125,48 @@ werden:
 \section{Abschätzung des Plankschen Wirkungsquantums und der Austrittsarbeit}
 \subsection[Bestimmung der Grenzspannung U0]{Bestimmung der Grenzspannung U\textsubscript{0}}
 \subsection[Bestimmung des Plankschen Wirkungsquantums h]{Bestimmung des Plankschen Wirkungsquantums h}
+\begin{table}[H]
+\centering
+\resizebox{0.75\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
+\hline
+$\lambda$ [\si{\nano\metre}] & $\nu$ [\si{\hertz}] & $\overline{U_0}$ [\si{\milli\volt}] & $\Delta \overline{U_0}$ [\si{\milli\volt}] \\ \hline
+\SI{365.00}{\nano\metre} & \num{8.21e14} & \num{2124.19} & \num{45.39} \\ \hline
+\SI{405.00}{\nano\metre} & \num{7.40e14} & \num{1605.23} & \num{47.04} \\ \hline
+\SI{463.00}{\nano\metre} & \num{6.47e14} & \num{1341.51} & \num{57.42} \\ \hline
+\SI{546.00}{\nano\metre} & \num{5.49e14} & \num{638.22}  & \num{59.13} \\ \hline
+\SI{578.00}{\nano\metre} & \num{5.19e14} & \num{458.70}  & \num{24.80} \\ \hline
+\end{tabular}%
+}
+\caption{Gemittelte Abbrems­spannungen $\overline{U_0}$ und deren Unsicherheiten gegen die jeweiligen Frequenzen.}
+\label{tab:U0_vs_nu_data}
+\end{table}
+
+\begin{table}[H]
+\centering
+\resizebox{0.75\columnwidth}{!}{%
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Parameter} & \textbf{Wert} \\ \hline
+Steigung $m$ [\si{\milli\volt\per\hertz}] 
+  & $\num{5.457e-12} \pm \num{2.953e-13}$ \\ \hline
+Achsenabschnitt $b$ [\si{\milli\volt}] 
+  & $\num{-2.360e3} \pm \num{1.842e2}$ \\ \hline
+$\mathrm{\chi}^2$ 
+  & $\num{11.56}$ \\ \hline
+Freiheitsgrade (dof) 
+  & 3 \\ \hline
+$\mathrm{\chi}^2 / \mathrm{dof}$ 
+  & $\num{3.85}$ \\ \hline
+\end{tabular}%
+}
+\caption{Ergebnisse des gewichteten linearen $\mathrm{\chi}^2$-Fits von $\overline{U_0}$ gegen $\nu$.}
+\label{tab:U0_vs_nu_fit}
+\end{table}
+$h = \SI{8.743(473)e-34}{\joule\second}$
+
+
 \subsection[Bestimmung der Austrittsarbeit WA]{Bestimmung der Austrittsarbeit W\textsubscript{A}}
+$W_A = \SI{3.781(295)e-19}{\joule}\;\bigl(\SI{2.360(184)}{\electronvolt}\bigr)$
 \subsection[Vergleich der Lambda-Kennlinie für unterschiedliche Intensitäten]{Vergleich der Lambda-Kennlinie für unterschiedliche Intensitäten}
 %Diskussionen/Vergleiche werden direkt in den Unterteilen eingebaut
