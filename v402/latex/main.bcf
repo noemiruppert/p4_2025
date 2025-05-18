@@ -2346,13 +2346,7 @@
   <bcf:section number="0">
     <bcf:citekey order="1">praktikum</bcf:citekey>
     <bcf:citekey order="2">praktikum</bcf:citekey>
-    <bcf:citekey order="3">praktikum</bcf:citekey>
     <bcf:citekey order="4">praktikum</bcf:citekey>
-    <bcf:citekey order="5">praktikum</bcf:citekey>
-    <bcf:citekey order="6">praktikum</bcf:citekey>
-    <bcf:citekey order="7">praktikum</bcf:citekey>
-    <bcf:citekey order="8">praktikum</bcf:citekey>
-    <bcf:citekey order="13">praktikum</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
