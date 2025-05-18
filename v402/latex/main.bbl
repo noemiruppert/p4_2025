@@ -31,6 +31,19 @@
       \field{year}{2025}
       \field{dateera}{ce}
     \endentry
+    \entry{Spannungsteiler}{article}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Spannungsteiler}
+      \verb{urlraw}
+      \verb https://www.homofaciens.de/technics-base-circuits-voltage-divider_ge.htm
+      \endverb
+      \verb{url}
+      \verb https://www.homofaciens.de/technics-base-circuits-voltage-divider_ge.htm
+      \endverb
+      \warn{\item Entry 'Spannungsteiler' (refs.bib): Invalid format '18.05.2025, 12:00' of date field 'date' - ignoring}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
