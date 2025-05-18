@@ -69,16 +69,13 @@ diesem Abstand vor die Blende positioniert,
  nachfolgenden Interferenzfilter mit fünf 
  Filtern sowie eine zusätzliche Blende lenkt.
 
-
+%---------------------------------------------------------------
 \section{Durchführung}
 
-
- %mit Theorie erklären wieso welcher Strom/welche Spannung gemessen werden
 Eine Abschirmvorrichtung mit einem 
 röhrenförmigen Element verhindert Streulicht. 
 Ein Lichtfleck wird gezielt auf die Kathode 
 projiziert, ohne ,dass die Anode beleuchtet wird.
-%Theorie einfügen: wieso werden die Ströme gemesse, Gegenfeld etc
 
 Wenn Photonen aus der Hg-Lampe auf die Photokathode treffen, interagieren sie mit den Elektronen in dieser und überträgt dabei seine gesamte Energie $E = h\nu$
 auf eines der Elektronen. Falls die übertragene Energie größer als die Austrittsarbeit $W_A$ ist,dann kann sich das Elektron aus der Kathode lösen und zur Ringanode gelangen. Dadurch ensteht ein Stromfluss:der Photostrom $I_{ph}$.
@@ -90,22 +87,38 @@ Dies bedeutet, dass selbst die energiereichsten Elektronen die Anode nicht mehr 
 $E_{kin,max} = eU_0$.
 
 Man lässt das Gegenfeld mit Hilfe einer variablen Spannungsquelle, welche sich zwischen der Kathode und der Anode befindet, ansteigen.
-Man erweitert die Schaltung mit Hilfe eines Spannungsteilers (Abbildung \ref{fig:Spannungsteiler}) aus einem $330\Omega$ und $100\Omega$ Widerstandes um den Messbereich zu skalieren und genauere Messungen durchzuführen.
+Man erweitert die Schaltung mit Hilfe eines Spannungsteilers (Abbildung \ref{fig:spannungsteiler}) aus einem $330\Omega$ und $100\Omega$ Widerstandes um den Messbereich zu skalieren und genauere Messungen durchzuführen.
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.75\textwidth]{figs/Spannungsteiler.png}
-    \caption{ Spannungsteiler}
+    \includegraphics[width=0.4\textwidth]{figs/Spannungsteiler.png}
+    \caption{ Spannungsteiler \cite{Spannungsteiler}}
     \label{fig:spannungsteiler}
 \end{figure}
 \FloatBarrier
+Die verwendete Spannungsquelle kann Spannungen von 0\,V bis 12\,V bereitstellen. 
+Der Photostrom erreicht jedoch bereits bei deutlich geringeren Gegenspannungen seinen Nullpunkt, typischerweise im Bereich von wenigen Volt. 
+Für die Messung der Grenzspannung $U_0$ genügt daher ein kleiner Teil des gesamten Spannungsbereichs. 
+Die feine Justierung der Gegenspannung ist entscheidend, um den Punkt zu bestimmen, an dem der Photostrom gerade verschwindet.\\
+Es gilt folgender Zusammenhang zwischen der abgefangenen Spannung $U_2$, den Widerständen $R_1 = 330 \Omega, R_2 = 100 \Omega$ und $U_0$:
+\begin{equation}
+  U_2 = \frac{R_2}{R_1 + R_2}\,U_0
+\end{equation}\\
+Sommit wird der Spannungsbereich auf [0\,V, 2.8\,V] skaliert.\\
 
 Der Anodenstrom wird über einen Messverstärker erfasst, 
-während eine zum Strom proportionale Spannung mit einem 
+wobei eine zum Strom proportionale Spannung mit einem 
 Digitalmultimeter (DMM) gemessen wird. Die Gegenspannung 
 stammt aus einem 12V-Gleichspannungsnetzteil, 
 wobei der negative Pol mit der Anode verbunden ist, 
 um die Elektronen abzubremsen. Diese Spannung wird 
-mit einem weiteren DMM gemessen.
+mit einem weiteren DMM gemessen.\\
+Dieser Vorgang wird für je eine unterschiedliche Wellenlänge
+$\lambda$ des Lichtes zwei mal wiederholt (zum Ausgleich der Schwankungen), wobei die
+Wellenlängen mit Hilfe von Interferenzfiltern
+einstellbar sind.
+
+%--------------------------------------------------------------
+
 \subsection{Energiebilanz der Photoelektronen}
 Laut der Abbildung der Ferminiveaus \ref{fig:kathode-anode} 
 gilt für die Energiebilanz:

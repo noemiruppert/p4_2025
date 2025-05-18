@@ -1,17 +1,28 @@
 # Fdb version 4
+<<<<<<< HEAD
 ["biber main"] 1747569940 "main.bcf" "main.bbl" "main" 1747570262 0
   "./refs.bib" 1747569908 554 9964e13343067371e8e9558025bec9c1 ""
   "main.bcf" 1747570259 106507 1520ccbfba33ddf72f850d03742439d6 "pdflatex"
+=======
+["biber main"] 1747565698 "main.bcf" "main.bbl" "main" 1747567980 0
+  "./refs.bib" 1747565664 670 eb20ca67c0bf154b0ec35bafe2f88b1a ""
+  "main.bcf" 1747567978 106647 10fe9c1716cbd2da4458993e06a64f62 "pdflatex"
+>>>>>>> noemi
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
+<<<<<<< HEAD
 ["pdflatex"] 1747570230 "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747570262 0
+=======
+["pdflatex"] 1747567957 "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747567980 0
+>>>>>>> noemi
   "/etc/texmf/web2c/texmf.cnf" 1743706922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" 1747564822 1349 ce8a8e3770f0ed9765bd6247dc1e9bdd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1136768653 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm" 1136768653 3072 1b1df026a15993ee98d265b49cf8d5f2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1136768653 3584 3169d30142b88a27d4ab0e3468e963a2 ""
@@ -23,6 +34,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1136768653 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx2074.tfm" 1136768653 3584 5ba4d7d245f2ced66081d269e8c9a284 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm" 1136768653 3072 b73d2778cc3af44970de4de5e032d7f6 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm" 1136768653 1536 a988bfe554c1f79514bd46d13c3c64ce ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
@@ -179,6 +191,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty" 1654720880 5319 48d7f3cfa322abd2788e3c09d624b922 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1654720880 5048 84b05796b49b69e2d4257d537721c960 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd" 1667332637 2641 9d3d1f89b5d4a30a094e9d8438c08ba0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd" 1667332637 2443 f9c272838e65ac147422f32fe87b76a1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx" 1609451401 1818 9ed166ac0a9204a8ebe450ca09db5dde ""
   "/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx" 1609451401 25680 409c3f3d570418bc545e8065bebd0688 ""
   "/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg" 1342308459 69 249fa6df04d948e51b6d5c67bea30c42 ""
@@ -297,6 +310,7 @@
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb" 1743708921 154600 ea54091d31de803b613ba9e80ca51709 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb" 1743708921 139826 9213617a7cb78635fc326b859c0b2273 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb" 1743708921 118110 8476623e969cc771939ade7a737ae636 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb" 1743708921 145929 f25e56369a345c4ff583b067cd87ce8e ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1743708921 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb" 1743708921 131078 d96015a2fa5c350129e933ca070b2484 ""
@@ -306,9 +320,11 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb" 1743708921 148301 cb90e68db88ca98c49afbaaab3ac1967 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb" 1743708921 141339 22c9429f415447880a747152395d89a1 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb" 1743708921 196446 8fbbe4b97b83e5182def6d29a44e57fb ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb" 1743708921 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1743709222 4517229 3ba9d9e182aa6f4855dd91edc160860c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1743709286 7024577 2705d04556228a1a56424432de81e4a1 ""
+<<<<<<< HEAD
   "Anhang.aux" 1747570259 26549 9b16997eabdbd9a88c0c261e65229fed "pdflatex"
   "Anhang.tex" 1747570193 40694 a3d38053655303b35dfb73574322b5be ""
   "BalmerSerie.aux" 1747570256 7338 e0132b7831f9298bd034d4bfbdb9cdaa "pdflatex"
@@ -332,6 +348,32 @@
   "main.run.xml" 1747570259 2329 f8b967dbeaa4c7e661aa5fbdc91ddb35 "pdflatex"
   "main.tex" 1747564822 1349 ce8a8e3770f0ed9765bd6247dc1e9bdd ""
   "main.toc" 1747570259 3724 bc22a48f1c776e0026533f0b54317923 "pdflatex"
+=======
+  "Anhang.aux" 1747567977 4270 5fc21e8cf321eedc66e259b9ce4db351 "pdflatex"
+  "Anhang.tex" 1747565415 18 4e3108df91e0fe704f24cf011602296a ""
+  "BalmerSerie.aux" 1747567976 7337 8bec694bcc82f461a08ec629be2b3801 "pdflatex"
+  "BalmerSerie.tex" 1747236444 2656 91815b6cbc4051c289bf081cc59ab6aa ""
+  "Einleitung.aux" 1747567975 4275 d41691312c10bbeaf4a1fb5ffb461c15 "pdflatex"
+  "Einleitung.tex" 1747564822 874 ce186bf9447fa0888b9643385cbdd99c ""
+  "Fazit.aux" 1747567976 4265 2ef830ec72b610a7daec5f5ece5409d4 "pdflatex"
+  "Fazit.tex" 1747235462 17 ab121016eb76d144e5f4351b8b6d126a ""
+  "PhotoEffekt.aux" 1747567976 6268 2a2fa94a4ca1f8d948da3b2fdbcae731 "pdflatex"
+  "PhotoEffekt.tex" 1747567865 7778 c5cf104be5736ef12417ca7ad930f7c1 ""
+  "config.tex" 1747565415 6577 84ee838ca4147bb9d06fde3f2771af42 ""
+  "figs/Aufbau_plank_wirkungsquantum.png" 1747235462 76471 7807ea4dc4979c069dfc4ee5b0bce797 ""
+  "figs/Spannungsteiler.png" 1747564822 25415 14662427dcb0207201e918dcffc8fca4 ""
+  "formeln.aux" 1747567977 4297 fbb55c565a6560fa5c14fa602b4b7d76 "pdflatex"
+  "formeln.tex" 1747235470 3188 d4db69d32cf557b6fe58387cebdaf18f ""
+  "main.aux" 1747567977 15959 072f2dbf348a4ef6938c4916149d4ff2 "pdflatex"
+  "main.bbl" 1747565700 1546 1b8c8089a29a58128d932fda68e2ff42 "biber main"
+  "main.lof" 1747567978 533 edfa0be9cb89edd50c20cd4d71eb16a9 "pdflatex"
+  "main.lot" 1747567978 215 762fbe88ae1976b52d83a55d214b92f1 "pdflatex"
+  "main.out" 1747565073 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1747567978 2329 f8b967dbeaa4c7e661aa5fbdc91ddb35 "pdflatex"
+  "main.tex" 1747564822 1349 ce8a8e3770f0ed9765bd6247dc1e9bdd ""
+  "main.toc" 1747567978 3582 ecca3c1c5f018ee4e374468b546f7add "pdflatex"
+  "refs.bib" 1747565664 670 eb20ca67c0bf154b0ec35bafe2f88b1a ""
+>>>>>>> noemi
   (generated)
   "Anhang.aux"
   "BalmerSerie.aux"
