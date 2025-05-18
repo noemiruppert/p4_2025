@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.3)  14 MAY 2025 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  18 MAY 2025 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -129,7 +129,9 @@ Package: xparse 2023-01-16 L3 Experimental document command parser
 ) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count196
-))) (./config.tex (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (./config.tex (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip65
 \fb@frw=\dimen141
@@ -337,7 +339,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibparsep=\skip75
 \bibhang=\skip76
 \blx@bcfin=\read3
-\blx@bcfout=\write3
+\blx@bcfout=\write4
 \blx@langwohyphens=\language15
 \c@mincomprange=\count327
 \c@maxcomprange=\count328
@@ -830,7 +832,7 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yc=\dimen260
 \pgf@xd=\dimen261
 \pgf@yd=\dimen262
-\w@pgf@writea=\write4
+\w@pgf@writea=\write5
 \r@pgf@reada=\read5
 \c@pgf@counta=\count442
 \c@pgf@countb=\count443
@@ -1259,44 +1261,44 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (./main.aux (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 16.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 16.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 16.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 16.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 16.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count498
@@ -1337,19 +1339,19 @@ File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
-LaTeX Info: Command `\dddot' is already robust on input line 16.
-LaTeX Info: Command `\ddddot' is already robust on input line 16.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
+LaTeX Info: Command `\dddot' is already robust on input line 17.
+LaTeX Info: Command `\ddddot' is already robust on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 16.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1385,10 +1387,10 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 (./main.out) (./main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
 Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           Using `bookmark' together with `hyperref' is recommended,
@@ -1397,7 +1399,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 16.
+(scrreprt)           before \begin{document} on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1405,29 +1407,29 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count504
 ))
 \c@lstlisting=\count505
-Package scrhack Info: undefining \float@addtolists on input line 16.
+Package scrhack Info: undefining \float@addtolists on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks55
 \inpenc@posthook=\toks56
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 29.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 29.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 29.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ) [1
@@ -1435,14 +1437,14 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 38.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) (./main.toc
 Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  [2
 
@@ -1455,7 +1457,7 @@ chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \include{Einleitung}
+l.43 \include{Einleitung}
                           [1
 
 
@@ -1466,107 +1468,49 @@ l.42 \include{Einleitung}
 
  (./PhotoEffekt.tex
 chapter 2.
-<figs/anlegen_aeuß_potential.png, id=101, 497.4585pt x 287.27325pt>
-File: figs/anlegen_aeuß_potential.png Graphic file (type png)
-<use figs/anlegen_aeuß_potential.png>
-Package pdftex.def Info: figs/anlegen_aeuß_potential.png  used on input line 13.
-(pdftex.def)             Requested size: 352.1029pt x 203.33861pt.
-<figs/kontaktpotential_kurzgeschl_elektroden.png, id=105, 443.256pt x 271.0125pt>
-File: figs/kontaktpotential_kurzgeschl_elektroden.png Graphic file (type png)
-<use figs/kontaktpotential_kurzgeschl_elektroden.png>
-Package pdftex.def Info: figs/kontaktpotential_kurzgeschl_elektroden.png  used on input line 21.
-(pdftex.def)             Requested size: 352.1029pt x 215.28021pt.
+<figs/Aufbau_plank_wirkungsquantum.png, id=92, 793.7655pt x 248.72925pt>
+File: figs/Aufbau_plank_wirkungsquantum.png Graphic file (type png)
+<use figs/Aufbau_plank_wirkungsquantum.png>
+Package pdftex.def Info: figs/Aufbau_plank_wirkungsquantum.png  used on input line 53.
+(pdftex.def)             Requested size: 352.1029pt x 110.3331pt.
+
+LaTeX Warning: Reference `fig:kathode-anode' on page 2 undefined on input line 103.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \FloatBarrier
-                   [2
+l.109 \end{equation}
+                    \\ [2
 
 
 
 
- <./figs/anlegen_aeuß_potential.png>]
-<figs/baenderschema_kathode_anode.png, id=120, 392.667pt x 236.082pt>
-File: figs/baenderschema_kathode_anode.png Graphic file (type png)
-<use figs/baenderschema_kathode_anode.png>
-Package pdftex.def Info: figs/baenderschema_kathode_anode.png  used on input line 31.
-(pdftex.def)             Requested size: 352.1029pt x 211.69731pt.
-<figs/Aufbau_plank_wirkungsquantum.png, id=123, 793.7655pt x 248.72925pt>
-File: figs/Aufbau_plank_wirkungsquantum.png Graphic file (type png)
-<use figs/Aufbau_plank_wirkungsquantum.png>
-Package pdftex.def Info: figs/Aufbau_plank_wirkungsquantum.png  used on input line 45.
-(pdftex.def)             Requested size: 352.1029pt x 110.3331pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 49.
- [3 <./figs/kontaktpotential_kurzgeschl_elektroden.png> <./figs/baenderschema_kathode_anode.png>]
-Overfull \hbox (6.1204pt too wide) in paragraph at lines 63--66
+ <./figs/Aufbau_plank_wirkungsquantum.png>]
+Overfull \hbox (6.1204pt too wide) in paragraph at lines 109--115
 \T1/cmr/m/n/10.95 Aus der Fre-quenz des Lich-tes k�n-nen schlie�-lich die Aus-tritts-ar-beit der An-ode $\OML/ntxmi/m/it/10.95 W[]$ \T1/cmr/m/n/10.95 und das Planck'sche
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 70.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 70.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 70.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 71.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 71.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 72.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 72.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 72.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 73.
-
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 43.
- [4 <./figs/Aufbau_plank_wirkungsquantum.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 44.
+ [3]
 \openout2 = `BalmerSerie.aux'.
 
  (./BalmerSerie.tex
 chapter 3.
-[5
+[4
 
 
 
 
 ])
-Package cleveref Info: loaded `ngerman' language definitions on input line 44.
- [6]
+Package cleveref Info: loaded `ngerman' language definitions on input line 45.
+ [5]
 \openout2 = `Fazit.aux'.
 
  (./Fazit.tex
 chapter 4.
-) [7
+) [6
 
 
 
@@ -1576,44 +1520,47 @@ chapter 4.
 
  (./formeln.tex
 chapter 5.
-[8
+[7
 
 
 
 
 ])
-Package cleveref Info: loaded `ngerman' language definitions on input line 46.
- [9] [10
+Package cleveref Info: loaded `ngerman' language definitions on input line 47.
+ [8] [9
 
 
 
 ] (./main.lof
 Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write8
+\openout8 = `main.lof'.
 
- [11
+ [10
 
 ] (./main.lot
 Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
-\tf@lot=\write8
-\openout8 = `main.lot'.
+\tf@lot=\write9
+\openout9 = `main.lot'.
 
- [12
+ [11
 
 ]
 \openout2 = `Anhang.aux'.
 
  (./Anhang.tex
 chapter A.
-) [13
+) [12
 
 
 ] (./main.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 22.
  (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1621,18 +1568,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48668 strings out of 477884
- 996062 string characters out of 5835938
- 1973764 words of memory out of 5000000
- 67974 multiletter control sequences out of 15000+600000
- 564005 words of font info for 146 fonts, out of 8000000 for 9000
+ 48679 strings out of 477884
+ 995990 string characters out of 5835938
+ 1974278 words of memory out of 5000000
+ 67998 multiletter control sequences out of 15000+600000
+ 563237 words of font info for 143 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
- 108i,20n,106p,10660b,3439s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (15 pages, 447063 bytes).
+ 108i,20n,106p,10660b,3435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (14 pages, 388008 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 384 compressed objects within 4 object streams
- 99 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 
