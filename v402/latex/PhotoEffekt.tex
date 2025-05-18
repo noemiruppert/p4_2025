@@ -90,7 +90,7 @@ Man lässt das Gegenfeld mit Hilfe einer variablen Spannungsquelle, welche sich 
 Man erweitert die Schaltung mit Hilfe eines Spannungsteilers (Abbildung \ref{fig:spannungsteiler}) aus einem $330\Omega$ und $100\Omega$ Widerstandes um den Messbereich zu skalieren und genauere Messungen durchzuführen.
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/Spannungsteiler.png}
+    \includegraphics[width=0.3\textwidth]{figs/Spannungsteiler.png}
     \caption{ Spannungsteiler \cite{Spannungsteiler}}
     \label{fig:spannungsteiler}
 \end{figure}
@@ -103,7 +103,7 @@ Es gilt folgender Zusammenhang zwischen der abgefangenen Spannung $U_2$, den Wid
 \begin{equation}
   U_2 = \frac{R_2}{R_1 + R_2}\,U_0
 \end{equation}\\
-Sommit wird der Spannungsbereich auf [0\,V, 2.8\,V] skaliert.\\
+Sommit wird der Spannungsbereich auf [0, 2{,}8]\,V skaliert.\\
 
 Der Anodenstrom wird über einen Messverstärker erfasst, 
 wobei eine zum Strom proportionale Spannung mit einem 
@@ -120,6 +120,36 @@ einstellbar sind.
 %--------------------------------------------------------------
 
 \subsection{Energiebilanz der Photoelektronen}
+Ein Elektron, dass sich in der Kathode befindet, absorbiert ein Photon mit der Energie $E = h\nu$ und verlässt die Kathode, wenn die Energie des Photons größer ist als eine bestimmte Potentialdifferenz sein: die Austrittsarbeit $W_K$.
+In Abbildung \ref{fig:kathode-anode}, \ref{fig:potential ext} und \ref{fig:potential kurzg.} sind die Austrittsarbeit $W_K$ der Kathode und die Austrittsarbeit $W_A$ der Anode für unterschiedliche elektrische Anordnungen dargestellt.\\ %nachprüfen ob Referenzen gut gesetzt sind
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs/baenderschema_kathode_anode.png}
+    \caption{ Ferminiveaus von Kathode und Anode mit Austrittsarbeit $W_A$ \cite{praktikum}}
+    \label{fig:kathode-anode}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs/anlegen_aeuß_potential.png}
+    \caption{ Kontaktpotential $-eU_{KA}$ \cite{praktikum}}
+    \label{fig:potential ext}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figs/kontaktpotential_kurzgeschl_elektroden.png}
+    \caption{  Potential dass von der Gegenspannung
+$-eU_G$ induziert wird\cite{praktikum}}
+    \label{fig:potential kurzg.}
+\end{figure}
+\FloatBarrier
+
+
 Laut der Abbildung der Ferminiveaus \ref{fig:kathode-anode} 
 gilt für die Energiebilanz:
 \begin{equation}
