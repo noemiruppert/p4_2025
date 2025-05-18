@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  13 MAY 2025 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.3)  18 MAY 2025 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/s79athil/p4_2025/v402/latex/main.tex
-(/home/s79athil/p4_2025/v402/latex/main.tex
+**/home/s79athil/physik/p4_2025/v402/latex/main.tex
+(/home/s79athil/physik/p4_2025/v402/latex/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2022/10/12 v3.38 KOMA-Script document class (article)
@@ -394,7 +394,7 @@ Package typearea Info: These are the values describing the layout:
 LaTeX Warning: Unused global option(s):
     [ngerman].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -422,7 +422,7 @@ Package scrbase Info: activating english \refname on input line 15.
 Package scrbase Info: activating english \indexname on input line 15.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -466,7 +466,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:41: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:41: Undefined control sequence.
 l.41     \includegraphics
                          [width=0.2\textwidth]{figs/anlegen_aeuß_potential....
 The control sequence at the end of the top line
@@ -475,7 +475,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:41: Missing number, treated as zero.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:41: Missing number, treated as zero.
 <to be read again> 
                    ]
 l.41     \includegraphics[width=0.2\textwidth]
@@ -484,7 +484,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:41: Illegal unit of measure (pt inserted).
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:41: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.41     \includegraphics[width=0.2\textwidth]
@@ -496,7 +496,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:41: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:41: Missing $ inserted.
 <inserted text> 
                 $
 l.41 ...raphics[width=0.2\textwidth]{figs/anlegen_
@@ -507,7 +507,7 @@ you left one out. Proceed, with fingers crossed.
 
 LaTeX Warning: Command \ss invalid in math mode on input line 41.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:41: Extra }, or forgotten $.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:41: Extra }, or forgotten $.
 l.41 ...xtwidth]{figs/anlegen_aeuß_potential.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
@@ -516,7 +516,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:42: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:42: Missing $ inserted.
 <inserted text> 
                 $
 l.42 ...ktpotential $−eU_{KA}$ \cite{praktikum}}
@@ -526,7 +526,7 @@ you left one out. Proceed, with fingers crossed.
 
 Missing character: There is no � in font cmr12!
 
-/home/s79athil/p4_2025/v402/latex/main.tex:42: LaTeX Error: Unicode character − (U+2212)
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:42: LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -542,7 +542,7 @@ You may provide a definition with
 LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 42.
 
 
-/home/s79athil/p4_2025/v402/latex/main.tex:42: LaTeX Error: Unicode character − (U+2212)
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:42: LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -557,7 +557,7 @@ You may provide a definition with
 
 LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 42.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:44: Missing } inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:44: Missing } inserted.
 <inserted text> 
                 }
 l.44 \end{figure}
@@ -568,7 +568,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:45: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:45: Undefined control sequence.
 l.45 \FloatBarrier
                   
 The control sequence at the end of the top line
@@ -577,7 +577,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:49: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:49: Undefined control sequence.
 l.49     \includegraphics
                          [width=0.2\textwidth]{figs/kontaktpotential_kurzges...
 The control sequence at the end of the top line
@@ -586,7 +586,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:49: Missing number, treated as zero.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:49: Missing number, treated as zero.
 <to be read again> 
                    ]
 l.49     \includegraphics[width=0.2\textwidth]
@@ -595,7 +595,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:49: Illegal unit of measure (pt inserted).
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:49: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.49     \includegraphics[width=0.2\textwidth]
@@ -607,7 +607,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:49: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:49: Missing $ inserted.
 <inserted text> 
                 $
 l.49 ...idth=0.2\textwidth]{figs/kontaktpotential_
@@ -615,7 +615,7 @@ l.49 ...idth=0.2\textwidth]{figs/kontaktpotential_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:49: Extra }, or forgotten $.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:49: Extra }, or forgotten $.
 l.49 ...ontaktpotential_kurzgeschl_elektroden.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
@@ -624,7 +624,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:51: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:51: Missing $ inserted.
 <inserted text> 
                 $
 l.51 $−eU_G$ induziert wird\cite{praktikum}}
@@ -633,7 +633,7 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-/home/s79athil/p4_2025/v402/latex/main.tex:51: LaTeX Error: Unicode character − (U+2212)
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:51: LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -649,7 +649,7 @@ You may provide a definition with
 LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 51.
 
 
-/home/s79athil/p4_2025/v402/latex/main.tex:51: LaTeX Error: Unicode character − (U+2212)
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:51: LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -664,7 +664,7 @@ You may provide a definition with
 
 LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 51.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:53: Missing } inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:53: Missing } inserted.
 <inserted text> 
                 }
 l.53 \end{figure}
@@ -675,7 +675,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:54: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:54: Undefined control sequence.
 l.54 \FloatBarrier
                   
 The control sequence at the end of the top line
@@ -684,7 +684,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:59: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:59: Undefined control sequence.
 l.59     \includegraphics
                          [width=0.2\textwidth]{figs/baenderschema_kathode_an...
 The control sequence at the end of the top line
@@ -693,7 +693,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:59: Missing number, treated as zero.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:59: Missing number, treated as zero.
 <to be read again> 
                    ]
 l.59     \includegraphics[width=0.2\textwidth]
@@ -702,7 +702,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:59: Illegal unit of measure (pt inserted).
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:59: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.59     \includegraphics[width=0.2\textwidth]
@@ -714,7 +714,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:59: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:59: Missing $ inserted.
 <inserted text> 
                 $
 l.59 ...s[width=0.2\textwidth]{figs/baenderschema_
@@ -722,7 +722,7 @@ l.59 ...s[width=0.2\textwidth]{figs/baenderschema_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:59: Extra }, or forgotten $.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:59: Extra }, or forgotten $.
 l.59 ...dth]{figs/baenderschema_kathode_anode.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
@@ -731,7 +731,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:60: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:60: Missing $ inserted.
 <inserted text> 
                 $
 l.60 ...it Austrittsarbeit $W_A$ \cite{praktikum}}
@@ -745,7 +745,7 @@ LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 60.
 
 LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 60.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:62: Missing } inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:62: Missing } inserted.
 <inserted text> 
                 }
 l.62 \end{figure}
@@ -756,7 +756,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:63: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:63: Undefined control sequence.
 l.63 \FloatBarrier
                   
 The control sequence at the end of the top line
@@ -765,7 +765,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:73: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:73: Undefined control sequence.
 l.73     \includegraphics
                          [width=0.5\textwidth]{figs/Aufbau_plank_wirkungsqua...
 The control sequence at the end of the top line
@@ -774,7 +774,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:73: Missing number, treated as zero.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:73: Missing number, treated as zero.
 <to be read again> 
                    ]
 l.73     \includegraphics[width=0.5\textwidth]
@@ -783,7 +783,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:73: Illegal unit of measure (pt inserted).
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:73: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
 l.73     \includegraphics[width=0.5\textwidth]
@@ -795,7 +795,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-/home/s79athil/p4_2025/v402/latex/main.tex:73: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:73: Missing $ inserted.
 <inserted text> 
                 $
 l.73 ...graphics[width=0.5\textwidth]{figs/Aufbau_
@@ -803,7 +803,7 @@ l.73 ...graphics[width=0.5\textwidth]{figs/Aufbau_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:73: Extra }, or forgotten $.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:73: Extra }, or forgotten $.
 l.73 ...th]{figs/Aufbau_plank_wirkungsquantum.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
@@ -812,7 +812,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:74: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:74: Missing $ inserted.
 <inserted text> 
                 $
 l.74 ...ssung des Photoeffektes  \cite{praktikum}}
@@ -826,7 +826,7 @@ LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 74.
 
 LaTeX Warning: Citation 'praktikum' on page 4 undefined on input line 74.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:76: Missing } inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:76: Missing } inserted.
 <inserted text> 
                 }
 l.76 \end{figure}
@@ -837,7 +837,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:77: Undefined control sequence.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:77: Undefined control sequence.
 l.77 \FloatBarrier
                   
 The control sequence at the end of the top line
@@ -855,7 +855,7 @@ LaTeX Warning: Reference `fig:aufbau teil 1' on page 4 undefined on input line 8
 
 LaTeX Warning: Reference `fig:kathode-anode' on page 5 undefined on input line 86.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:98: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:98: Missing $ inserted.
 <inserted text> 
                 $
 l.98 ...bsection{Bestimmung der Grenzspannung U_0}
@@ -863,7 +863,7 @@ l.98 ...bsection{Bestimmung der Grenzspannung U_0}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:98: Extra }, or forgotten $.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:98: Extra }, or forgotten $.
 \sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
                                                   
 l.98 ...bsection{Bestimmung der Grenzspannung U_0}
@@ -874,7 +874,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:98: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:98: Missing $ inserted.
 <inserted text> 
                 $
 l.98 ...bsection{Bestimmung der Grenzspannung U_0}
@@ -882,7 +882,7 @@ l.98 ...bsection{Bestimmung der Grenzspannung U_0}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:98: Missing } inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:98: Missing } inserted.
 <inserted text> 
                 }
 l.98 ...bsection{Bestimmung der Grenzspannung U_0}
@@ -893,7 +893,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:100: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:100: Missing $ inserted.
 <inserted text> 
                 $
 l.100 ...ction{Bestimmung der Austrittsarbeit W_A}
@@ -901,7 +901,7 @@ l.100 ...ction{Bestimmung der Austrittsarbeit W_A}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:100: Extra }, or forgotten $.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:100: Extra }, or forgotten $.
 \sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
                                                   
 l.100 ...ction{Bestimmung der Austrittsarbeit W_A}
@@ -912,7 +912,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:100: Missing $ inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:100: Missing $ inserted.
 <inserted text> 
                 $
 l.100 ...ction{Bestimmung der Austrittsarbeit W_A}
@@ -920,7 +920,7 @@ l.100 ...ction{Bestimmung der Austrittsarbeit W_A}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/home/s79athil/p4_2025/v402/latex/main.tex:100: Missing } inserted.
+/home/s79athil/physik/p4_2025/v402/latex/main.tex:100: Missing } inserted.
 <inserted text> 
                 }
 l.100 ...ction{Bestimmung der Austrittsarbeit W_A}
@@ -954,13 +954,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11762 strings out of 477884
- 243870 string characters out of 5835938
+ 11764 strings out of 477884
+ 243909 string characters out of 5835938
  1858330 words of memory out of 5000000
  31857 multiletter control sequences out of 15000+600000
  524089 words of font info for 57 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 108i,7n,106p,10633b,1335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,7n,106p,10640b,1335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb>
 Output written on main.pdf (9 pages, 217462 bytes).
 PDF statistics:
