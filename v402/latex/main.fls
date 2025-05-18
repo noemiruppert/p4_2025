@@ -1663,7 +1663,6 @@ INPUT ./figs/Aufbau_plank_wirkungsquantum.png
 INPUT figs/Aufbau_plank_wirkungsquantum.png
 INPUT ./figs/Aufbau_plank_wirkungsquantum.png
 INPUT ./figs/Aufbau_plank_wirkungsquantum.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT ./figs/Spannungsteiler.png
 INPUT ./figs/Spannungsteiler.png
 INPUT figs/Spannungsteiler.png
@@ -1679,6 +1678,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmi7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXMI7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
