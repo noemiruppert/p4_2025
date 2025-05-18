@@ -17,25 +17,25 @@
 \contentsline {subsection}{\numberline {3.1.4}Isotopieaufspaltung}{4}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Natürliche Linienbreite und Linienverbreiterungen}{4}{subsection.3.1.5}%
 \contentsline {subsection}{\numberline {3.1.6}Reflexionsgitter}{4}{subsection.3.1.6}%
-\contentsline {paragraph}{\nonumberline Funktionsweise}{4}{paragraph*.4}%
-\contentsline {paragraph}{\nonumberline Auflösevermögen}{4}{paragraph*.6}%
+\contentsline {paragraph}{\nonumberline Funktionsweise}{4}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline Auflösevermögen}{4}{paragraph*.7}%
 \contentsline {section}{\numberline {3.2}Aufbau}{5}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Durchführung}{5}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Bestimmung der Gitterkonstanten}{5}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Bestimmung der Balmerlinien}{5}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Bestimmung der Isotopieaufspaltung}{5}{subsection.3.5.1}%
-\contentsline {paragraph}{\nonumberline Ermittelung des Peakschwerpunktes}{5}{paragraph*.8}%
-\contentsline {paragraph}{\nonumberline Ermittelung der Halbwertsbreite}{5}{paragraph*.10}%
+\contentsline {paragraph}{\nonumberline Ermittelung des Peakschwerpunktes}{5}{paragraph*.9}%
+\contentsline {paragraph}{\nonumberline Ermittelung der Halbwertsbreite}{5}{paragraph*.11}%
 \contentsline {subsection}{\numberline {3.5.2}Bestimmung der Rydberg-Konstante und des Plankschen Wirkungsquantum}{5}{subsection.3.5.2}%
-\contentsline {paragraph}{\nonumberline Rydberg-Konstante}{5}{paragraph*.12}%
-\contentsline {paragraph}{\nonumberline Planksche Wirkungsquantum}{5}{paragraph*.14}%
+\contentsline {paragraph}{\nonumberline Rydberg-Konstante}{5}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline Planksche Wirkungsquantum}{5}{paragraph*.15}%
 \contentsline {section}{\numberline {3.6}Weitergehende Überlegungen}{5}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Möglicher Ursprung der anderen auftrennen Spektrallinien}{5}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Doppler-Verbreitung}{5}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}Auflösevermögen des Gitters}{5}{subsection.3.6.3}%
 \contentsline {chapter}{\numberline {4}Fazit}{6}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Formeln: To be deleted at the end}{7}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{10}{chapter*.25}%
-\contentsline {chapter}{Tabellenverzeichnis}{11}{chapter*.26}%
+\contentsline {chapter}{Abbildungsverzeichnis}{10}{chapter*.26}%
+\contentsline {chapter}{Tabellenverzeichnis}{11}{chapter*.27}%
 \contentsline {chapter}{\numberline {A}Anhang}{12}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
