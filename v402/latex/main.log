@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.3)  18 MAY 2025 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  18 MAY 2025 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,7 +1265,14 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./main.aux)
+ (./main.aux (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label@cref' multiply defined.
+
+) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
@@ -1401,6 +1408,7 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 17.
+(./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1412,7 +1420,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
 (scrreprt)           before \begin{document} on input line 17.
-(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
@@ -1452,12 +1460,13 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) (./main.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
-No file main.toc.
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-[2
+ [2
 
 ]
 \openout2 = `Einleitung.aux'.
@@ -1479,18 +1488,12 @@ l.43 \include{Einleitung}
 
  (./PhotoEffekt.tex
 chapter 2.
-<figs/Aufbau_plank_wirkungsquantum.png, id=26, 793.7655pt x 248.72925pt>
+<figs/Aufbau_plank_wirkungsquantum.png, id=82, 793.7655pt x 248.72925pt>
 File: figs/Aufbau_plank_wirkungsquantum.png Graphic file (type png)
 <use figs/Aufbau_plank_wirkungsquantum.png>
 Package pdftex.def Info: figs/Aufbau_plank_wirkungsquantum.png  used on input line 53.
 (pdftex.def)             Requested size: 352.1029pt x 110.3331pt.
-
-LaTeX Warning: Reference `fig:aufbau teil 1' on page 2 undefined on input line 62.
-
-
-LaTeX Warning: Reference `fig:spannungsteiler' on page 2 undefined on input line 90.
-
-<figs/Spannungsteiler.png, id=30, 301.125pt x 227.04825pt>
+<figs/Spannungsteiler.png, id=88, 301.125pt x 227.04825pt>
 File: figs/Spannungsteiler.png Graphic file (type png)
 <use figs/Spannungsteiler.png>
 Package pdftex.def Info: figs/Spannungsteiler.png  used on input line 93.
@@ -1511,42 +1514,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
  []
 
 
-LaTeX Warning: Reference `fig:kathode-anode' on page 3 undefined on input line 124.
-
-
-LaTeX Warning: Reference `fig:potential ext' on page 3 undefined on input line 124.
-
-
-LaTeX Warning: Reference `fig:potential kurzg.' on page 3 undefined on input line 124.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-<figs/baenderschema_kathode_anode.png, id=49, 392.667pt x 236.082pt>
+<figs/baenderschema_kathode_anode.png, id=107, 392.667pt x 236.082pt>
 File: figs/baenderschema_kathode_anode.png Graphic file (type png)
 <use figs/baenderschema_kathode_anode.png>
 Package pdftex.def Info: figs/baenderschema_kathode_anode.png  used on input line 129.
 (pdftex.def)             Requested size: 352.1029pt x 211.69731pt.
 Package cleveref Info: loaded `ngerman' language definitions on input line 133.
 [3 <./figs/Spannungsteiler.png>]
-<figs/anlegen_aeu√ü_potential.png, id=63, 497.4585pt x 287.27325pt>
+<figs/anlegen_aeu√ü_potential.png, id=123, 497.4585pt x 287.27325pt>
 File: figs/anlegen_aeu√ü_potential.png Graphic file (type png)
 <use figs/anlegen_aeu√ü_potential.png>
 Package pdftex.def Info: figs/anlegen_aeu√ü_potential.png  used on input line 137.
 (pdftex.def)             Requested size: 352.1029pt x 203.33861pt.
-<figs/kontaktpotential_kurzgeschl_elektroden.png, id=66, 443.256pt x 271.0125pt>
+<figs/kontaktpotential_kurzgeschl_elektroden.png, id=126, 443.256pt x 271.0125pt>
 File: figs/kontaktpotential_kurzgeschl_elektroden.png Graphic file (type png)
 <use figs/kontaktpotential_kurzgeschl_elektroden.png>
 Package pdftex.def Info: figs/kontaktpotential_kurzgeschl_elektroden.png  used on input line 145.
 (pdftex.def)             Requested size: 352.1029pt x 215.28021pt.
 Package cleveref Info: loaded `ngerman' language definitions on input line 150.
  [4 <./figs/baenderschema_kathode_anode.png> <./figs/anlegen_aeu√ü_potential.png>]
-
-LaTeX Warning: Reference `fig:kathode-anode' on page 5 undefined on input line 153.
-
-
 Overfull \hbox (6.1204pt too wide) in paragraph at lines 159--165
 \T1/cmr/m/n/10.95 Aus der Fre-quenz des Lich-tes kˆn-nen schlieˇ-lich die Aus-tritts-ar-beit der An-ode $\OML/ntxmi/m/it/10.95 W[]$ \T1/cmr/m/n/10.95 und das Planck'sche
  []
@@ -1558,49 +1548,20 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 44.
 \openout2 = `BalmerSerie.aux'.
 
  (./BalmerSerie.tex
+chapter 3.
 
 LaTeX Warning: Reference `fig:Serien der Emissionslinien' on page 1 undefined on input line 6.
 
-
-./BalmerSerie.tex:11: LaTeX Error: File `balmerserie' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...graphics[width=0.5\linewidth]{balmerserie}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:balmeraufbau' on page 1 undefined on input line 26.
-
-<figs/aufbau_balmer_serie.png, id=99, 850.377pt x 387.24675pt>
+<figs/aufbau_balmer_serie.png, id=153, 850.377pt x 387.24675pt>
 File: figs/aufbau_balmer_serie.png Graphic file (type png)
 <use figs/aufbau_balmer_serie.png>
 Package pdftex.def Info: figs/aufbau_balmer_serie.png  used on input line 30.
 (pdftex.def)             Requested size: 328.62794pt x 149.65475pt.
 
-LaTeX Warning: Reference `prakticum' on page 7 undefined on input line 31.
+LaTeX Warning: Reference `praktikum' on page 7 undefined on input line 31.
 
 
-LaTeX Warning: Reference `prakticum' on page 7 undefined on input line 31.
-
-
-./BalmerSerie.tex:47: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Reference `praktikum' on page 7 undefined on input line 31.
 
 
 LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 56.
@@ -1608,25 +1569,12 @@ LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 56.
 
 LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 57.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 58.
 [7
 
 
 
+
  <./figs/aufbau_balmer_serie.png>]
-
-./BalmerSerie.tex:65: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 LaTeX Warning: Reference `Hg-Linien' on page 1 undefined on input line 69.
 
@@ -1639,122 +1587,66 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 97.
 LaTeX Warning: Reference `tab:gitterkonstante' on page 1 undefined on input line 121.
 
 
-LaTeX Warning: Reference `Gittergleichung' on page 9 undefined on input line 157.
-
-
-LaTeX Warning: Reference `Rydberg-konst' on page 1 undefined on input line 168.
-
-
-LaTeX Warning: Reference `tab: gesehenes deut' on page 1 undefined on input line 169.
+LaTeX Warning: Reference `[Demtr√∂der_Ex3]' on page 1 undefined on input line 160.
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 170.
 [9]
-./BalmerSerie.tex:194: Missing $ inserted.
-<inserted text> 
-                $
-l.194 ...stoff besteht, im Verh√§ltnis von \approx
-                                                   1 : 2 ([Praktikum]).
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-
-LaTeX Warning: Command \" invalid in math mode on input line 196.
-
-
-./BalmerSerie.tex:197: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 \begin{equation}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./BalmerSerie.tex:199: You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.199 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./BalmerSerie.tex:199: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.199 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no ‰ in font cmr10!
-
-./BalmerSerie.tex:199: LaTeX Error: \begin{document} ended by \end{equation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./BalmerSerie.tex:199: Missing $ inserted.
-<inserted text> 
-                $
-l.199 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./BalmerSerie.tex:199: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.199 \end{equation}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-
-Overfull \hbox (541.27124pt too wide) in paragraph at lines 192--202
-\T1/cmr/m/n/10.95 aus Deu-te-ri-um, son-der auch Was-ser-stoff be-steht, im Ver-h‰lt-nis von $\LMS/ntxsy/m/n/10.95 ^^Y \OT1/cmr/m/n/10.95 1 : 2\LMS/ntxsy/m/n/10.95 πª\OML/ntxmi/m/it/10.95 Praktikum\LMS/ntxsy/m/n/10.95 º∫\OML/ntxmi/m/it/10.95 :DiesWeistdaraufhin; dasdieKernMasseeinenEinflussaufdieEnergieniveaushat:AusderQuantenmechanikkanndieRydberg \LMS/ntxsy/m/n/10.95 ^^@
- []
+LaTeX Warning: Reference `[Demtr√∂der_Ex3]' on page 1 undefined on input line 200.
 
 
 LaTeX Warning: Reference `tab:Isotopie' on page 1 undefined on input line 215.
 
-
-LaTeX Warning: Reference `Gittergleichung' on page 1 undefined on input line 217.
-
+Package cleveref Info: loaded `ngerman' language definitions on input line 234.
+[10]
 
 LaTeX Warning: Reference `fig:H_a' on page 1 undefined on input line 236.
 
 
-LaTeX Warning: Reference `H_b' on page 10 undefined on input line 236.
+LaTeX Warning: Reference `fig:H_b' on page 1 undefined on input line 236.
+
+<figs/dt_lila_145_51_5.png, id=206, 722.7pt x 361.35pt>
+File: figs/dt_lila_145_51_5.png Graphic file (type png)
+<use figs/dt_lila_145_51_5.png>
+Package pdftex.def Info: figs/dt_lila_145_51_5.png  used on input line 239.
+(pdftex.def)             Requested size: 234.73528pt x 117.36568pt.
+
+LaTeX Warning: Reference `tab:Peaks' on page 1 undefined on input line 250.
 
 
-LaTeX Warning: Reference `H_g' on page 10 undefined on input line 236.
+LaTeX Warning: Reference `Bestimmung der Balmer' on page 11 undefined on input line 271.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 240.
-[10])
+Package cleveref Info: loaded `ngerman' language definitions on input line 304.
+[11 <./figs/dt_lila_145_51_5.png>]
+
+LaTeX Warning: Reference `[Demtr√∂der_Ex3]' on page 1 undefined on input line 305.
+
+
+LaTeX Warning: Reference `[Demtr√∂der_Ex3]' on page 1 undefined on input line 333.
+
+
+LaTeX Warning: Reference `[Demtr√∂der_Ex3]' on page 1 undefined on input line 352.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 355.
+[12]
+
+LaTeX Warning: Reference `[Demtr√∂der_Ex3]' on page 1 undefined on input line 378.
+
+
+LaTeX Warning: Reference `deltalambda' on page 1 undefined on input line 388.
+
+
+LaTeX Warning: Reference `tab:Halbwertsb' on page 1 undefined on input line 389.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 414.
+[13])
 Package cleveref Info: loaded `ngerman' language definitions on input line 45.
- [11]
+ [14]
 \openout2 = `Fazit.aux'.
 
  (./Fazit.tex
-chapter 3.
-) [12
+chapter 4.
+) [15
 
 
 
@@ -1763,177 +1655,243 @@ chapter 3.
 \openout2 = `formeln.aux'.
 
  (./formeln.tex
-chapter 4.
-[13
+chapter 5.
+[16
 
 
 
 
 ])
 Package cleveref Info: loaded `ngerman' language definitions on input line 47.
- [14]
+ [17]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [15
+) [18
 
 
 
-]
-No file main.lof.
+] (./main.lof
+Package cleveref Info: loaded `ngerman' language definitions on input line 1.
+
+
+LaTeX Warning: Reference `praktikum' on page 19 undefined on input line 10.
+
+)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
-[16
+ [19
+
+] (./main.lot
+Package cleveref Info: loaded `ngerman' language definitions on input line 1.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 25.
+
+
+LaTeX Warning: Reference `tab:365_50' on page 20 undefined on input line 25.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 26.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 27.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 28.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 29.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 30.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 31.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 32.
+
+[20
 
 ]
-No file main.lot.
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 33.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 34.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 35.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 36.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 37.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 38.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 39.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 40.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 41.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 42.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 43.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 44.
+
+
+Package tocbasic Warning: number width of table toc entries should be increased!
+(tocbasic)                Currently used number width = 25.1011pt,
+(tocbasic)                Wanted number separation    = 4.35507pt,
+(tocbasic)                Reserved number width       = 25.04214pt on input line 45.
+
+)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
-[17
-
-]
+Package cleveref Info: loaded `ngerman' language definitions on input line 52.
+ [21]
 \openout2 = `Anhang.aux'.
 
  (./Anhang.tex
 chapter A.
-[18
+<figs/dt_turkis_145_55_5.png, id=451, 722.7pt x 361.35pt>
+File: figs/dt_turkis_145_55_5.png Graphic file (type png)
+<use figs/dt_turkis_145_55_5.png>
+Package pdftex.def Info: figs/dt_turkis_145_55_5.png  used on input line 8.
+(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
+[22
 
 
-]
-Package cleveref Info: loaded `ngerman' language definitions on input line 159.
- [19]
+ <./figs/dt_turkis_145_55_5.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 168.
+ [23]
+Package cleveref Info: loaded `ngerman' language definitions on input line 193.
+ [24]
+Package cleveref Info: loaded `ngerman' language definitions on input line 282.
+ [25]
 
-LaTeX Warning: Reference `tab:365_first' on page 20 undefined on input line 181.
-
-
-LaTeX Warning: Reference `tab:365_first' on page 20 undefined on input line 181.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 184.
-[20]
-
-LaTeX Warning: Reference `tab:365_second' on page 21 undefined on input line 240.
+LaTeX Warning: Reference `tab:365_50' on page 26 undefined on input line 303.
 
 
-LaTeX Warning: Reference `tab:365_second' on page 21 undefined on input line 240.
+LaTeX Warning: Reference `tab:365_50' on page 26 undefined on input line 303.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 273.
-[21]
-
-LaTeX Warning: Reference `tab:365_50' on page 22 undefined on input line 294.
-
-
-LaTeX Warning: Reference `tab:365_50' on page 22 undefined on input line 294.
-
-
-LaTeX Warning: Reference `tab:365_max' on page 22 undefined on input line 347.
-
-
-LaTeX Warning: Reference `tab:365_max' on page 22 undefined on input line 347.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 350.
-[22]
-
-LaTeX Warning: Reference `tab:405_first' on page 23 undefined on input line 405.
-
-
-LaTeX Warning: Reference `tab:405_first' on page 23 undefined on input line 405.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 443.
-[23]
-
-LaTeX Warning: Reference `tab:405_second' on page 24 undefined on input line 464.
-
-
-LaTeX Warning: Reference `tab:405_second' on page 24 undefined on input line 464.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 495.
-[24]
-
-LaTeX Warning: Reference `tab:463_first' on page 25 undefined on input line 517.
-
-
-LaTeX Warning: Reference `tab:463_first' on page 25 undefined on input line 517.
-
-
-LaTeX Warning: Reference `tab:463_second' on page 25 undefined on input line 569.
-
-
-LaTeX Warning: Reference `tab:463_second' on page 25 undefined on input line 569.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 572.
-[25]
-
-LaTeX Warning: Reference `tab:546_first' on page 26 undefined on input line 621.
-
-
-LaTeX Warning: Reference `tab:546_first' on page 26 undefined on input line 621.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 653.
+Package cleveref Info: loaded `ngerman' language definitions on input line 359.
 [26]
-
-LaTeX Warning: Reference `tab:546_second' on page 27 undefined on input line 674.
-
-
-LaTeX Warning: Reference `tab:546_second' on page 27 undefined on input line 674.
-
-
-LaTeX Warning: Reference `tab:578_first' on page 27 undefined on input line 728.
-
-
-LaTeX Warning: Reference `tab:578_first' on page 27 undefined on input line 728.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 731.
-[27]
-
-LaTeX Warning: Reference `tab:578_second' on page 28 undefined on input line 782.
-
-
-LaTeX Warning: Reference `tab:578_second' on page 28 undefined on input line 782.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 860.
-[28])
+Package cleveref Info: loaded `ngerman' language definitions on input line 452.
+ [27]
+Package cleveref Info: loaded `ngerman' language definitions on input line 504.
+ [28]
+Package cleveref Info: loaded `ngerman' language definitions on input line 581.
+ [29]
+Package cleveref Info: loaded `ngerman' language definitions on input line 662.
+ [30]
+Package cleveref Info: loaded `ngerman' language definitions on input line 740.
+ [31]
+Package cleveref Info: loaded `ngerman' language definitions on input line 869.
+ [32])
 Package cleveref Info: loaded `ngerman' language definitions on input line 52.
- [29] (./main.aux
+ [33] (./main.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 22.
  (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48914 strings out of 477884
- 1001285 string characters out of 5835938
- 1972667 words of memory out of 5000000
- 68163 multiletter control sequences out of 15000+600000
- 565757 words of font info for 147 fonts, out of 8000000 for 9000
+ 48986 strings out of 477884
+ 1002528 string characters out of 5835938
+ 2004501 words of memory out of 5000000
+ 68189 multiletter control sequences out of 15000+600000
+ 566098 words of font info for 148 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
- 108i,20n,106p,10660b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (31 pages, 1386186 bytes).
+ 108i,20n,106p,10660b,3440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (35 pages, 1481672 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 154 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
