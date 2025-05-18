@@ -36,8 +36,8 @@
 \contentsline {chapter}{\numberline {4}Fazit}{7}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Formeln: To be deleted at the end}{8}{chapter.5}%
 \contentsline {chapter}{Abbildungsverzeichnis}{11}{chapter*.28}%
-\contentsline {chapter}{Tabellenverzeichnis}{13}{chapter*.29}%
-\contentsline {chapter}{\numberline {A}Anhang}{14}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Abbildungen}{14}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Tabellen}{14}{section.A.2}%
+\contentsline {chapter}{Tabellenverzeichnis}{12}{chapter*.29}%
+\contentsline {chapter}{\numberline {A}Anhang}{13}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Abbildungen}{13}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Tabellen}{13}{section.A.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
