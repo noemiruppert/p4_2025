@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.30)  19 MAY 2025 09:03
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  19 MAY 2025 08:44
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.30)  19 MAY 2025 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1248,9 +1244,6 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-<<<<<<< HEAD
- (./main.aux (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
-=======
  (./main.aux (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
@@ -1259,7 +1252,6 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 LaTeX Warning: Label `tab:my_label@cref' multiply defined.
 
 ) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
->>>>>>> 068157510707739f27696c762eece109a9f399eb
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
@@ -1393,7 +1385,6 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 17.
-<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1407,9 +1398,6 @@ LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
  (./main.out) (./main.out)
-=======
-(./main.out) (./main.out)
->>>>>>> 068157510707739f27696c762eece109a9f399eb
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1460,11 +1448,7 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 39.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-<<<<<<< HEAD
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-=======
-File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
->>>>>>> 068157510707739f27696c762eece109a9f399eb
 ) (./main.toc
 Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 )
@@ -1492,20 +1476,12 @@ l.43 \include{Einleitung}
 
  (./PhotoEffekt.tex
 chapter 2.
-<<<<<<< HEAD
-<figs/Aufbau_plank_wirkungsquantum.png, id=72, 793.7655pt x 248.72925pt>
-=======
-<figs/Aufbau_plank_wirkungsquantum.png, id=82, 793.7655pt x 248.72925pt>
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+<figs/Aufbau_plank_wirkungsquantum.png, id=70, 793.7655pt x 248.72925pt>
 File: figs/Aufbau_plank_wirkungsquantum.png Graphic file (type png)
 <use figs/Aufbau_plank_wirkungsquantum.png>
 Package pdftex.def Info: figs/Aufbau_plank_wirkungsquantum.png  used on input line 53.
 (pdftex.def)             Requested size: 352.1029pt x 110.3331pt.
-<<<<<<< HEAD
-<figs/Spannungsteiler.png, id=78, 301.125pt x 227.04825pt>
-=======
-<figs/Spannungsteiler.png, id=88, 301.125pt x 227.04825pt>
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+<figs/Spannungsteiler.png, id=76, 301.125pt x 227.04825pt>
 File: figs/Spannungsteiler.png Graphic file (type png)
 <use figs/Spannungsteiler.png>
 Package pdftex.def Info: figs/Spannungsteiler.png  used on input line 93.
@@ -1529,31 +1505,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-<<<<<<< HEAD
-<figs/baenderschema_kathode_anode.png, id=97, 392.667pt x 236.082pt>
-=======
-<figs/baenderschema_kathode_anode.png, id=107, 392.667pt x 236.082pt>
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+<figs/baenderschema_kathode_anode.png, id=95, 392.667pt x 236.082pt>
 File: figs/baenderschema_kathode_anode.png Graphic file (type png)
 <use figs/baenderschema_kathode_anode.png>
 Package pdftex.def Info: figs/baenderschema_kathode_anode.png  used on input line 129.
 (pdftex.def)             Requested size: 352.1029pt x 211.69731pt.
 Package cleveref Info: loaded `ngerman' language definitions on input line 133.
 [3 <./figs/Spannungsteiler.png>]
-<<<<<<< HEAD
-<figs/anlegen_aeuÃŸ_potential.png, id=113, 497.4585pt x 287.27325pt>
-=======
-<figs/anlegen_aeuÃŸ_potential.png, id=123, 497.4585pt x 287.27325pt>
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+<figs/anlegen_aeuÃŸ_potential.png, id=111, 497.4585pt x 287.27325pt>
 File: figs/anlegen_aeuÃŸ_potential.png Graphic file (type png)
 <use figs/anlegen_aeuÃŸ_potential.png>
 Package pdftex.def Info: figs/anlegen_aeuÃŸ_potential.png  used on input line 137.
 (pdftex.def)             Requested size: 352.1029pt x 203.33861pt.
-<<<<<<< HEAD
-<figs/kontaktpotential_kurzgeschl_elektroden.png, id=116, 443.256pt x 271.0125pt>
-=======
-<figs/kontaktpotential_kurzgeschl_elektroden.png, id=126, 443.256pt x 271.0125pt>
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+<figs/kontaktpotential_kurzgeschl_elektroden.png, id=114, 443.256pt x 271.0125pt>
 File: figs/kontaktpotential_kurzgeschl_elektroden.png Graphic file (type png)
 <use figs/kontaktpotential_kurzgeschl_elektroden.png>
 Package pdftex.def Info: figs/kontaktpotential_kurzgeschl_elektroden.png  used on input line 145.
@@ -1564,14 +1528,39 @@ Overfull \hbox (6.1204pt too wide) in paragraph at lines 159--165
 \T1/cmr/m/n/10.95 Aus der Fre-quenz des Lich-tes kön-nen schlieÿ-lich die Aus-tritts-ar-beit der An-ode $\OML/ntxmi/m/it/10.95 W[]$ \T1/cmr/m/n/10.95 und das Planck'sche
  []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 209.
+Package cleveref Info: loaded `ngerman' language definitions on input line 188.
 [5 <./figs/kontaktpotential_kurzgeschl_elektroden.png>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 235.
+<figs/365_1.png, id=136, 622.31697pt x 386.57224pt>
+File: figs/365_1.png Graphic file (type png)
+<use figs/365_1.png>
+Package pdftex.def Info: figs/365_1.png  used on input line 234.
+(pdftex.def)             Requested size: 445.99559pt x 277.04pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 258.
  [6]
-Package cleveref Info: loaded `ngerman' language definitions on input line 301.
- [7])
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 282.
+[7 <./figs/365_1.png>]
+<figs/fvsU.png, id=173, 515.57417pt x 329.91255pt>
+File: figs/fvsU.png Graphic file (type png)
+<use figs/fvsU.png>
+Package pdftex.def Info: figs/fvsU.png  used on input line 298.
+(pdftex.def)             Requested size: 445.99559pt x 285.39056pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 318.
+ [8 <./figs/fvsU.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 382.
+ [9]
+Package cleveref Info: loaded `ngerman' language definitions on input line 439.
+ [10]
+Overfull \hbox (1.97552pt too wide) in paragraph at lines 440--441
+[]\T1/cmr/m/n/10.95 Erfassung zu-sätz-li-cher Mess-punk-te na-he der Cutoff-Region zur Re-duk-ti-on der Fit-Unsicherheit. 
+ []
+
+)
 Package cleveref Info: loaded `ngerman' language definitions on input line 44.
- [8]
+ [11]
 \openout2 = `BalmerSerie.aux'.
 
  (./BalmerSerie.tex
@@ -1579,139 +1568,96 @@ chapter 3.
 
 LaTeX Warning: Reference `fig:Serien der Emissionslinien' on page 1 undefined on input line 6.
 
-<<<<<<< HEAD
-<figs/aufbau_balmer_serie.png, id=168, 850.377pt x 387.24675pt>
-=======
-<figs/aufbau_balmer_serie.png, id=153, 850.377pt x 387.24675pt>
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+<figs/aufbau_balmer_serie.png, id=226, 850.377pt x 387.24675pt>
 File: figs/aufbau_balmer_serie.png Graphic file (type png)
 <use figs/aufbau_balmer_serie.png>
-Package pdftex.def Info: figs/aufbau_balmer_serie.png  used on input line 30.
+Package pdftex.def Info: figs/aufbau_balmer_serie.png  used on input line 24.
 (pdftex.def)             Requested size: 328.62794pt x 149.65475pt.
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `prakticum' on page 9 undefined on input line 31.
+LaTeX Warning: Reference `praktikum' on page 12 undefined on input line 25.
 
 
-LaTeX Warning: Reference `prakticum' on page 9 undefined on input line 31.
-=======
-LaTeX Warning: Reference `praktikum' on page 7 undefined on input line 31.
+LaTeX Warning: Reference `praktikum' on page 12 undefined on input line 25.
 
 
-LaTeX Warning: Reference `praktikum' on page 7 undefined on input line 31.
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 49.
 
 
-LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 56.
+LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 50.
 
-
-LaTeX Warning: Reference `Gitter Balmer' on page 1 undefined on input line 57.
-
-<<<<<<< HEAD
-[9
-
-=======
-[7
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+[12
 
 
 
 
  <./figs/aufbau_balmer_serie.png>]
 
+LaTeX Warning: Reference `Hg-Linien' on page 1 undefined on input line 68.
+
+
 LaTeX Warning: Reference `Hg-Linien' on page 1 undefined on input line 69.
 
+Package cleveref Info: loaded `ngerman' language definitions on input line 96.
+[13]
 
-LaTeX Warning: Reference `Hg-Linien' on page 1 undefined on input line 70.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 97.
-[10]
-
-LaTeX Warning: Reference `tab:gitterkonstante' on page 1 undefined on input line 121.
+LaTeX Warning: Reference `tab:gitterkonstante' on page 1 undefined on input line 120.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `Rydberg-konst' on page 1 undefined on input line 168.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 160.
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 170.
-[11]
-=======
-LaTeX Warning: Reference `[DemtrÃ¶der_Ex3]' on page 1 undefined on input line 161.
+[14]
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 171.
-[9]
-
-LaTeX Warning: Reference `[DemtrÃ¶der_Ex3]' on page 1 undefined on input line 201.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 208.
 
 
-LaTeX Warning: Reference `tab:Isotopie' on page 1 undefined on input line 216.
+LaTeX Warning: Reference `tab:Isotopie' on page 1 undefined on input line 223.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 235.
-[10]
-<figs/dt_lila_145_51_5.png, id=208, 722.7pt x 361.35pt>
+Package cleveref Info: loaded `ngerman' language definitions on input line 237.
+[15]
+<figs/dt_lila_145_51_5.png, id=278, 722.7pt x 361.35pt>
 File: figs/dt_lila_145_51_5.png Graphic file (type png)
 <use figs/dt_lila_145_51_5.png>
-Package pdftex.def Info: figs/dt_lila_145_51_5.png  used on input line 240.
+Package pdftex.def Info: figs/dt_lila_145_51_5.png  used on input line 247.
 (pdftex.def)             Requested size: 234.73528pt x 117.36568pt.
 
 
-LaTeX Warning: Reference `tab:Peaks' on page 1 undefined on input line 251.
+LaTeX Warning: Reference `tab:Peaks' on page 1 undefined on input line 258.
 
 
-LaTeX Warning: Reference `Bestimmung der Balmer' on page 11 undefined on input line 272.
+LaTeX Warning: Reference `Bestimmung der Balmer' on page 16 undefined on input line 279.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 308.
-[11 <./figs/dt_lila_145_51_5.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 311.
+[16 <./figs/dt_lila_145_51_5.png>]
 
-LaTeX Warning: Reference `[DemtrÃ¶der_Ex3]' on page 1 undefined on input line 309.
-
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-
-LaTeX Warning: Reference `[DemtrÃ¶der_Ex3]' on page 1 undefined on input line 337.
-
-<<<<<<< HEAD
-Package cleveref Info: loaded `ngerman' language definitions on input line 234.
-[12]
-=======
-
-LaTeX Warning: Reference `[DemtrÃ¶der_Ex3]' on page 1 undefined on input line 356.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 357.
-[12]
-
-LaTeX Warning: Reference `[DemtrÃ¶der_Ex3]' on page 1 undefined on input line 382.
-
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-
-LaTeX Warning: Reference `deltalambda' on page 1 undefined on input line 392.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 316.
 
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `H_b' on page 13 undefined on input line 236.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 344.
 
 
-LaTeX Warning: Reference `H_g' on page 13 undefined on input line 236.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 363.
 
-)
+Package cleveref Info: loaded `ngerman' language definitions on input line 364.
+[17]
+
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 389.
+
+
+LaTeX Warning: Reference `deltalambda' on page 1 undefined on input line 399.
+
+
+LaTeX Warning: Reference `tab:Halbwertsb' on page 1 undefined on input line 400.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 425.
+[18])
 Package cleveref Info: loaded `ngerman' language definitions on input line 45.
- [13]
-=======
-LaTeX Warning: Reference `tab:Halbwertsb' on page 1 undefined on input line 393.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 418.
-[13])
-Package cleveref Info: loaded `ngerman' language definitions on input line 45.
- [14]
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+ [19]
 \openout2 = `Fazit.aux'.
 
  (./Fazit.tex
 chapter 4.
-<<<<<<< HEAD
-) [14
-=======
-) [15
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+) [20
 
 
 
@@ -1721,518 +1667,121 @@ chapter 4.
 
  (./formeln.tex
 chapter 5.
-<<<<<<< HEAD
-[15
-=======
-[16
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+[21
 
 
 
 
 ])
 Package cleveref Info: loaded `ngerman' language definitions on input line 47.
-<<<<<<< HEAD
- [16]
+ [22]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [17
-=======
- [17]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 49.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [18
->>>>>>> 068157510707739f27696c762eece109a9f399eb
+) [23
 
 
-
-] (./main.lof
-Package cleveref Info: loaded `ngerman' language definitions on input line 1.
-
-
-<<<<<<< HEAD
-LaTeX Warning: Reference `prakticum' on page 18 undefined on input line 10.
-
-
-Package tocbasic Warning: number width of figure toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 23.
-
-
-Package tocbasic Warning: number width of figure toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 24.
-
-
-Package tocbasic Warning: number width of figure toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 25.
-=======
-LaTeX Warning: Reference `praktikum' on page 19 undefined on input line 10.
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-
-)
-\tf@lof=\write8
-\openout8 = `main.lof'.
-
-<<<<<<< HEAD
- [18
-=======
- [19
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-
-] (./main.lot
-Package cleveref Info: loaded `ngerman' language definitions on input line 1.
-
-<<<<<<< HEAD
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 21.
-
-
-LaTeX Warning: Reference `tab:365_50' on page 19 undefined on input line 21.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 22.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 23.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 24.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 25.
-
-
-<<<<<<< HEAD
-=======
-LaTeX Warning: Reference `tab:365_50' on page 20 undefined on input line 25.
-
-
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 26.
-
-
-<<<<<<< HEAD
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 27.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 28.
-
-
-<<<<<<< HEAD
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 29.
-
-<<<<<<< HEAD
-[19
-=======
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 30.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 31.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 32.
-
-[20
->>>>>>> 068157510707739f27696c762eece109a9f399eb
 
 ]
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-<<<<<<< HEAD
-(tocbasic)                Reserved number width       = 25.04214pt on input line 30.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 31.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 32.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-(tocbasic)                Reserved number width       = 25.04214pt on input line 33.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 34.
-
-
-<<<<<<< HEAD
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 35.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 36.
-
-
-<<<<<<< HEAD
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 37.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 38.
-
-
-<<<<<<< HEAD
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-=======
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 39.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 40.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 41.
-
-<<<<<<< HEAD
-=======
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 42.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 43.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 44.
-
-
-Package tocbasic Warning: number width of table toc entries should be increased!
-(tocbasic)                Currently used number width = 25.1011pt,
-(tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 45.
-
->>>>>>> 068157510707739f27696c762eece109a9f399eb
-)
-\tf@lot=\write9
-\openout9 = `main.lot'.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 52.
-<<<<<<< HEAD
- [20]
-=======
- [21]
->>>>>>> 068157510707739f27696c762eece109a9f399eb
 \openout2 = `Anhang.aux'.
 
  (./Anhang.tex
 chapter A.
-<<<<<<< HEAD
-<figs/365_1.png, id=447, 622.31697pt x 386.57224pt>
+<figs/dt_turkis_145_55_5.png, id=377, 722.7pt x 361.35pt>
+File: figs/dt_turkis_145_55_5.png Graphic file (type png)
+<use figs/dt_turkis_145_55_5.png>
+Package pdftex.def Info: figs/dt_turkis_145_55_5.png  used on input line 7.
+(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
+<figs/dt_rot_155_62.png, id=378, 722.7pt x 361.35pt>
+File: figs/dt_rot_155_62.png Graphic file (type png)
+<use figs/dt_rot_155_62.png>
+Package pdftex.def Info: figs/dt_rot_155_62.png  used on input line 14.
+(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
+<figs/dt_vermutung_145_49.png, id=379, 722.7pt x 361.35pt>
+File: figs/dt_vermutung_145_49.png Graphic file (type png)
+<use figs/dt_vermutung_145_49.png>
+Package pdftex.def Info: figs/dt_vermutung_145_49.png  used on input line 21.
+(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
+[24
+
+
+ <./figs/dt_turkis_145_55_5.png> <./figs/dt_rot_155_62.png>]
 File: figs/365_1.png Graphic file (type png)
 <use figs/365_1.png>
-Package pdftex.def Info: figs/365_1.png  used on input line 9.
+Package pdftex.def Info: figs/365_1.png  used on input line 31.
 (pdftex.def)             Requested size: 445.99559pt x 277.04pt.
-<figs/365_2.png, id=450, 622.31697pt x 386.57224pt>
+<figs/365_2.png, id=389, 622.31697pt x 386.57224pt>
 File: figs/365_2.png Graphic file (type png)
 <use figs/365_2.png>
-Package pdftex.def Info: figs/365_2.png  used on input line 15.
+Package pdftex.def Info: figs/365_2.png  used on input line 37.
 (pdftex.def)             Requested size: 445.99559pt x 277.04pt.
-<figs/365_50.png, id=453, 622.31697pt x 390.04118pt>
+<figs/365_50.png, id=392, 622.31697pt x 390.04118pt>
 File: figs/365_50.png Graphic file (type png)
 <use figs/365_50.png>
-Package pdftex.def Info: figs/365_50.png  used on input line 25.
+Package pdftex.def Info: figs/365_50.png  used on input line 47.
 (pdftex.def)             Requested size: 445.99559pt x 279.52605pt.
-<figs/365_max.png, id=456, 628.749pt x 386.57224pt>
+<figs/365_max.png, id=395, 628.749pt x 386.57224pt>
 File: figs/365_max.png Graphic file (type png)
 <use figs/365_max.png>
-Package pdftex.def Info: figs/365_max.png  used on input line 33.
+Package pdftex.def Info: figs/365_max.png  used on input line 55.
 (pdftex.def)             Requested size: 445.99559pt x 274.22044pt.
-[21
-
-
-]
-Overfull \vbox (24.47128pt too high) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 40.
- [22 <./figs/365_1.png> <./figs/365_2.png>]
-<figs/405_1.png, id=470, 622.31697pt x 386.57224pt>
+Package cleveref Info: loaded `ngerman' language definitions on input line 62.
+ [25 <./figs/dt_vermutung_145_49.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 63.
+ [26 <./figs/365_2.png>]
+<figs/405_1.png, id=411, 622.31697pt x 386.57224pt>
 File: figs/405_1.png Graphic file (type png)
 <use figs/405_1.png>
-Package pdftex.def Info: figs/405_1.png  used on input line 46.
+Package pdftex.def Info: figs/405_1.png  used on input line 68.
 (pdftex.def)             Requested size: 445.99559pt x 277.04pt.
-<figs/405_2.png, id=473, 622.31697pt x 386.57224pt>
+<figs/405_2.png, id=414, 622.31697pt x 386.57224pt>
 File: figs/405_2.png Graphic file (type png)
 <use figs/405_2.png>
-Package pdftex.def Info: figs/405_2.png  used on input line 55.
+Package pdftex.def Info: figs/405_2.png  used on input line 77.
 (pdftex.def)             Requested size: 445.99559pt x 277.04pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 63.
- [23 <./figs/365_50.png> <./figs/365_max.png>]
-<figs/463_1.png, id=483, 634.24152pt x 386.57224pt>
+Package cleveref Info: loaded `ngerman' language definitions on input line 85.
+ [27 <./figs/365_50.png> <./figs/365_max.png>]
+<figs/463_1.png, id=424, 634.24152pt x 386.57224pt>
 File: figs/463_1.png Graphic file (type png)
 <use figs/463_1.png>
-Package pdftex.def Info: figs/463_1.png  used on input line 68.
+Package pdftex.def Info: figs/463_1.png  used on input line 90.
 (pdftex.def)             Requested size: 445.99559pt x 271.8433pt.
-<figs/463_2.png, id=486, 627.15906pt x 386.57224pt>
+<figs/463_2.png, id=427, 627.15906pt x 386.57224pt>
 File: figs/463_2.png Graphic file (type png)
 <use figs/463_2.png>
-Package pdftex.def Info: figs/463_2.png  used on input line 77.
+Package pdftex.def Info: figs/463_2.png  used on input line 99.
 (pdftex.def)             Requested size: 445.99559pt x 274.9047pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 85.
- [24 <./figs/405_1.png> <./figs/405_2.png>]
-<figs/546_1.png, id=495, 615.95721pt x 386.57224pt>
+Package cleveref Info: loaded `ngerman' language definitions on input line 107.
+ [28 <./figs/405_1.png> <./figs/405_2.png>]
+<figs/546_1.png, id=439, 615.95721pt x 386.57224pt>
 File: figs/546_1.png Graphic file (type png)
 <use figs/546_1.png>
-Package pdftex.def Info: figs/546_1.png  used on input line 91.
+Package pdftex.def Info: figs/546_1.png  used on input line 113.
 (pdftex.def)             Requested size: 445.99559pt x 279.91261pt.
-<figs/546_2.png, id=498, 615.95721pt x 386.57224pt>
+<figs/546_2.png, id=442, 615.95721pt x 386.57224pt>
 File: figs/546_2.png Graphic file (type png)
 <use figs/546_2.png>
-Package pdftex.def Info: figs/546_2.png  used on input line 100.
+Package pdftex.def Info: figs/546_2.png  used on input line 122.
 (pdftex.def)             Requested size: 445.99559pt x 279.91261pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 108.
- [25 <./figs/463_1.png> <./figs/463_2.png>]
-<figs/578_1.png, id=507, 625.49686pt x 386.57224pt>
+Package cleveref Info: loaded `ngerman' language definitions on input line 130.
+ [29 <./figs/463_1.png> <./figs/463_2.png>]
+<figs/578_1.png, id=455, 625.49686pt x 386.57224pt>
 File: figs/578_1.png Graphic file (type png)
 <use figs/578_1.png>
-Package pdftex.def Info: figs/578_1.png  used on input line 113.
+Package pdftex.def Info: figs/578_1.png  used on input line 135.
 (pdftex.def)             Requested size: 445.99559pt x 275.64201pt.
-<figs/578_2.png, id=510, 625.49686pt x 386.57224pt>
+<figs/578_2.png, id=458, 625.49686pt x 386.57224pt>
 File: figs/578_2.png Graphic file (type png)
 <use figs/578_2.png>
-Package pdftex.def Info: figs/578_2.png  used on input line 122.
+Package pdftex.def Info: figs/578_2.png  used on input line 144.
 (pdftex.def)             Requested size: 445.99559pt x 275.64201pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 130.
- [26 <./figs/546_1.png> <./figs/546_2.png>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 169.
- [27 <./figs/578_1.png> <./figs/578_2.png>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 254.
- [28]
-Package cleveref Info: loaded `ngerman' language definitions on input line 288.
- [29]
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 347.
- [30]
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 401.
- [31]
-
-LaTeX Warning: Reference `tab:365_50' on page 32 undefined on input line 422.
-
-
-LaTeX Warning: Reference `tab:365_50' on page 32 undefined on input line 422.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 478.
-[32]
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 571.
+Package cleveref Info: loaded `ngerman' language definitions on input line 152.
+ [30 <./figs/546_1.png> <./figs/546_2.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 190.
+ [31 <./figs/578_1.png> <./figs/578_2.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 275.
+ [32]
+Package cleveref Info: loaded `ngerman' language definitions on input line 309.
  [33]
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
@@ -2246,7 +1795,7 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 623.
+Package cleveref Info: loaded `ngerman' language definitions on input line 368.
  [34]
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
@@ -2260,7 +1809,7 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 700.
+Package cleveref Info: loaded `ngerman' language definitions on input line 422.
  [35]
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
@@ -2274,19 +1823,7 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-
-Package siunitx Info: Option "separate-uncertainty" has been deprecated in
-(siunitx)             this release.
-(siunitx)             
-(siunitx)             Use "uncertainty-mode = separate" as a replacement.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 781.
+Package cleveref Info: loaded `ngerman' language definitions on input line 499.
  [36]
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
@@ -2300,7 +1837,19 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 859.
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 592.
  [37]
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
@@ -2314,75 +1863,88 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 988.
- [38])
-Package cleveref Info: loaded `ngerman' language definitions on input line 52.
+Package cleveref Info: loaded `ngerman' language definitions on input line 644.
+ [38]
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 721.
  [39]
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 802.
+ [40]
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 880.
+ [41]
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 1009.
+ [42])
 Package cleveref Info: loaded `ngerman' language definitions on input line 52.
- [40] (./main.aux
+ [43]
+Package cleveref Info: loaded `ngerman' language definitions on input line 52.
+ [44] (./main.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 25.
-=======
-<figs/dt_turkis_145_55_5.png, id=457, 722.7pt x 361.35pt>
-File: figs/dt_turkis_145_55_5.png Graphic file (type png)
-<use figs/dt_turkis_145_55_5.png>
-Package pdftex.def Info: figs/dt_turkis_145_55_5.png  used on input line 8.
-(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
-<figs/dt_rot_155_62.png, id=458, 722.7pt x 361.35pt>
-File: figs/dt_rot_155_62.png Graphic file (type png)
-<use figs/dt_rot_155_62.png>
-Package pdftex.def Info: figs/dt_rot_155_62.png  used on input line 15.
-(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
-<figs/dt_vermutung_145_49.png, id=459, 722.7pt x 361.35pt>
-File: figs/dt_vermutung_145_49.png Graphic file (type png)
-<use figs/dt_vermutung_145_49.png>
-Package pdftex.def Info: figs/dt_vermutung_145_49.png  used on input line 22.
-(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
-[22
-
-
- <./figs/dt_turkis_145_55_5.png> <./figs/dt_rot_155_62.png>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 124.
- [23 <./figs/dt_vermutung_145_49.png>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 182.
- [24]
-Package cleveref Info: loaded `ngerman' language definitions on input line 207.
- [25]
-Package cleveref Info: loaded `ngerman' language definitions on input line 296.
- [26]
-
-LaTeX Warning: Reference `tab:365_50' on page 27 undefined on input line 317.
-
-
-LaTeX Warning: Reference `tab:365_50' on page 27 undefined on input line 317.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 373.
-[27]
-Package cleveref Info: loaded `ngerman' language definitions on input line 466.
- [28]
-Package cleveref Info: loaded `ngerman' language definitions on input line 518.
- [29]
-Package cleveref Info: loaded `ngerman' language definitions on input line 595.
- [30]
-Package cleveref Info: loaded `ngerman' language definitions on input line 676.
- [31]
-Package cleveref Info: loaded `ngerman' language definitions on input line 754.
- [32]
-Package cleveref Info: loaded `ngerman' language definitions on input line 883.
- [33])
-Package cleveref Info: loaded `ngerman' language definitions on input line 52.
- [34] (./main.aux
-Package cleveref Info: loaded `ngerman' language definitions on input line 22.
->>>>>>> 068157510707739f27696c762eece109a9f399eb
  (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
 
 LaTeX Warning: There were undefined references.
 
-<<<<<<< HEAD
-=======
 
 LaTeX Warning: There were multiply-defined labels.
 
->>>>>>> 068157510707739f27696c762eece109a9f399eb
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2390,34 +1952,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 48487 strings out of 478287
- 987175 string characters out of 5849289
- 1921833 words of memory out of 5000000
- 65722 multiletter control sequences out of 15000+600000
- 522729 words of font info for 143 fonts, out of 8000000 for 9000
+ 48525 strings out of 478287
+ 988335 string characters out of 5849289
+ 1917483 words of memory out of 5000000
+ 65720 multiletter control sequences out of 15000+600000
+ 504310 words of font info for 102 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,106p,10648b,3438s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (42 pages, 10045068 bytes).
+ 108i,20n,106p,10648b,2455s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (46 pages, 10808867 bytes).
 PDF statistics:
- 810 PDF objects out of 1000 (max. 8388607)
- 651 compressed objects within 7 object streams
- 186 named destinations out of 1000 (max. 500000)
-=======
- 48995 strings out of 477884
- 1002727 string characters out of 5835938
- 2001774 words of memory out of 5000000
- 68195 multiletter control sequences out of 15000+600000
- 566098 words of font info for 148 fonts, out of 8000000 for 9000
- 83 hyphenation exceptions out of 8191
- 108i,20n,106p,10660b,3440s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (36 pages, 1546661 bytes).
-PDF statistics:
- 766 PDF objects out of 1000 (max. 8388607)
- 640 compressed objects within 7 object streams
- 190 named destinations out of 1000 (max. 500000)
->>>>>>> 068157510707739f27696c762eece109a9f399eb
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 612 compressed objects within 7 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 

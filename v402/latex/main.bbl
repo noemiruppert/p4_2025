@@ -44,6 +44,45 @@
       \endverb
       \warn{\item Entry 'Spannungsteiler' (refs.bib): Invalid format '18.05.2025, 12:00' of date field 'date' - ignoring}
     \endentry
+    \entry{codata}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=c78972b7154db12858f8b2a43cbddc26}{%
+           family={Tiesinga},
+           familyi={T\bibinitperiod},
+           given={Eite},
+           giveni={E\bibinitperiod}}}%
+        {{hash=70ffad8a9850472813ebca8d8d1f2f69}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2f44e26ac0465165a8ac1a25c397cced}{%
+           family={Newell},
+           familyi={N\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{df7cae4c6506386ac24bb8a8f3f4219e}
+      \strng{fullhash}{df7cae4c6506386ac24bb8a8f3f4219e}
+      \strng{bibnamehash}{df7cae4c6506386ac24bb8a8f3f4219e}
+      \strng{authorbibnamehash}{df7cae4c6506386ac24bb8a8f3f4219e}
+      \strng{authornamehash}{df7cae4c6506386ac24bb8a8f3f4219e}
+      \strng{authorfullhash}{df7cae4c6506386ac24bb8a8f3f4219e}
+      \field{labelalpha}{TMN+21}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J.\ Phys.\ Chem.\ Ref.\ Data}
+      \field{note}{Zugriff am 19. Mai 2025}
+      \field{title}{CODATA Recommended Values of the Fundamental Physical Constants: 2018}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1063/5.0064853
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
