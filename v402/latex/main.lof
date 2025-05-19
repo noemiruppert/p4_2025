@@ -6,9 +6,21 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Ferminiveaus von Kathode und Anode mit Austrittsarbeit $W_A$ \blx@tocontentsinit {0}\cite {praktikum}\relax }}{4}{figure.caption.4}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Kontaktpotential $-eU_{KA}$ \blx@tocontentsinit {0}\cite {praktikum}\relax }}{4}{figure.caption.5}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Potential dass von der Gegenspannung $-eU_G$ induziert wird\blx@tocontentsinit {0}\cite {praktikum}\relax }}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Emissionslenien für mehrere Emissions Serien\relax }}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Versuchsaufbau mit Okular(links) und CCD-Kamera(rechts) \ref {prakticum}\relax }}{7}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Versuchsaufbau mit Okular(links) und CCD-Kamera(rechts) \ref {prakticum}\relax }}{9}{figure.caption.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Messung 1 bei $\lambda =\SI {365}{\nm }$. Die Werte und Unsicherheiten sind in ~\cref {tab:365_first}.\relax }}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Messung 2 bei $\lambda =\SI {365}{\nm }$. Die Werte und Unsicherheiten sind in ~\cref {tab:365_second}.\relax }}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Messung bei $50\%$ Intensität und $\lambda =\SI {365}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:365_50pct}.\relax }}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Messung bei maximaler Intensität und $\lambda =\SI {365}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:365_max}.\relax }}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Messung 1 bei $\lambda =\SI {405}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:405_first}.\relax }}{24}{figure.caption.35}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Messung 2 bei $\lambda =\SI {405}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:405_second}.\relax }}{24}{figure.caption.35}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Messung 1 bei $\lambda =\SI {463}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:463_first}.\relax }}{25}{figure.caption.36}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Messung 2 bei $\lambda =\SI {463}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:463_second}.\relax }}{25}{figure.caption.36}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Messung 1 bei $\lambda =\SI {546}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:546_first}.\relax }}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Messung 2 bei $\lambda =\SI {546}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:546_second}.\relax }}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Messung 1 bei $\lambda =\SI {578}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:578_first}.\relax }}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Messung 2 bei $\lambda =\SI {578}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:578_second}.\relax }}{27}{figure.caption.38}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
