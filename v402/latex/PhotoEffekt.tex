@@ -123,7 +123,7 @@ einstellbar sind.
 Ein Elektron, dass sich in der Kathode befindet, absorbiert ein Photon mit der Energie $E = h\nu$ und verlässt die Kathode, wenn die Energie des Photons größer ist als eine bestimmte Potentialdifferenz sein: die Austrittsarbeit $W_K$.
 In Abbildung \ref{fig:kathode-anode}, \ref{fig:potential ext} und \ref{fig:potential kurzg.} sind die Austrittsarbeit $W_K$ der Kathode und die Austrittsarbeit $W_A$ der Anode für unterschiedliche elektrische Anordnungen dargestellt.\\ %nachprüfen ob Referenzen gut gesetzt sind
 
-
+% Herleitung fertig machen
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\textwidth]{figs/baenderschema_kathode_anode.png}
@@ -178,10 +178,14 @@ werden:
 \cref{eq:photoelektrische Gleichung} stellt eine direkte, quantitative Beziehung zwischen der Energie einfallender Photonen und der kinetischen Energie der von einer Metalloberfläche emittierten Elektronen her. Sie kann geschrieben werden als:
 
 \begin{equation}
-    h\,\nu = e\,U_{0} + W_{A},
+    h\,\nu = e U_{0} + W_{A},
 \end{equation}
 
+<<<<<<< HEAD
 wobei $h$ das Plancksche Wirkungsquantum ist, $\nu$ die Lichtfrequenz, $U_{0}$ die Gegenspannung (zur Unterdrückung des Photostroms bis Null), $e$ die Elementarladung ($\equiv \SI{1.602e-19}{\coulomb}$ \cite{codata}) und $W_{A}$ die Austrittsarbeit des Anodenmaterials darstellt. In dieser Formulierung setzt jedes Photon der Energie $h,\nu$ ein Elektron frei, das die Bindungsenergie $W_{A}$ des Materials überwinden muss; jede überschüssige Energie erscheint als kinetische Energie, die elektrisch als $e,U_{0}$ gemessen wird. Diese Gleichung bestätigte nicht nur die Quanten­natur des Lichts, indem sie zeigte, dass der Elektronenaustritt von der Frequenz und nicht der Intensität abhängt, sondern liefert auch eine präzise Methode zur Bestimmung von $h$ und $W_{A}$ anhand experimenteller Messungen von $U_{0}$ in Abhängigkeit von $\nu$.
+=======
+wobei $h$ das Plancksche Wirkungsquantum ist, $\nu$ die Lichtfrequenz, $U_{0}$ die Gegenspannung (zur Unterdrückung des Photostroms), $e$ die Elementarladung (!!!!!!!!!!!!!!!!!!!!WERT UND QUELLE HIER EINFÜGEN!!!!!!!!!!!!!!!!!!!!) und $W_{A}$ die Austrittsarbeit des Anodenmaterials darstellt. Jedes Photon der Energie $h\nu$ setzt ein Elektron frei, das die Bindungsenergie $W_{A}$ des Materials überwinden muss; jede überschüssige Energie erscheint als kinetische Energie, die elektrisch als $eU_{0}$ gemessen wird. Diese Gleichung bestätigte nicht nur die Quanten­natur des Lichts, indem sie zeigte, dass der Elektronenaustritt von der Frequenz und nicht der Intensität abhängt, sondern liefert auch eine präzise Methode zur Bestimmung von $h$ und $W_{A}$ anhand experimenteller Messungen von $U_{0}$ in Abhängigkeit von $\nu$.
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 
 In unserem Experiment beginnt jeder Messpunkt mit zwei Rohspannungen: der Gegenspannung $U_{G}$, die direkt an dem \SI{100}{\ohm}-Zweig des Spannungsteilers in Millivolt abgelesen wird, und der Photospannung $U_{\mathrm{ph}}$, die der Ausgang des Verstärkers ist und proportional zum Photostrom, ebenfalls in Millivolt. Um die tatsächliche Gegenspannung $U$ zu erhalten, die auf die Elektronen wirkt, wird $U_{G}$ mit $(100+330)/100$ multipliziert, um den Spannungsteiler (\SI{100}{\ohm}:\SI{330}{\ohm}) zu korrigieren. Die Photospannung wird wie folgt in einen Strom umgerechnet: zunächst wird $U_{\mathrm{ph}}$ mit $10^{-3}$ in Volt umgerechnet, dann durch die Verstärkung $G$ (in V/A) geteilt, um $I$ in Ampere zu erhalten, und schließlich mit $10^{12}$ multipliziert, um den Strom in Pikoampere auszudrücken:
 
@@ -191,7 +195,11 @@ In unserem Experiment beginnt jeder Messpunkt mit zwei Rohspannungen: der Gegens
   \quad(\mathrm{pA}).
 \end{equation}
 
+<<<<<<< HEAD
 Durch Anwendung dieser einfachen Einheiten- und Teilerkorrekturen auf jedes $(U_{G},U_{\mathrm{ph}})$-Paar erhalten wir die physikalisch sinnvollen $(U,I)$-Daten, die die Grundlage für die anschließende Linearisierung und Ausgleichsrechnung bilden.
+=======
+Durch Anwendung dieser Korrekturen auf jedes $(U_{G},U_{\mathrm{ph}})$-Paar erhalten wir die physikalisch sinnvollen $(U,,I)$-Daten, die die Grundlage für die anschließende Linearisierung und Ausgleichsrechnung bilden.
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 
 Zur Bestimmung des Sättigungsstroms $I_{0}$ betrachten wir jede Photostromkurve $I(U)$ und bestimmen den Stromwert bei der größten angelegten Gegenspannung $U_{G,\max}$. Physikalisch entspricht dies dem Fall, in dem das Gegenfeld so stark ist, dass dennoch alle emittierten Elektronen zur Anode gelangen – es bildet sich ein Plateau im $I$–$U$-Diagramm. Praktisch bestimmen wir den Index $i$, bei dem $U_{G}$ maximal ist, und definieren:
 
@@ -222,9 +230,9 @@ Es wird dann eine gewichtete lineare Regression durchgeführt:
 unter Verwendung der propagierten Unsicherheiten in $y$ als Gewichte. Die Ausgleichsrechnung liefert die Steigung $m$ und den Achsenabschnitt $b$ mit ihren Standardabweichungen. Der Stoppwert ergibt sich aus der Bedingung $y=0$:
 
 \begin{equation}
-  0 = m\,U_{0} + b
+  0 = m U_{0} + b
   \quad\Longrightarrow\quad
-  U_{0} = -\,\frac{b}{m}.
+  U_{0} = -\frac{b}{m}.
 \end{equation}
 
 Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern verfügbar), wird ein präziser Wert $U_{0}\pm\sigma_{U_{0}}$ für jede Wellenlänge bestimmt. Diese Gegenspannungen sind die zentralen Größen für das finale Diagramm $U_{0}$ gegen Photonfrequenz, aus dem $h$ und $W_{A}$ extrahiert werden.
@@ -260,7 +268,10 @@ Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern ver
 Aus dem \cref{fig:365_first_photoeff} und der \cref{tab:365_first_chi2_photoeff} ergibt sich für die erste Messung bei $\lambda = \SI{365}{\nano\meter}$ eine Stoppspannung von $U_0 = \SI{2117.12 \pm 62.98}{\milli\volt}.$ Weitere Diagramme für unterschiedliche Wellenlängen befinden sich im Anhang zwischen \cref{fig:365_first} und \cref{fig:578_second}, die zugehörigen Tabellen zwischen \cref{tab:365_first} und \cref{tab:578_second}.\\
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 Da die Photonenergie $E$ direkt proportional zur Frequenz ist über $E = h\nu$, muss jede zentrale Filterwellenlänge $\lambda$ in die entsprechende Frequenz $\nu$ umgerechnet werden. Im Vakuum gilt:
 
 \begin{equation}
@@ -269,7 +280,7 @@ Da die Photonenergie $E$ direkt proportional zur Frequenz ist über $E = h\nu$, 
 
 wobei $c$ die Lichtgeschwindigkeit ist ($= \SI{299 792 458}{\metre\per\second}$ \cite{codata}) und $\lambda$ in Metern angegeben wird.
 
-In unserem Versuch wurde jede Wellenlänge zweimal gemessen, was zwei Stoppspannungen $U_{0,1}$ und $U_{0,2}$ ergibt. Deren gewichteter Mittelwert ist:
+In unserem Versuch wurde jede Wellenlänge zweimal gemessen, was zwei Grenzspannungen $U_{0,1}$ und $U_{0,2}$ ergibt. Deren gewichteter Mittelwert ist:
 
 \begin{equation}
   \begin{aligned}
@@ -281,7 +292,11 @@ In unserem Versuch wurde jede Wellenlänge zweimal gemessen, was zwei Stoppspann
   \end{aligned}
 \end{equation}
 
+<<<<<<< HEAD
 Die so gemittelten Stoppspannungen $U_{0,\mathrm{avg}}$ (in Millivolt) werden gegen die entsprechenden Frequenzen $\nu$ (in Hertz) aufgetragen (\cref{fig:fvsU}), um Einsteins Vorhersage zu überprüfen:
+=======
+Die so gemittelten Grenzspannungen $U_{0,\mathrm{avg}}$ (in Millivolt) werden gegen die entsprechenden Frequenzen $\nu$ (in Hertz) aufgetragen, um Einsteins Vorhersage zu überprüfen:
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 
 \begin{equation}
   e\,U_{0} = h\,\nu - W_{A}.
@@ -339,7 +354,11 @@ $\mathrm{\chi}^2 / \mathrm{dof}$
 \end{table}
 \FloatBarrier
 
+<<<<<<< HEAD
 Ein linearer Fit von $U_{0,\mathrm{avg}}(\nu)$ (\cref{fig:fvsU})hat also die Steigung $m = h/e$ und den y-Achsenabschnitt $b = -W_{A}/e$ (Werte in \cref{tab:U0_vs_nu_fit}). Daraus ergibt sich:
+=======
+Ein linearer Fit von $U_{0,\mathrm{avg}}(\nu)$ hat also die Steigung $m = h/e$ und den y-Achsenabschnitt $b = -W_{A}/e$. Daraus ergibt sich:
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 
 
 \begin{equation}
