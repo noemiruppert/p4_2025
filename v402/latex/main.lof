@@ -7,6 +7,7 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Kontaktpotential $-eU_{KA}$ \blx@tocontentsinit {0}\cite {praktikum}\relax }}{4}{figure.caption.5}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Potential dass von der Gegenspannung $-eU_G$ induziert wird\blx@tocontentsinit {0}\cite {praktikum}\relax }}{5}{figure.caption.6}%
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Versuchsaufbau mit Okular(links) und CCD-Kamera(rechts) \ref {prakticum}\relax }}{9}{figure.caption.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -23,4 +24,14 @@
 \contentsline {figure}{\numberline {A.10}{\ignorespaces Messung 2 bei $\lambda =\SI {546}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:546_second}.\relax }}{26}{figure.caption.37}%
 \contentsline {figure}{\numberline {A.11}{\ignorespaces Messung 1 bei $\lambda =\SI {578}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:578_first}.\relax }}{27}{figure.caption.38}%
 \contentsline {figure}{\numberline {A.12}{\ignorespaces Messung 2 bei $\lambda =\SI {578}{\nm }$. Die Werte und Unsicherheiten sind in \cref {tab:578_second}.\relax }}{27}{figure.caption.38}%
+=======
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Versuchsaufbau mit Okular(links) und CCD-Kamera(rechts) \ref {praktikum}\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Isotopieaufspaltung von der $H_{\gamma }$\relax }}{11}{figure.caption.20}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Gaußfit für $H_\beta $\relax }}{22}{figure.caption.43}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Gaußfit für $H_\alpha $\relax }}{22}{figure.caption.44}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Gaußfit für die Vermutete Linie $H_\delta $\relax }}{23}{figure.caption.45}%
+>>>>>>> 068157510707739f27696c762eece109a9f399eb
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
