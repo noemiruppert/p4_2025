@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  18 MAY 2025 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.4.2)  19 MAY 2025 08:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1587,58 +1587,53 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 97.
 LaTeX Warning: Reference `tab:gitterkonstante' on page 1 undefined on input line 121.
 
 
-LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 160.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 161.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 170.
+Package cleveref Info: loaded `ngerman' language definitions on input line 171.
 [9]
 
-LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 200.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 201.
 
 
-LaTeX Warning: Reference `tab:Isotopie' on page 1 undefined on input line 215.
+LaTeX Warning: Reference `tab:Isotopie' on page 1 undefined on input line 216.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 234.
+Package cleveref Info: loaded `ngerman' language definitions on input line 235.
 [10]
-
-LaTeX Warning: Reference `fig:H_a' on page 1 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig:H_b' on page 1 undefined on input line 236.
-
-<figs/dt_lila_145_51_5.png, id=206, 722.7pt x 361.35pt>
+<figs/dt_lila_145_51_5.png, id=208, 722.7pt x 361.35pt>
 File: figs/dt_lila_145_51_5.png Graphic file (type png)
 <use figs/dt_lila_145_51_5.png>
-Package pdftex.def Info: figs/dt_lila_145_51_5.png  used on input line 239.
+Package pdftex.def Info: figs/dt_lila_145_51_5.png  used on input line 240.
 (pdftex.def)             Requested size: 234.73528pt x 117.36568pt.
 
-LaTeX Warning: Reference `tab:Peaks' on page 1 undefined on input line 250.
+
+LaTeX Warning: Reference `tab:Peaks' on page 1 undefined on input line 251.
 
 
-LaTeX Warning: Reference `Bestimmung der Balmer' on page 11 undefined on input line 271.
+LaTeX Warning: Reference `Bestimmung der Balmer' on page 11 undefined on input line 272.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 304.
+Package cleveref Info: loaded `ngerman' language definitions on input line 308.
 [11 <./figs/dt_lila_145_51_5.png>]
 
-LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 305.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 309.
 
 
-LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 333.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 337.
 
 
-LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 352.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 356.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 355.
+Package cleveref Info: loaded `ngerman' language definitions on input line 357.
 [12]
 
-LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 378.
+LaTeX Warning: Reference `[Demtröder_Ex3]' on page 1 undefined on input line 382.
 
 
-LaTeX Warning: Reference `deltalambda' on page 1 undefined on input line 388.
+LaTeX Warning: Reference `deltalambda' on page 1 undefined on input line 392.
 
 
-LaTeX Warning: Reference `tab:Halbwertsb' on page 1 undefined on input line 389.
+LaTeX Warning: Reference `tab:Halbwertsb' on page 1 undefined on input line 393.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 414.
+Package cleveref Info: loaded `ngerman' language definitions on input line 418.
 [13])
 Package cleveref Info: loaded `ngerman' language definitions on input line 45.
  [14]
@@ -1828,43 +1823,55 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 52.
 
  (./Anhang.tex
 chapter A.
-<figs/dt_turkis_145_55_5.png, id=451, 722.7pt x 361.35pt>
+<figs/dt_turkis_145_55_5.png, id=457, 722.7pt x 361.35pt>
 File: figs/dt_turkis_145_55_5.png Graphic file (type png)
 <use figs/dt_turkis_145_55_5.png>
 Package pdftex.def Info: figs/dt_turkis_145_55_5.png  used on input line 8.
 (pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
+<figs/dt_rot_155_62.png, id=458, 722.7pt x 361.35pt>
+File: figs/dt_rot_155_62.png Graphic file (type png)
+<use figs/dt_rot_155_62.png>
+Package pdftex.def Info: figs/dt_rot_155_62.png  used on input line 15.
+(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
+<figs/dt_vermutung_145_49.png, id=459, 722.7pt x 361.35pt>
+File: figs/dt_vermutung_145_49.png Graphic file (type png)
+<use figs/dt_vermutung_145_49.png>
+Package pdftex.def Info: figs/dt_vermutung_145_49.png  used on input line 22.
+(pdftex.def)             Requested size: 328.62794pt x 164.31526pt.
 [22
 
 
- <./figs/dt_turkis_145_55_5.png>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 168.
- [23]
-Package cleveref Info: loaded `ngerman' language definitions on input line 193.
+ <./figs/dt_turkis_145_55_5.png> <./figs/dt_rot_155_62.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 124.
+ [23 <./figs/dt_vermutung_145_49.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 182.
  [24]
-Package cleveref Info: loaded `ngerman' language definitions on input line 282.
+Package cleveref Info: loaded `ngerman' language definitions on input line 207.
  [25]
+Package cleveref Info: loaded `ngerman' language definitions on input line 296.
+ [26]
 
-LaTeX Warning: Reference `tab:365_50' on page 26 undefined on input line 303.
+LaTeX Warning: Reference `tab:365_50' on page 27 undefined on input line 317.
 
 
-LaTeX Warning: Reference `tab:365_50' on page 26 undefined on input line 303.
+LaTeX Warning: Reference `tab:365_50' on page 27 undefined on input line 317.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 359.
-[26]
-Package cleveref Info: loaded `ngerman' language definitions on input line 452.
- [27]
-Package cleveref Info: loaded `ngerman' language definitions on input line 504.
+Package cleveref Info: loaded `ngerman' language definitions on input line 373.
+[27]
+Package cleveref Info: loaded `ngerman' language definitions on input line 466.
  [28]
-Package cleveref Info: loaded `ngerman' language definitions on input line 581.
+Package cleveref Info: loaded `ngerman' language definitions on input line 518.
  [29]
-Package cleveref Info: loaded `ngerman' language definitions on input line 662.
+Package cleveref Info: loaded `ngerman' language definitions on input line 595.
  [30]
-Package cleveref Info: loaded `ngerman' language definitions on input line 740.
+Package cleveref Info: loaded `ngerman' language definitions on input line 676.
  [31]
-Package cleveref Info: loaded `ngerman' language definitions on input line 869.
- [32])
+Package cleveref Info: loaded `ngerman' language definitions on input line 754.
+ [32]
+Package cleveref Info: loaded `ngerman' language definitions on input line 883.
+ [33])
 Package cleveref Info: loaded `ngerman' language definitions on input line 52.
- [33] (./main.aux
+ [34] (./main.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 22.
  (./Einleitung.aux) (./PhotoEffekt.aux) (./BalmerSerie.aux) (./Fazit.aux) (./formeln.aux) (./Anhang.aux))
 
@@ -1880,18 +1887,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48986 strings out of 477884
- 1002528 string characters out of 5835938
- 2004501 words of memory out of 5000000
- 68189 multiletter control sequences out of 15000+600000
+ 48995 strings out of 477884
+ 1002727 string characters out of 5835938
+ 2001774 words of memory out of 5000000
+ 68195 multiletter control sequences out of 15000+600000
  566098 words of font info for 148 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  108i,20n,106p,10660b,3440s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (35 pages, 1481672 bytes).
+Output written on main.pdf (36 pages, 1546661 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 631 compressed objects within 7 object streams
- 187 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 640 compressed objects within 7 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

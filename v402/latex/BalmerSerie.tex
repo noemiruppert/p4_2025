@@ -121,7 +121,8 @@ Es wird m = 1 gesetzt, da dies die ordnung ist, die untersucht wird.
 Dies ausgerechneten Werte befinden sich in \cref{tab:gitterkonstante} mit den Entsprächenden abhängigen werte und dessen fehler.
 \begin{table}[htbp]
     \centering
-    \begin{tabular}{c|c}
+    \begin{tabular}{|c|c|c|c|c|}
+        
          &  \\
          & 
     \end{tabular}
@@ -236,7 +237,7 @@ Die CCD-Kamera hat dieses Problem aber nicht und kann genauer die Isotopieaufspa
 Die Gemessenen Intensitäten Bilden Peaks die in \cref{fig:H_a}, \cref{fig:H_b} und \cref{fig:H_g} dargestellt sind. 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{figs/dt_lila_145_51_5}
+    \includegraphics[width=0.5\linewidth]{figs/dt_lila_145_51_5.png}
     \caption{Isotopieaufspaltung von der $H_{\gamma}$}
     \label{fig:H_g}
 \end{figure}
@@ -281,11 +282,14 @@ Mit den Berechneten Werten in \cref{tab:Rydberg} kann gesehen werden, das die We
 
 \begin{table}[htbp]
     \centering
-    \begin{tabular}{c|c}
-         &  \\
-         & 
+    \begin{tabular}{|c|c|c|c|}
+        Linie & $\lambda$ / nm & n & Rydberg-Konstante /$10^7$ m \\
+        \hline
+        $H_\alpha$ & 620,049 $\pm$ 4,091 & 5 & 1,161 $\pm$ 0,008 \\
+        $H_\beta$ & 494,113 $\pm$ 4,393 & 4 & 1,079 $\pm$ 0,010  \\
+        $H_\gamma$ & 442,969 $\pm$ 4,508 & 3 & 1,075 $\pm$ 0,011 \\
     \end{tabular}
-    \caption{Caption}
+    \caption{Berechneten Rydbergkonstanten für die berechentn Wellenlängen}
     \label{tab:Rydberg}
 \end{table}
 
@@ -335,8 +339,8 @@ berechent was mit dem Literaturwert (\cref{[Demtröder_Ex3]}, S.75) von
     h = 6,626 \cdot10^{-34} J\cdot s
 \end{equation}
 sehr gut über ein stimmt.
+Dies liegt auch innerhalb des doppelten fehler und und stimmt auch mit der Messung der Plankschen Wirkungsquantum Photoeffekt überein.
 
-% Noch vergleichen mit Planksche Wirkungsquantum von Photoeffect!!!
 
 \section{Weitergehende Überlegungen}
 \subsection{Möglicher Ursprung der anderen auftrennen Spektrallinien}
