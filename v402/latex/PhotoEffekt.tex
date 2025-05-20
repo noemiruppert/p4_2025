@@ -81,7 +81,7 @@ Wenn Photonen aus der Hg-Lampe auf die Photokathode treffen, interagieren sie mi
 auf eines der Elektronen. Falls die übertragene Energie größer als die Austrittsarbeit $W_A$ ist,dann kann sich das Elektron aus der Kathode lösen und zur Ringanode gelangen. Dadurch ensteht ein Stromfluss:der Photostrom $I_{ph}$.
 Durch den Einsatz der Gegenfeldmethode wird die maximale kinetische Energie, die die Elektronen beim verlassen der Kathode besitzen, bestimmt.
 
-Bei dieser Methode wird eine Gegenspannung $U_G$ zwischen Kathode und Anode angelegt, wodurch die Kathode im Vergleich zur Anode ein positives Potential erhält.
+Bei dieser Methode wird eine gemessen Gegenspannung $U_G$ zwischen Kathode und Anode angelegt, wodurch die Kathode im Vergleich zur Anode ein positives Potential erhält.
 Das dadurch erzeugte elektrische Feld verlangsamt die emittierten Elektronen auf ihrem Weg zur Anode, wodurch der Photostrom reduziert wird. Sobald die Grenzspannung $U_0$ erreicht ist, kommt der Photostrom vollständig zum Erliegen. 
 Dies bedeutet, dass selbst die energiereichsten Elektronen die Anode nicht mehr erreichen können. In diesem Fall gilt die Beziehung: 
 $E_{kin,max} = eU_0$.
@@ -98,7 +98,7 @@ Man erweitert die Schaltung mit Hilfe eines Spannungsteilers (Abbildung \ref{fig
 Die verwendete Spannungsquelle kann Spannungen von 0\,V bis 12\,V bereitstellen. 
 Der Photostrom erreicht jedoch bereits bei deutlich geringeren Gegenspannungen seinen Nullpunkt, typischerweise im Bereich von wenigen Volt. 
 Für die Messung der Grenzspannung $U_0$ genügt daher ein kleiner Teil des gesamten Spannungsbereichs. 
-Die feine Justierung der Gegenspannung ist entscheidend, um den Punkt zu bestimmen, an dem der Photostrom gerade verschwindet.\\
+Die feine Justierung der gemessen Gegenspannung ist entscheidend, um den Punkt zu bestimmen, an dem der Photostrom gerade verschwindet.\\
 Es gilt folgender Zusammenhang zwischen der abgefangenen Spannung $U_2$, den Widerständen $R_1 = 330 \Omega, R_2 = 100 \Omega$ und $U_0$:
 \begin{equation}
   U_2 = \frac{R_2}{R_1 + R_2}\,U_0.
@@ -181,13 +181,9 @@ werden:
     h\,\nu = e U_{0} + W_{A},
 \end{equation}
 
-<<<<<<< HEAD
-wobei $h$ das Plancksche Wirkungsquantum ist, $\nu$ die Lichtfrequenz, $U_{0}$ die Gegenspannung (zur Unterdrückung des Photostroms bis Null), $e$ die Elementarladung ($\equiv \SI{1.602e-19}{\coulomb}$ \cite{codata}) und $W_{A}$ die Austrittsarbeit des Anodenmaterials darstellt. In dieser Formulierung setzt jedes Photon der Energie $h,\nu$ ein Elektron frei, das die Bindungsenergie $W_{A}$ des Materials überwinden muss; jede überschüssige Energie erscheint als kinetische Energie, die elektrisch als $e,U_{0}$ gemessen wird. Diese Gleichung bestätigte nicht nur die Quanten­natur des Lichts, indem sie zeigte, dass der Elektronenaustritt von der Frequenz und nicht der Intensität abhängt, sondern liefert auch eine präzise Methode zur Bestimmung von $h$ und $W_{A}$ anhand experimenteller Messungen von $U_{0}$ in Abhängigkeit von $\nu$.
-=======
-wobei $h$ das Plancksche Wirkungsquantum ist, $\nu$ die Lichtfrequenz, $U_{0}$ die Gegenspannung (zur Unterdrückung des Photostroms), $e$ die Elementarladung (!!!!!!!!!!!!!!!!!!!!WERT UND QUELLE HIER EINFÜGEN!!!!!!!!!!!!!!!!!!!!) und $W_{A}$ die Austrittsarbeit des Anodenmaterials darstellt. Jedes Photon der Energie $h\nu$ setzt ein Elektron frei, das die Bindungsenergie $W_{A}$ des Materials überwinden muss; jede überschüssige Energie erscheint als kinetische Energie, die elektrisch als $eU_{0}$ gemessen wird. Diese Gleichung bestätigte nicht nur die Quanten­natur des Lichts, indem sie zeigte, dass der Elektronenaustritt von der Frequenz und nicht der Intensität abhängt, sondern liefert auch eine präzise Methode zur Bestimmung von $h$ und $W_{A}$ anhand experimenteller Messungen von $U_{0}$ in Abhängigkeit von $\nu$.
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
+wobei $h$ das Plancksche Wirkungsquantum ist, $\nu$ die Lichtfrequenz, $U_{0}$ die Grenzspannung (zur Unterdrückung des Photostroms bis Null), $e$ die Elementarladung ($\equiv \SI{1.602e-19}{\coulomb}$ \cite{codata}) und $W_{A}$ die Austrittsarbeit des Anodenmaterials darstellt. In dieser Formulierung setzt jedes Photon der Energie $h\nu$ ein Elektron frei, das die Bindungsenergie $W_{A}$ des Materials überwinden muss; jede überschüssige Energie erscheint als kinetische Energie, die elektrisch als $eU_{0}$ gemessen wird. Diese Gleichung bestätigte nicht nur die Quanten­natur des Lichts, indem sie zeigte, dass der Elektronenaustritt von der Frequenz und nicht der Intensität abhängt, sondern liefert auch eine präzise Methode zur Bestimmung von $h$ und $W_{A}$ anhand experimenteller Messungen von $U_{0}$ in Abhängigkeit von $\nu$.
 
-In unserem Experiment beginnt jeder Messpunkt mit zwei Rohspannungen: der Gegenspannung $U_{G}$, die direkt an dem \SI{100}{\ohm}-Zweig des Spannungsteilers in Millivolt abgelesen wird, und der Photospannung $U_{\mathrm{ph}}$, die der Ausgang des Verstärkers ist und proportional zum Photostrom, ebenfalls in Millivolt. Um die tatsächliche Gegenspannung $U$ zu erhalten, die auf die Elektronen wirkt, wird $U_{G}$ mit $(100+330)/100$ multipliziert, um den Spannungsteiler (\SI{100}{\ohm}:\SI{330}{\ohm}) zu korrigieren. Die Photospannung wird wie folgt in einen Strom umgerechnet: zunächst wird $U_{\mathrm{ph}}$ mit $10^{-3}$ in Volt umgerechnet, dann durch die Verstärkung $G$ (in V/A) geteilt, um $I$ in Ampere zu erhalten, und schließlich mit $10^{12}$ multipliziert, um den Strom in Pikoampere auszudrücken:
+In unserem Experiment beginnt jeder Messpunkt mit zwei Rohspannungen: der gemessen Gegenspannung $U_{G}$, die direkt an dem \SI{100}{\ohm}-Zweig des Spannungsteilers in Millivolt abgelesen wird, und der Photospannung $U_{\mathrm{ph}}$, die der Ausgang des Verstärkers ist und proportional zum Photostrom, ebenfalls in Millivolt. Um die tatsächliche Gegenspannung $U$ zu erhalten, die auf die Elektronen wirkt, wird $U_{G}$ mit $(100+330)/100$ multipliziert, um den Spannungsteiler (\SI{100}{\ohm}:\SI{330}{\ohm}) zu korrigieren. Die Photospannung wird wie folgt in einen Strom umgerechnet: zunächst wird $U_{\mathrm{ph}}$ mit $10^{-3}$ in Volt umgerechnet, dann durch die Verstärkung $G$ (in V/A) geteilt, um $I$ in Ampere zu erhalten, und schließlich mit $10^{12}$ multipliziert, um den Strom in Pikoampere auszudrücken:
 
 \begin{equation}
   U = U_{G}\,\frac{100 + 330}{100},\quad
@@ -195,13 +191,9 @@ In unserem Experiment beginnt jeder Messpunkt mit zwei Rohspannungen: der Gegens
   \quad(\mathrm{pA}).
 \end{equation}
 
-<<<<<<< HEAD
 Durch Anwendung dieser einfachen Einheiten- und Teilerkorrekturen auf jedes $(U_{G},U_{\mathrm{ph}})$-Paar erhalten wir die physikalisch sinnvollen $(U,I)$-Daten, die die Grundlage für die anschließende Linearisierung und Ausgleichsrechnung bilden.
-=======
-Durch Anwendung dieser Korrekturen auf jedes $(U_{G},U_{\mathrm{ph}})$-Paar erhalten wir die physikalisch sinnvollen $(U,,I)$-Daten, die die Grundlage für die anschließende Linearisierung und Ausgleichsrechnung bilden.
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 
-Zur Bestimmung des Sättigungsstroms $I_{0}$ betrachten wir jede Photostromkurve $I(U)$ und bestimmen den Stromwert bei der größten angelegten Gegenspannung $U_{G,\max}$. Physikalisch entspricht dies dem Fall, in dem das Gegenfeld so stark ist, dass dennoch alle emittierten Elektronen zur Anode gelangen – es bildet sich ein Plateau im $I$–$U$-Diagramm. Praktisch bestimmen wir den Index $i$, bei dem $U_{G}$ maximal ist, und definieren:
+Zur Bestimmung des Sättigungsstroms $I_{0}$ betrachten wir jede Photostromkurve $I(U)$ und bestimmen den Stromwert bei der größten angelegten gemessen Gegenspannung $U_{G,\max}$. Physikalisch entspricht dies dem Fall, in dem das Gegenfeld so stark ist, dass dennoch alle emittierten Elektronen zur Anode gelangen - es bildet sich ein Plateau im $I$-$U$-Diagramm. Praktisch bestimmen wir den Index $i$, bei dem $U_{G}$ maximal ist, und definieren:
 
 \begin{equation}
   I_{0} = I\bigl(U = U_{G,\max}\bigr)\quad(\text{in pA}).
@@ -209,7 +201,7 @@ Zur Bestimmung des Sättigungsstroms $I_{0}$ betrachten wir jede Photostromkurve
 
 Dieser Einzelwert $I_{0}$ dient dann als Basiswert für die Linearisierung.
 
-Um nun die Gegenspannung $U_{0}$ aus den Messdaten zu extrahieren, bilden wir die transformierte Variable
+Um nun die Grenzspannung $U_{0}$ aus den Messdaten zu extrahieren, bilden wir die transformierte Variable
 
 \begin{equation}
   y = \sqrt{\max\{\,0,\;I(U) - I_{0}\,\}}
@@ -235,7 +227,7 @@ unter Verwendung der propagierten Unsicherheiten in $y$ als Gewichte. Die Ausgle
   U_{0} = -\frac{b}{m}.
 \end{equation}
 
-Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern verfügbar), wird ein präziser Wert $U_{0}\pm\sigma_{U_{0}}$ für jede Wellenlänge bestimmt. Diese Gegenspannungen sind die zentralen Größen für das finale Diagramm $U_{0}$ gegen Photonfrequenz, aus dem $h$ und $W_{A}$ extrahiert werden.
+Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern verfügbar), wird ein präziser Wert $U_{0}\pm\sigma_{U_{0}}$ für jede Wellenlänge bestimmt. Diese Grenzspannung sind die zentralen Größen für das finale Diagramm $U_{0}$ gegen Photonfrequenz, aus dem $h$ und $W_{A}$ extrahiert werden.
 \FloatBarrier
 \begin{figure}[H]
     \centering
@@ -258,20 +250,16 @@ Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern ver
       & $\num{13}$ \\ \hline
     $\chi^2/\mathrm{dof}$
       & $\num{0.64}$ \\ \hline
-    Abbremsspannung $U_0$ [\si{\milli\volt}]
+    Grenzspannung $U_0$ [\si{\milli\volt}]
       & $\num{2117.12 \pm 62.98}$ \\ \hline
   \end{tabular}
-  \caption{Ergebnisse des gewichteten linearen $\chi^2$-Fits zur Bestimmung der Abbremsspannung für die erste Messung bei $\lambda=\SI{365}{\nano\metre}$. Die hier gezeigten Werte stammen aus Tabelle~\ref{tab:365_first}.}
+  \caption{Ergebnisse des gewichteten linearen $\chi^2$-Fits zur Bestimmung der Grenzspannung für die erste Messung bei $\lambda=\SI{365}{\nano\metre}$. Die hier gezeigten Werte stammen aus Tabelle~\ref{tab:365_first}.}
   \label{tab:365_first_chi2_photoeff}
 \end{table}
 \FloatBarrier
-Aus dem \cref{fig:365_first_photoeff} und der \cref{tab:365_first_chi2_photoeff} ergibt sich für die erste Messung bei $\lambda = \SI{365}{\nano\meter}$ eine Stoppspannung von $U_0 = \SI{2117.12 \pm 62.98}{\milli\volt}.$ Weitere Diagramme für unterschiedliche Wellenlängen befinden sich im Anhang zwischen \cref{fig:365_first} und \cref{fig:578_second}, die zugehörigen Tabellen zwischen \cref{tab:365_first} und \cref{tab:578_second}.\\
+Aus dem \cref{fig:365_first_photoeff} und der \cref{tab:365_first_chi2_photoeff} ergibt sich für die erste Messung bei $\lambda = \SI{365}{\nano\meter}$ eine Grenzspannung von $U_0 = \SI{2117.12 \pm 62.98}{\milli\volt}.$ Weitere Diagramme für unterschiedliche Wellenlängen befinden sich im Anhang zwischen \cref{fig:365_first} und \cref{fig:578_second}, die zugehörigen Tabellen zwischen \cref{tab:365_first} und \cref{tab:578_second}.\\
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 Da die Photonenergie $E$ direkt proportional zur Frequenz ist über $E = h\nu$, muss jede zentrale Filterwellenlänge $\lambda$ in die entsprechende Frequenz $\nu$ umgerechnet werden. Im Vakuum gilt:
 
 \begin{equation}
@@ -292,11 +280,7 @@ In unserem Versuch wurde jede Wellenlänge zweimal gemessen, was zwei Grenzspann
   \end{aligned}
 \end{equation}
 
-<<<<<<< HEAD
-Die so gemittelten Stoppspannungen $U_{0,\mathrm{avg}}$ (in Millivolt) werden gegen die entsprechenden Frequenzen $\nu$ (in Hertz) aufgetragen (\cref{fig:fvsU}), um Einsteins Vorhersage zu überprüfen:
-=======
-Die so gemittelten Grenzspannungen $U_{0,\mathrm{avg}}$ (in Millivolt) werden gegen die entsprechenden Frequenzen $\nu$ (in Hertz) aufgetragen, um Einsteins Vorhersage zu überprüfen:
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
+Die so gemittelten Grenzspannung $U_{0,\mathrm{avg}}$ (in Millivolt) werden gegen die entsprechenden Frequenzen $\nu$ (in Hertz) aufgetragen (\cref{fig:fvsU}), um Einsteins Vorhersage zu überprüfen:
 
 \begin{equation}
   e\,U_{0} = h\,\nu - W_{A}.
@@ -311,7 +295,7 @@ Umgeschrieben nach $U_{0}$ ergibt sich die lineare Form:
 \begin{figure}[H] 
   \centering
   \includegraphics[width=0.95\linewidth]{figs/fvsU.png}
-  \captionof{figure}{Gemittelte Stoppspannungen $U_0$ gegen Frequenzen $\nu$. Werte und Unsicherheiten sind in \cref{tab:U0_vs_nu_data} angegeben.}
+  \captionof{figure}{Gemittelte Grenzspannung $U_0$ gegen Frequenzen $\nu$. Werte und Unsicherheiten sind in \cref{tab:U0_vs_nu_data} angegeben.}
   \label{fig:fvsU}
 \end{figure}
 \begin{table}[H]
@@ -327,7 +311,7 @@ $\lambda$ [\si{\nano\metre}] & $\nu$ [\si{\hertz}] & $\overline{U_0}$ [\si{\mill
 \SI{578.00}{\nano\metre} & \num{5.19e14} & \num{458.70}  & \num{24.80} \\ \hline
 \end{tabular}%
 }
-\caption{Gemittelte Abbrems­spannungen $\overline{U_0}$ und deren Unsicherheiten gegen die jeweiligen Frequenzen.}
+\caption{Gemittelte Grenzspannung $\overline{U_0}$ und deren Unsicherheiten gegen die jeweiligen Frequenzen.}
 \label{tab:U0_vs_nu_data}
 \end{table}
 
@@ -354,11 +338,7 @@ $\mathrm{\chi}^2 / \mathrm{dof}$
 \end{table}
 \FloatBarrier
 
-<<<<<<< HEAD
 Ein linearer Fit von $U_{0,\mathrm{avg}}(\nu)$ (\cref{fig:fvsU})hat also die Steigung $m = h/e$ und den y-Achsenabschnitt $b = -W_{A}/e$ (Werte in \cref{tab:U0_vs_nu_fit}). Daraus ergibt sich:
-=======
-Ein linearer Fit von $U_{0,\mathrm{avg}}(\nu)$ hat also die Steigung $m = h/e$ und den y-Achsenabschnitt $b = -W_{A}/e$. Daraus ergibt sich:
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 
 
 \begin{equation}
@@ -392,7 +372,7 @@ Diese experimentell bestimmten Werte für $h$ und $W_{A}$ werden abschließend m
 
 %\section*{Diskussion und Fehleranalyse}
 
-Unser berechneter Wert für das Plancksche Wirkungsquantum liegt etwa 32\,\% über dem anerkannten CODATA-Wert von. Diese systematische Überschätzung deutet darauf hin, dass - obwohl unsere lineare Ausgleichsrechnung der Stoppspannung gegen die Frequenz intern konsistent war (\(\chi^2/\mathrm{dof}\approx3{,}8\)) - gewisse Kalibrierungs- oder Justierfehler bestehen geblieben sind.
+Unser berechneter Wert für das Plancksche Wirkungsquantum liegt etwa 32\,\% über dem anerkannten CODATA-Wert von. Diese systematische Überschätzung deutet darauf hin, dass - obwohl unsere lineare Ausgleichsrechnung der Grenzspannung gegen die Frequenz intern konsistent war (\(\chi^2/\mathrm{dof}\approx3{,}8\); der lineare Haupttrend wird korrekt erfasst, aber die Fehlerbalken sind zu optimistisch oder es verbleiben zusätzliche kleine Systematiken) - gewisse Kalibrierungs- oder Justierfehler bestehen geblieben sind.
 
 Die bestimm­te Austrittsarbeit der Anode lässt sich nicht direkt mit Literaturwerten vergleichen, da Material
 und Zustand der Kathode/Anode in der verwendeten Einweg-Photodiode nicht
@@ -419,13 +399,13 @@ bekannt sind.
     optische Plattform und Kamerabeobachtung des Fokusflecks sind hier sinnvoll.
 \end{itemize}
 \paragraph{Intensitätsabhängigkeit bei $\lambda = \SI{365}{\nano\meter}$} :
-Wir untersuchten die Stoppspannung $U_0$ bei zwei unterschiedlichen Lichtintensitäten – etwa 50\,\% und maximaler Lampenleistung – unter ansonsten identischen Versuchsbedingungen.
+Wir untersuchten die Grenzspannung $U_0$ bei zwei unterschiedlichen Lichtintensitäten – etwa 50\,\% und maximaler Lampenleistung – unter ansonsten identischen Versuchsbedingungen.
 
 Bei 50\,\% Intensität ergaben die Messdaten einen Plateau-Photostrom von
 \begin{equation}
   I_0 = \bigl(10{,}00 \pm 11{,}00\bigr)\,\mathrm{pA},
 \end{equation}
-und aus dem gewichteten Fit von $\sqrt{I - I_0}$ gegen $U$ eine Stoppspannung von
+und aus dem gewichteten Fit von $\sqrt{I - I_0}$ gegen $U$ eine Grenzspannung von
 \begin{equation}
   U_0(50\,\%) = \bigl(2136{,}2 \pm 92{,}0\bigr)\,\mathrm{mV}
   \quad\bigl(\chi^2/\mathrm{dof} = 0{,}82\bigr).
@@ -441,14 +421,14 @@ Bei voller Intensität stieg der Plateau-Strom auf
   \quad\bigl(\chi^2/\mathrm{dof} = 1{,}47\bigr).
 \end{equation}
 
-Diese beiden Werte für $U_0$ stimmen innerhalb ihrer jeweiligen $1\sigma$-Unsicherheiten überein und bestätigen Einsteins Vorhersage, dass die Stoppspannung nur von der Frequenz der Photonen abhängt – nicht jedoch von der Intensität des einfallenden Lichts. Die Plateau-Ströme $I_0$ hingegen skalieren erwartungsgemäß mit der Lichtintensität. Graphen sind in \cref{fig:365_50} und \cref{fig:365_max} dargestellt und Werte in \cref{tab:365_50pct} und \cref{tab:365_max}.
+Diese beiden Werte für $U_0$ stimmen innerhalb ihrer jeweiligen $1\sigma$-Unsicherheiten überein und bestätigen Einsteins Vorhersage, dass die Grenzspannung nur von der Frequenz der Photonen abhängt – nicht jedoch von der Intensität des einfallenden Lichts. Die Plateau-Ströme $I_0$ hingegen skalieren erwartungsgemäß mit der Lichtintensität. Graphen sind in \cref{fig:365_50} und \cref{fig:365_max} dargestellt und Werte in \cref{tab:365_50pct} und \cref{tab:365_max}.
 
 \subsection*{Mögliche Ursachen für verbleibende Abweichungen}
 \begin{itemize}
   \item Unsicherheit bei der exakten Einstellung der Blende auf 50\,\% sowie Lampendrift über die Zeit,
   \item Offset-Drift des Photostromverstärkers zwischen den Messreihen,
   \item Leichte Fehljustierung oder Fokusschwankungen beim Ändern der Intensität,
-  \item Statistische Streuung im Bereich kleiner Ströme nahe der Abschneide­spannung.
+  \item Statistische Streuung im Bereich kleiner Ströme nahe der Grenzspannung.
 \end{itemize}
 
 \subsection*{Empfehlungen zur Optimierung künftiger Messungen}
