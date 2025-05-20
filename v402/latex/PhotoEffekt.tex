@@ -102,7 +102,7 @@ Die feine Justierung der gemessen Gegenspannung ist entscheidend, um den Punkt z
 Es gilt folgender Zusammenhang zwischen der abgefangenen Spannung $U_2$, den Widerständen $R_1 = 330 \Omega, R_2 = 100 \Omega$ und $U_0$:
 \begin{equation}
   U_2 = \frac{R_2}{R_1 + R_2}\,U_0.
-\end{equation}\\
+\end{equation}
 Sommit wird der Spannungsbereich auf [0; 2{,}8]\,V skaliert.\\
 
 Der Anodenstrom wird über einen Messverstärker erfasst, 
@@ -136,7 +136,7 @@ In Abbildung \ref{fig:kathode-anode}, \ref{fig:potential ext} und \ref{fig:poten
     \centering
     \includegraphics[width=0.75\textwidth]{figs/anlegen_aeuß_potential.png}
     \caption{ Kontaktpotential $-eU_{KA}$ \cite{praktikum}}
-    \label{fig:potential ext}
+    \label{fig:potential_ext}
 \end{figure}
 \FloatBarrier
 
@@ -149,22 +149,29 @@ $-eU_G$ induziert wird\cite{praktikum}}
 \end{figure}
 \FloatBarrier
 
-
-Laut der Abbildung der Ferminiveaus \ref{fig:kathode-anode} 
-gilt für die Energiebilanz:
+Wenn Kathode und Anode kurzgeschlossen sind, wie in Abbildung \ref{fig:potential kurzg.} dargestellt, fließen die Elektronen von der Kathode zur Anode, bis die Ferminiveaus ausgeglichen sind. Daraus ensteht eine Kontaktspannung $U_{KA}$, die folgendermaßen mit den Austrittsarbeiten $W_K$ und $W_A$ zusammenhängt:
 \begin{equation}
-    E = h\nu = W_K + eU_{KA} + eU_{G,0} 
-    = W_K + W_A - W_K + eU_{G,0} 
-    = W_A + eU_{G,0}.
-\end{equation}\\
+    W_K + eU_{KA} = W_A.
+\end{equation}
+Wenn eine externe Spannung $U_G$ zwischen Kathode und Anode angelegt wird, wie in Abbildung \ref{fig:potential_ext} dargestellt, dann verschieben sich die Ferminiveaus um $-eU_G$.
+Beim Photoeffekt müssen die Elektronen die Austrittsarbeit  überwinden, um in die Anode zu gelangen. Es gilt dann:
+\begin{align}
+    E = h\nu &= W_K + eU_{KA} + eU_{G} \notag \\
+             &= W_K + W_A - W_K + eU_{G} \notag \\
+             &= W_A + eU_{G}.
+\end{align}
 Aus der Frequenz des Lichtes können 
 schließlich
 die Austrittsarbeit der Anode $W_A$ und 
 das Planck’sche Wirkungsquantum h bestimmt 
 werden:
 \begin{equation}
-    eU_{G,0} = h\nu - W_A.
+    eU_{0} = h\nu - W_A, 
     \label{eq:photoelektrische Gleichung}
+\end{equation}
+wobei $U_0$ die Grenzspannung ist, und folgendermaßen mit der kinetischen Energie $E_{kin}$ der Elektronen zusammenhängt: 
+\begin{equation}
+  E_{kin} = eU_0.
 \end{equation}
 %section{Abschätzung des Plankschen Wirkungsquantums und der Austrittsarbeit}
 %\subsection[Bestimmung der Grenzspannung U0]{Bestimmung der Grenzspannung U\textsubscript{0}}
@@ -202,6 +209,7 @@ Zur Bestimmung des Sättigungsstroms $I_{0}$ betrachten wir jede Photostromkurve
 Dieser Einzelwert $I_{0}$ dient dann als Basiswert für die Linearisierung.
 
 Um nun die Grenzspannung $U_{0}$ aus den Messdaten zu extrahieren, bilden wir die transformierte Variable
+Um nun die Grenzspannung $U_{0}$ aus den Messdaten zu extrahieren, bilden wir die transformierte Variable
 
 \begin{equation}
   y = \sqrt{\max\{\,0,\;I(U) - I_{0}\,\}}
@@ -227,7 +235,7 @@ unter Verwendung der propagierten Unsicherheiten in $y$ als Gewichte. Die Ausgle
   U_{0} = -\frac{b}{m}.
 \end{equation}
 
-Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern verfügbar), wird ein präziser Wert $U_{0}\pm\sigma_{U_{0}}$ für jede Wellenlänge bestimmt. Diese Grenzspannung sind die zentralen Größen für das finale Diagramm $U_{0}$ gegen Photonfrequenz, aus dem $h$ und $W_{A}$ extrahiert werden.
+Durch Fehlerfortpflanzung, einschließlich Kovarianz von $m$ und $b$ (sofern verfügbar), wird ein präziser Wert $U_{0}\pm\sigma_{U_{0}}$ für jede Wellenlänge bestimmt. Diese Grenzspannungen sind die zentralen Größen für das finale Diagramm $U_{0}$ gegen Photonfrequenz, aus dem $h$ und $W_{A}$ extrahiert werden.
 \FloatBarrier
 \begin{figure}[H]
     \centering

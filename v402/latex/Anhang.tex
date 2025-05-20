@@ -4,22 +4,22 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{figs/dt_turkis_145_55_5.png}
-\caption{Gaußfit für $H_\beta$}
-\label{fig:H_b}
-\end{figure}
-
-\begin{figure}[H]
-\centering
 \includegraphics[width=0.7\linewidth]{figs/dt_rot_155_62.png}
-\caption{Gaußfit für $H_\alpha$}
+\caption{Gaußfit für $H_\alpha$ mit $\chi_{red} = 0.06$}
 \label{fig:H_a}
 \end{figure}
 
 \begin{figure}[H]
 \centering
+\includegraphics[width=0.7\linewidth]{figs/dt_turkis_145_55_5.png}
+\caption{Gaußfit für $H_\beta$ mit $\chi_{red} = 0.06$}
+\label{fig:H_b}
+\end{figure}
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=0.7\linewidth]{figs/dt_vermutung_145_49.png}
-\caption{Gaußfit für die Vermutete Linie $H_\delta$}
+\caption{Gaußfit für die Vermutete Linie $H_\delta$ mit $\chi_{red} = 0.03$}
 \label{fig:H_d}
 \end{figure}
 
@@ -999,11 +999,29 @@ $\omega_B$ der Winkel der optischen Bank und $\omega_G$ der Winkel des Gitters. 
     $\omega_B$ [\si{\degree}] & $\Delta\omega_B$ [\si{\degree}]
    & $\omega_G$ [\si{\degree}] & $\Delta\omega_G$ [\si{\degree}]
   & Farbe  & $d$ [Skt] & $\Delta d$ [Skt] \\ \hline
-    145,0 & 0,5  & 51,0 & 0,5 & violett & 1 & 0,1 \\ \hline
+    145,0 & 0,5  & 51,0 & 0,5 & violett & 0,5 & 0,1 \\ \hline
     145,0 & 0,5  & 55,5 & 0,5 & türkis  & 1 & 0,1 \\ \hline
-    155,0 & 0,5  & 61,5 & 0,5 & rot     &  3 & 1\\ \hline
+    155,0 & 0,5  & 61,5 & 0,5 & rot     & 1,5 & 1\\ \hline
   \end{tabular}%
 }
 \caption{Spektrallinien der H/Deuterium-Lampe in erster Ordnung. Hierbei ist $d$ die Dicke der Spektrallinien (in Strichpunkten), $\omega_B$ der Winkel der Blende und $\omega_G$ der Beugungswinkel.}
 \label{tab:H_D_lines}
+\end{table}
+
+\begin{table}[H]
+  \centering
+  \caption{Fitparameter für die Gauß-Peaks der Balmer-Serie.}
+  \label{tab:Peaks}
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \multicolumn{5}{|c|}{Fitparameter für die Balmer-Serie} \\ \hline
+    Parameter    & $H_\alpha$               & $H_\beta$                & $H_\gamma$               & Vermutetes $H_\delta$     \\ \hline
+    $I_1$        & $9{,}691 \pm 0{,}050$     & $44{,}905 \pm 0{,}081$    & $2{,}937 \pm 0{,}063$     & $3{,}099 \pm 0{,}035$      \\ \hline
+    $\mu_1$      & $-0{,}047 \pm 0{,}001$    & $-0{,}108 \pm 0{,}000$    & $-0{,}096 \pm 0{,}001$    & $-0{,}074 \pm 0{,}001$     \\ \hline
+    $\sigma_1$   & $0{,}052 \pm 0{,}000$     & $0{,}038 \pm 0{,}000$     & $0{,}050 \pm 0{,}001$     & $0{,}049 \pm 0{,}001$      \\ \hline
+    $I_2$        & $0{,}905 \pm 0{,}059$     & $2{,}050 \pm 0{,}068$     & $20{,}686 \pm 0{,}066$    & $1{,}000 \pm 0{,}108$      \\ \hline
+    $\mu_2$      & $-0{,}214 \pm 0{,}003$    & $-0{,}155 \pm 0{,}003$    & $0{,}272 \pm 0{,}000$     & $-1{,}768 \pm 0{,}085$     \\ \hline
+    $\sigma_2$   & $0{,}036 \pm 0{,}003$     & $0{,}139 \pm 0{,}003$     & $0{,}046 \pm 0{,}000$     & $3{,}050 \pm 0{,}300$      \\ \hline
+    Offset       & $2{,}868 \pm 0{,}006$     & $0{,}666 \pm 0{,}006$     & $3{,}192 \pm 0{,}007$     & $1{,}999 \pm 0{,}110$      \\ \hline
+  \end{tabular}
 \end{table}
