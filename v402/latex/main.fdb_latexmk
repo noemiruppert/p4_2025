@@ -1,14 +1,53 @@
+<<<<<<< HEAD
 # Fdb version 4
 ["biber main"] 1747732798 "main.bcf" "main.bbl" "main" 1747745962 0
   "./refs.bib" 1747662437 2035 57d26913573b18c0bab78eb7d8b2e750 ""
   "main.bcf" 1747745957 107221 cd1f5a6ea99636b71cd3446f84f9e061 "pdflatex"
+=======
+<<<<<<< HEAD
+# Fdb version 4
+["biber main"] 1747723978 "main.bcf" "main.bbl" "main" 1747725338 0
+  "./refs.bib" 1747723421 1678 68abb92447ab82022d9a195d23a6aa80 ""
+  "main.bcf" 1747725334 107641 82c236ba2b3b7627b0667d8f91d9849f "pdflatex"
+=======
+<<<<<<< HEAD
+# Fdb version 3
+["biber main"] 1747660081 "main.bcf" "main.bbl" "main" 1747661292
+  "main.bcf" 1747661291 106905 817dc439ca42c47f5bdbd1d8e1632cf8 "pdflatex"
+  "refs.bib" 1747656558 2035 57d26913573b18c0bab78eb7d8b2e750 ""
+  (generated)
+  "main.bbl"
+  "main.blg"
+["pdflatex"] 1747661255 "/home/ppg/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747661292
+  "/etc/texmf/web2c/texmf.cnf" 1745987726 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/ppg/p4_2025/v402/latex/main.tex" 1747639343 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+=======
+# Fdb version 4
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1747661928 -1
+  "./refs.bib" 1747638848 1678 68abb92447ab82022d9a195d23a6aa80 ""
+  "main.bcf" 1747661923 107032 8adaf97b379419f9f90c41c4000c2187 "pdflatex"
+>>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
+<<<<<<< HEAD
 ["pdflatex"] 1747745736 "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747745962 0
   "/etc/texmf/web2c/texmf.cnf" 1743706922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" 1747662172 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+=======
+<<<<<<< HEAD
+["pdflatex"] 1747725191 "/home/s79athil/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747725338 0
+  "/etc/texmf/web2c/texmf.cnf" 1743706922 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/s79athil/physik/p4_2025/v402/latex/main.tex" 1747638846 1322 e55f77b39ace83b70c006c1603a83be5 ""
+=======
+["pdflatex"] 1747661753 "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747661928 0
+  "/etc/texmf/web2c/texmf.cnf" 1743618135 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" 1747655953 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
+>>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1136768653 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
@@ -298,18 +337,150 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1636152094 2900 1537cc8184ad1792082cd229ecc269f4 ""
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb" 1743708921 154600 ea54091d31de803b613ba9e80ca51709 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb" 1743708921 139826 9213617a7cb78635fc326b859c0b2273 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb" 1743708921 118110 8476623e969cc771939ade7a737ae636 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb" 1743708921 145929 f25e56369a345c4ff583b067cd87ce8e ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1743708921 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb" 1743708921 131078 d96015a2fa5c350129e933ca070b2484 ""
+<<<<<<< HEAD
+=======
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb" 1743708921 154664 ab0d0aa25a7cc3b241bf03b9240cdd63 ""
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb" 1743708921 145807 7e6525044e63a61de8529743665d16c8 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb" 1743708921 148436 6a185415b8a1b77c58fee2272f3574e2 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb" 1743708921 148301 cb90e68db88ca98c49afbaaab3ac1967 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb" 1743708921 141339 22c9429f415447880a747152395d89a1 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb" 1743708921 196446 8fbbe4b97b83e5182def6d29a44e57fb ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb" 1743708921 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
+<<<<<<< HEAD
+=======
+  "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1743709222 4517229 3ba9d9e182aa6f4855dd91edc160860c ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1743709286 7024577 2705d04556228a1a56424432de81e4a1 ""
+  "Anhang.aux" 1747725334 33849 2f03f3461b125d302d682e262f3ed0e7 "pdflatex"
+  "Anhang.tex" 1747723216 46208 8a09cf8a4be76667b0537e8c67c03e4b ""
+  "BalmerSerie.aux" 1747725290 10634 8348f81cbeb0aa389a39afe23c0d7292 "pdflatex"
+  "BalmerSerie.tex" 1747725138 26156 523962d23d9bc7c76b57b2743bb453e7 ""
+  "Einleitung.aux" 1747725283 4275 d41691312c10bbeaf4a1fb5ffb461c15 "pdflatex"
+  "Einleitung.tex" 1747576661 874 ce186bf9447fa0888b9643385cbdd99c ""
+  "Fazit.aux" 1747725291 4268 d2b0a09e24d73982f1785c6ac729a0d0 "pdflatex"
+  "Fazit.tex" 1747576661 17 ab121016eb76d144e5f4351b8b6d126a ""
+  "PhotoEffekt.aux" 1747725289 8453 54510f491785722c35809ae52feeeec4 "pdflatex"
+  "PhotoEffekt.tex" 1747638844 17704 2a9f8c83ae355414bf1be7a825720150 ""
+  "config.tex" 1747576661 6669 d6d1ce7c04196e3fc7817da63a89f641 ""
+  "figs/365_1.png" 1747576661 614949 2add4e4eb97532843d1552bf7cf2c010 ""
+  "figs/365_2.png" 1747576661 623484 2a54eff5fe430dae9d20cd8bd3b5acf7 ""
+  "figs/365_50.png" 1747576662 648448 18eb83c4f0b8c5d4bc0b546f4f57cbb4 ""
+  "figs/365_max.png" 1747576662 582477 4ff771be879bd4a1d603f82633a6b27a ""
+  "figs/405_1.png" 1747576662 671896 ea9f08d007149afc73fab148078d8f33 ""
+  "figs/405_2.png" 1747576662 681697 4b0bd0ee1cdd65a066a452cd47b5de2a ""
+  "figs/463_1.png" 1747576662 685350 c2a72fdde88df092280b53647e73f802 ""
+  "figs/463_2.png" 1747576663 682664 a5b0450a63393d03c2f7575b9389621d ""
+  "figs/546_1.png" 1747576663 671462 df05cbf57a1d0912983860e3ead3c4cc ""
+  "figs/546_2.png" 1747576663 659289 d4bb1152006e330652c53c9218fd1da5 ""
+  "figs/578_1.png" 1747576663 600957 8dd78175c948f111ae8bf324ad080473 ""
+  "figs/578_2.png" 1747576663 598866 3e1e2cf651bd0fdfa62ae21212a7868a ""
+  "figs/Aufbau_plank_wirkungsquantum.png" 1747294658 76471 7807ea4dc4979c069dfc4ee5b0bce797 ""
+  "figs/Spannungsteiler.png" 1747576663 25415 14662427dcb0207201e918dcffc8fca4 ""
+  "figs/anlegen_aeuß_potential.png" 1747294658 31677 23f3361dabbab657410116c9a516efce ""
+  "figs/aufbau_balmer_serie.png" 1747294658 679118 b722545c34fcf81471e39b5b709ce183 ""
+  "figs/baenderschema_kathode_anode.png" 1747294658 31985 06952e3943fcd8f13ea3b785693bfd4d ""
+  "figs/dt_lila_145_51_5.png" 1747637550 38353 72e2d145cb6c601451d993d1e0c2a613 ""
+  "figs/dt_rot_155_62.png" 1747637550 35646 300d6b30e0d7c7b98527af65df2f8d16 ""
+  "figs/dt_turkis_145_55_5.png" 1747637550 35219 2e2deb7f46e01f33c67857d130b6fe8c ""
+  "figs/dt_vermutung_145_49.png" 1747637550 38603 7754939e74435aa3aa14be61c6ccf281 ""
+  "figs/kontaktpotential_kurzgeschl_elektroden.png" 1747294659 23935 b63c6f61ae6a3d841011ce7009d0fd24 ""
+  "formeln.aux" 1747725291 4299 68177b7f11e697b7fc8b9f852abe202d "pdflatex"
+  "formeln.tex" 1747576664 3902 5fd11489f53eb018aefbbaa2498744fd ""
+  "main.aux" 1747725334 14690 d034308720687dcc340790640034e9d2 "pdflatex"
+  "main.bbl" 1747723981 3756 d474a92e986c55fd09dd58251be6b31a "biber main"
+  "main.lof" 1747725334 4172 a60b772506cc41ea9951a471d0eb058e "pdflatex"
+  "main.lot" 1747725334 11104 d6a9efa5dd8224f209d1f839ae724980 "pdflatex"
+  "main.out" 1747722640 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1747725334 2329 f8b967dbeaa4c7e661aa5fbdc91ddb35 "pdflatex"
+  "main.tex" 1747638846 1322 e55f77b39ace83b70c006c1603a83be5 ""
+  "main.toc" 1747725334 3096 26a8d2d74bea5712ec751696bfb6fb1a "pdflatex"
+  "refs.bib" 1747723421 1678 68abb92447ab82022d9a195d23a6aa80 ""
+=======
+<<<<<<< HEAD
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb" 1745987737 154600 ea54091d31de803b613ba9e80ca51709 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb" 1745987737 139826 9213617a7cb78635fc326b859c0b2273 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb" 1745987737 118110 8476623e969cc771939ade7a737ae636 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb" 1745987737 145929 f25e56369a345c4ff583b067cd87ce8e ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1745987737 136101 f533469f523533d38317ab5729d00c8a ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb" 1745987737 131078 d96015a2fa5c350129e933ca070b2484 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb" 1745987737 145807 7e6525044e63a61de8529743665d16c8 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb" 1745987737 148436 6a185415b8a1b77c58fee2272f3574e2 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb" 1745987737 148301 cb90e68db88ca98c49afbaaab3ac1967 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb" 1745987737 141339 22c9429f415447880a747152395d89a1 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb" 1745987737 196446 8fbbe4b97b83e5182def6d29a44e57fb ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb" 1745987737 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1745992016 4379155 98693266ff65f58d9f98aff394de12d2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1745992034 2800313 fcdf02903561733bda3aaafc2f496dc5 ""
+  "Anhang.aux" 1747661291 33419 b0956af42e511dec410b81a824baffbc "pdflatex"
+  "Anhang.tex" 1747660695 44734 4a536af2c2752a2c2d00b0bf14de8512 ""
+  "BalmerSerie.aux" 1747661262 9964 59eedec423dd23c67f232bb23c96141f "pdflatex"
+  "BalmerSerie.tex" 1747639125 23369 285ced64780f90f5774b3ded544f574f ""
+  "Einleitung.aux" 1747661257 4347 4442a7b559f1fb7fb718cab2dd163c96 "pdflatex"
+  "Einleitung.tex" 1747569152 874 ce186bf9447fa0888b9643385cbdd99c ""
+  "Fazit.aux" 1747661262 4341 c6b47a9c31b3a01604b4c60bcc1aa12f "pdflatex"
+  "Fazit.tex" 1747216058 17 ab121016eb76d144e5f4351b8b6d126a ""
+  "PhotoEffekt.aux" 1747661262 10042 54c7eefae9e1b2fa956aa98098d8b7de "pdflatex"
+  "PhotoEffekt.tex" 1747661254 23299 0566007bf067856667b5ab9b85270ca5 ""
+  "config.tex" 1747569296 6669 d6d1ce7c04196e3fc7817da63a89f641 ""
+  "figs/365_1.png" 1747569296 614949 2add4e4eb97532843d1552bf7cf2c010 ""
+  "figs/365_2.png" 1747569296 623484 2a54eff5fe430dae9d20cd8bd3b5acf7 ""
+  "figs/365_50.png" 1747569296 648448 18eb83c4f0b8c5d4bc0b546f4f57cbb4 ""
+  "figs/365_max.png" 1747569296 582477 4ff771be879bd4a1d603f82633a6b27a ""
+  "figs/405_1.png" 1747569296 671896 ea9f08d007149afc73fab148078d8f33 ""
+  "figs/405_2.png" 1747569296 681697 4b0bd0ee1cdd65a066a452cd47b5de2a ""
+  "figs/463_1.png" 1747569296 685350 c2a72fdde88df092280b53647e73f802 ""
+  "figs/463_2.png" 1747569296 682664 a5b0450a63393d03c2f7575b9389621d ""
+  "figs/546_1.png" 1747569296 671462 df05cbf57a1d0912983860e3ead3c4cc ""
+  "figs/546_2.png" 1747569296 659289 d4bb1152006e330652c53c9218fd1da5 ""
+  "figs/578_1.png" 1747569296 600957 8dd78175c948f111ae8bf324ad080473 ""
+  "figs/578_2.png" 1747569296 598866 3e1e2cf651bd0fdfa62ae21212a7868a ""
+  "figs/Aufbau_plank_wirkungsquantum.png" 1747167333 76471 7807ea4dc4979c069dfc4ee5b0bce797 ""
+  "figs/Spannungsteiler.png" 1747569152 25415 14662427dcb0207201e918dcffc8fca4 ""
+  "figs/anlegen_aeuß_potential.png" 1747167333 31677 23f3361dabbab657410116c9a516efce ""
+  "figs/aufbau_balmer_serie.png" 1747167333 679118 b722545c34fcf81471e39b5b709ce183 ""
+  "figs/baenderschema_kathode_anode.png" 1747167333 31985 06952e3943fcd8f13ea3b785693bfd4d ""
+  "figs/dt_lila_145_51_5.png" 1747638697 38353 72e2d145cb6c601451d993d1e0c2a613 ""
+  "figs/dt_rot_155_62.png" 1747638697 35646 300d6b30e0d7c7b98527af65df2f8d16 ""
+  "figs/dt_turkis_145_55_5.png" 1747638697 35219 2e2deb7f46e01f33c67857d130b6fe8c ""
+  "figs/dt_vermutung_145_49.png" 1747638697 38603 7754939e74435aa3aa14be61c6ccf281 ""
+  "figs/fvsU.png" 1747659408 569384 db96e31974decbed8faf4dee1a823b29 ""
+  "figs/kontaktpotential_kurzgeschl_elektroden.png" 1747167333 23935 b63c6f61ae6a3d841011ce7009d0fd24 ""
+  "formeln.aux" 1747661262 4372 447f3ce16de1f9529e14be8b3fae4a23 "pdflatex"
+  "formeln.tex" 1747569296 3902 5fd11489f53eb018aefbbaa2498744fd ""
+  "main.aux" 1747661291 10194 2978a9278212fa4c005e1a48b7d0121b "pdflatex"
+  "main.bbl" 1747660082 3154 2a719f24c7ee491c27f21a9cd4c34de4 "biber main"
+  "main.out" 1747661256 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1747661291 2329 f8b967dbeaa4c7e661aa5fbdc91ddb35 "pdflatex"
+  "main.tex" 1747639343 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+  "main.toc" 1747661291 2692 27eef738889b7d24a00dc121e5b3a7b1 "pdflatex"
+  "refs.bib" 1747656558 2035 57d26913573b18c0bab78eb7d8b2e750 ""
+=======
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb" 1743620380 154600 ea54091d31de803b613ba9e80ca51709 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb" 1743620380 139826 9213617a7cb78635fc326b859c0b2273 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb" 1743620380 118110 8476623e969cc771939ade7a737ae636 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb" 1743620380 145929 f25e56369a345c4ff583b067cd87ce8e ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1743620380 136101 f533469f523533d38317ab5729d00c8a ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb" 1743620380 131078 d96015a2fa5c350129e933ca070b2484 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb" 1743620380 154664 ab0d0aa25a7cc3b241bf03b9240cdd63 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb" 1743620380 145807 7e6525044e63a61de8529743665d16c8 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb" 1743620380 148436 6a185415b8a1b77c58fee2272f3574e2 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb" 1743620380 148301 cb90e68db88ca98c49afbaaab3ac1967 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb" 1743620380 141339 22c9429f415447880a747152395d89a1 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb" 1743620380 196446 8fbbe4b97b83e5182def6d29a44e57fb ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb" 1743620380 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1743709222 4517229 3ba9d9e182aa6f4855dd91edc160860c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1743709286 7024577 2705d04556228a1a56424432de81e4a1 ""
@@ -349,6 +520,7 @@
   "figs/kontaktpotential_kurzgeschl_elektroden.png" 1747235469 23935 b63c6f61ae6a3d841011ce7009d0fd24 ""
   "formeln.aux" 1747745917 4299 3695d3c4a1ccf1ca70e9a2605c952f85 "pdflatex"
   "formeln.tex" 1747575193 3902 5fd11489f53eb018aefbbaa2498744fd ""
+<<<<<<< HEAD
   "main.aux" 1747745955 10068 a4e4ccb54a080672796e60f53c4ad0f5 "pdflatex"
   "main.bbl" 1747732800 3154 2a719f24c7ee491c27f21a9cd4c34de4 "biber main"
   "main.out" 1747666108 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
@@ -356,6 +528,17 @@
   "main.tex" 1747662172 1324 8f5e27b82111ba1f6371db333864d0a6 ""
   "main.toc" 1747745957 2692 27eef738889b7d24a00dc121e5b3a7b1 "pdflatex"
   "refs.bib" 1747662437 2035 57d26913573b18c0bab78eb7d8b2e750 ""
+=======
+  "main.aux" 1747661922 12916 6bb35bbec23b1e5a86f8ca6cdb7ec8ef "pdflatex"
+  "main.bbl" 1747574835 1546 1b8c8089a29a58128d932fda68e2ff42 "biber main"
+  "main.out" 1747661612 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1747661923 2329 f8b967dbeaa4c7e661aa5fbdc91ddb35 "pdflatex"
+  "main.tex" 1747655953 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+  "main.toc" 1747661923 2968 55d20a595abe0b4a5df6b66b0fba930d "pdflatex"
+  "refs.bib" 1747638848 1678 68abb92447ab82022d9a195d23a6aa80 ""
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
+>>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
   (generated)
   "Anhang.aux"
   "BalmerSerie.aux"
@@ -371,3 +554,10 @@
   "main.run.xml"
   "main.toc"
   (rewritten before read)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
+>>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
+>>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
