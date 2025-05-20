@@ -44,6 +44,64 @@
       \endverb
       \warn{\item Entry 'Spannungsteiler' (refs.bib): Invalid format '18.05.2025, 12:00' of date field 'date' - ignoring}
     \endentry
+    \entry{Demtröder_Ex3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{%
+           family={Demtröder},
+           familyi={D\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{bibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorbibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authornamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorfullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \field{labelalpha}{Dem16}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-49093-8}
+      \field{title}{Experimentalphysik 3}
+      \field{year}{2016}
+    \endentry
+    \entry{Ulm}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6bc46e0fe4defb7f20f3ee48e840d9b4}{%
+           family={Ulm},
+           familyi={U\bibinitperiod},
+           given={Universität},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc46e0fe4defb7f20f3ee48e840d9b4}
+      \strng{fullhash}{6bc46e0fe4defb7f20f3ee48e840d9b4}
+      \strng{bibnamehash}{6bc46e0fe4defb7f20f3ee48e840d9b4}
+      \strng{authorbibnamehash}{6bc46e0fe4defb7f20f3ee48e840d9b4}
+      \strng{authornamehash}{6bc46e0fe4defb7f20f3ee48e840d9b4}
+      \strng{authorfullhash}{6bc46e0fe4defb7f20f3ee48e840d9b4}
+      \field{labelalpha}{Ulm05}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 18. Mai 2025}
+      \field{title}{Balmer-Serie von Wasserstoff und Deuterium}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://vorsam.uni-ulm.de/vs/Versuche/AT/PDF/AT036F00.PDF
+      \endverb
+      \verb{url}
+      \verb https://vorsam.uni-ulm.de/vs/Versuche/AT/PDF/AT036F00.PDF
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
