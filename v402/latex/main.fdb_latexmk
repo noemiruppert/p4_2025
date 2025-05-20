@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # Fdb version 4
+<<<<<<< HEAD
 ["biber main"] 1747732798 "main.bcf" "main.bbl" "main" 1747745962 0
   "./refs.bib" 1747662437 2035 57d26913573b18c0bab78eb7d8b2e750 ""
   "main.bcf" 1747745957 107221 cd1f5a6ea99636b71cd3446f84f9e061 "pdflatex"
@@ -28,10 +28,16 @@
   "main.bcf" 1747661923 107032 8adaf97b379419f9f90c41c4000c2187 "pdflatex"
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+["biber main"] 1747746955 "main.bcf" "main.bbl" "main" 1747747215 0
+  "./refs.bib" 1747746808 2041 683fd6cfe046b2e03218e842a24aefbc ""
+  "main.bcf" 1747747211 107827 1e19c3f114a6fb4a788370cf2de6fd3c "pdflatex"
+>>>>>>> abt
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
+<<<<<<< HEAD
 <<<<<<< HEAD
 ["pdflatex"] 1747745736 "/home/s6norupp/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747745962 0
   "/etc/texmf/web2c/texmf.cnf" 1743706922 475 c0e671620eb5563b2130f56340a5fde8 ""
@@ -48,6 +54,11 @@
 >>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+["pdflatex"] 1747747131 "/home/s79athil/physik/p4_2025/v402/latex/main.tex" "main.pdf" "main" 1747747215 0
+  "/etc/texmf/web2c/texmf.cnf" 1743706922 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/s79athil/physik/p4_2025/v402/latex/main.tex" 1747725650 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+>>>>>>> abt
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1136768653 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
@@ -338,9 +349,12 @@
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1636152094 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1636152094 2900 1537cc8184ad1792082cd229ecc269f4 ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+>>>>>>> abt
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb" 1743708921 154600 ea54091d31de803b613ba9e80ca51709 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb" 1743708921 139826 9213617a7cb78635fc326b859c0b2273 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb" 1743708921 118110 8476623e969cc771939ade7a737ae636 ""
@@ -348,9 +362,12 @@
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb" 1743708921 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb" 1743708921 131078 d96015a2fa5c350129e933ca070b2484 ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb" 1743708921 154664 ab0d0aa25a7cc3b241bf03b9240cdd63 ""
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+>>>>>>> abt
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb" 1743708921 145807 7e6525044e63a61de8529743665d16c8 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb" 1743708921 148436 6a185415b8a1b77c58fee2272f3574e2 ""
   "/usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb" 1743708921 148301 cb90e68db88ca98c49afbaaab3ac1967 ""
@@ -362,16 +379,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1743709222 4517229 3ba9d9e182aa6f4855dd91edc160860c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1743709286 7024577 2705d04556228a1a56424432de81e4a1 ""
-  "Anhang.aux" 1747725334 33849 2f03f3461b125d302d682e262f3ed0e7 "pdflatex"
-  "Anhang.tex" 1747723216 46208 8a09cf8a4be76667b0537e8c67c03e4b ""
-  "BalmerSerie.aux" 1747725290 10634 8348f81cbeb0aa389a39afe23c0d7292 "pdflatex"
-  "BalmerSerie.tex" 1747725138 26156 523962d23d9bc7c76b57b2743bb453e7 ""
-  "Einleitung.aux" 1747725283 4275 d41691312c10bbeaf4a1fb5ffb461c15 "pdflatex"
+  "Anhang.aux" 1747747210 33849 fba4f96f177c800a93557258776ef1a5 "pdflatex"
+  "Anhang.tex" 1747725731 46180 2430ff41ec450c31e90a2b24d5880c98 ""
+  "BalmerSerie.aux" 1747747170 10642 91147a1e22662ca1c8653e33d3537b84 "pdflatex"
+  "BalmerSerie.tex" 1747746764 26156 523962d23d9bc7c76b57b2743bb453e7 ""
+  "Einleitung.aux" 1747747150 4275 d41691312c10bbeaf4a1fb5ffb461c15 "pdflatex"
   "Einleitung.tex" 1747576661 874 ce186bf9447fa0888b9643385cbdd99c ""
-  "Fazit.aux" 1747725291 4268 d2b0a09e24d73982f1785c6ac729a0d0 "pdflatex"
-  "Fazit.tex" 1747576661 17 ab121016eb76d144e5f4351b8b6d126a ""
-  "PhotoEffekt.aux" 1747725289 8453 54510f491785722c35809ae52feeeec4 "pdflatex"
-  "PhotoEffekt.tex" 1747638844 17704 2a9f8c83ae355414bf1be7a825720150 ""
+  "Fazit.aux" 1747747171 4268 5f681e3e2bf0c9d8656c2bc193dcaca7 "pdflatex"
+  "Fazit.tex" 1747746764 1502 f246235f9f7458b8009fa6944534eb3b ""
+  "PhotoEffekt.aux" 1747747164 9968 b02b15043689a3f7b494ae9af8cb0029 "pdflatex"
+  "PhotoEffekt.tex" 1747746764 25059 bff8725ffdfbee64b5fab24e6fed7d23 ""
   "config.tex" 1747576661 6669 d6d1ce7c04196e3fc7817da63a89f641 ""
   "figs/365_1.png" 1747576661 614949 2add4e4eb97532843d1552bf7cf2c010 ""
   "figs/365_2.png" 1747576661 623484 2a54eff5fe430dae9d20cd8bd3b5acf7 ""
@@ -394,9 +411,11 @@
   "figs/dt_rot_155_62.png" 1747637550 35646 300d6b30e0d7c7b98527af65df2f8d16 ""
   "figs/dt_turkis_145_55_5.png" 1747637550 35219 2e2deb7f46e01f33c67857d130b6fe8c ""
   "figs/dt_vermutung_145_49.png" 1747637550 38603 7754939e74435aa3aa14be61c6ccf281 ""
+  "figs/fvsU.png" 1747725649 569384 db96e31974decbed8faf4dee1a823b29 ""
   "figs/kontaktpotential_kurzgeschl_elektroden.png" 1747294659 23935 b63c6f61ae6a3d841011ce7009d0fd24 ""
-  "formeln.aux" 1747725291 4299 68177b7f11e697b7fc8b9f852abe202d "pdflatex"
+  "formeln.aux" 1747747171 4299 deffeaa7ddaa41ea74b019b0cc56fd7d "pdflatex"
   "formeln.tex" 1747576664 3902 5fd11489f53eb018aefbbaa2498744fd ""
+<<<<<<< HEAD
   "main.aux" 1747725334 14690 d034308720687dcc340790640034e9d2 "pdflatex"
   "main.bbl" 1747723981 3756 d474a92e986c55fd09dd58251be6b31a "biber main"
   "main.lof" 1747725334 4172 a60b772506cc41ea9951a471d0eb058e "pdflatex"
@@ -539,6 +558,14 @@
 >>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+  "main.aux" 1747747210 10778 cb3b57e710bd14d94a9b6d84cee88962 "pdflatex"
+  "main.bbl" 1747746957 5288 3ba8e463ad92e9621a0d673ea7e5e068 "biber main"
+  "main.out" 1747746446 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1747747211 2329 f8b967dbeaa4c7e661aa5fbdc91ddb35 "pdflatex"
+  "main.tex" 1747725650 1324 8f5e27b82111ba1f6371db333864d0a6 ""
+  "main.toc" 1747747211 2692 1fbe7bbaf5288ac74bf4099bcbb9c186 "pdflatex"
+>>>>>>> abt
   (generated)
   "Anhang.aux"
   "BalmerSerie.aux"
@@ -555,9 +582,12 @@
   "main.toc"
   (rewritten before read)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+>>>>>>> abt

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 PWD /home/s6norupp/physik/p4_2025/v402/latex
 =======
 <<<<<<< HEAD
@@ -11,10 +12,14 @@ PWD /home/s6norupp/physik/p4_2025/v402/latex
 >>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+PWD /home/s79athil/physik/p4_2025/v402/latex
+>>>>>>> abt
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+<<<<<<< HEAD
 <<<<<<< HEAD
 INPUT /home/s6norupp/physik/p4_2025/v402/latex/main.tex
 =======
@@ -28,6 +33,9 @@ INPUT /home/s6norupp/physik/p4_2025/v402/latex/main.tex
 >>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+INPUT /home/s79athil/physik/p4_2025/v402/latex/main.tex
+>>>>>>> abt
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
@@ -1556,6 +1564,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-di
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1601,6 +1610,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 >>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
 >>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 >>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
+=======
+>>>>>>> abt
 INPUT ./main.out
 INPUT main.out
 INPUT ./main.out
@@ -1858,27 +1869,16 @@ INPUT ./Anhang.tex
 INPUT Anhang.tex
 INPUT ./Anhang.tex
 INPUT Anhang.tex
-<<<<<<< HEAD
 INPUT ./figs/dt_rot_155_62.png
 INPUT ./figs/dt_rot_155_62.png
 INPUT figs/dt_rot_155_62.png
 INPUT ./figs/dt_rot_155_62.png
 INPUT ./figs/dt_rot_155_62.png
-=======
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 INPUT ./figs/dt_turkis_145_55_5.png
 INPUT ./figs/dt_turkis_145_55_5.png
 INPUT figs/dt_turkis_145_55_5.png
 INPUT ./figs/dt_turkis_145_55_5.png
 INPUT ./figs/dt_turkis_145_55_5.png
-<<<<<<< HEAD
-=======
-INPUT ./figs/dt_rot_155_62.png
-INPUT ./figs/dt_rot_155_62.png
-INPUT figs/dt_rot_155_62.png
-INPUT ./figs/dt_rot_155_62.png
-INPUT ./figs/dt_rot_155_62.png
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
 INPUT ./figs/dt_vermutung_145_49.png
 INPUT ./figs/dt_vermutung_145_49.png
 INPUT figs/dt_vermutung_145_49.png
