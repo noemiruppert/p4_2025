@@ -35,38 +35,15 @@
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 19. Mai 2025}
       \field{title}{Spannungsteiler}
       \verb{urlraw}
-      \verb https://www.homofaciens.de/technics-base-circuits-voltage-divider_ge.htm
+      \verb https://www.homofaciens.de/technics-base-circuits-voltage-divider_ge.html
       \endverb
       \verb{url}
-      \verb https://www.homofaciens.de/technics-base-circuits-voltage-divider_ge.htm
+      \verb https://www.homofaciens.de/technics-base-circuits-voltage-divider_ge.html
       \endverb
-      \warn{\item Entry 'Spannungsteiler' (refs.bib): Invalid format '18.05.2025, 12:00' of date field 'date' - ignoring}
     \endentry
-<<<<<<< HEAD
-    \entry{Demtröder_Ex3}{book}{}
-      \name{author}{1}{}{%
-        {{hash=59654c899d48eff28a4d8063e886fb5f}{%
-           family={Demtröder},
-           familyi={D\bibinitperiod},
-           given={Wolfgang},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
-      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
-      \strng{bibnamehash}{59654c899d48eff28a4d8063e886fb5f}
-      \strng{authorbibnamehash}{59654c899d48eff28a4d8063e886fb5f}
-      \strng{authornamehash}{59654c899d48eff28a4d8063e886fb5f}
-      \strng{authorfullhash}{59654c899d48eff28a4d8063e886fb5f}
-      \field{labelalpha}{Dem16}
-=======
     \entry{codata}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -94,12 +71,43 @@
       \strng{authornamehash}{df7cae4c6506386ac24bb8a8f3f4219e}
       \strng{authorfullhash}{df7cae4c6506386ac24bb8a8f3f4219e}
       \field{labelalpha}{TMN+21}
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-<<<<<<< HEAD
+      \field{journaltitle}{J.\ Phys.\ Chem.\ Ref.\ Data}
+      \field{note}{Zugriff am 19. Mai 2025}
+      \field{title}{CODATA Recommended Values of the Fundamental Physical Constants: 2018}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1063/5.0064853
+      \endverb
+    \endentry
+    \entry{Demtröder_Ex3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{%
+           family={Demtröder},
+           familyi={D\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{bibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorbibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authornamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorfullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \field{labelalpha}{Dem16}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{isbn}{978-3-662-49093-8}
       \field{title}{Experimentalphysik 3}
       \field{year}{2016}
@@ -131,14 +139,6 @@
       \endverb
       \verb{url}
       \verb https://vorsam.uni-ulm.de/vs/Versuche/AT/PDF/AT036F00.PDF
-=======
-      \field{journaltitle}{J.\ Phys.\ Chem.\ Ref.\ Data}
-      \field{note}{Zugriff am 19. Mai 2025}
-      \field{title}{CODATA Recommended Values of the Fundamental Physical Constants: 2018}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.1063/5.0064853
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
       \endverb
     \endentry
   \enddatalist
