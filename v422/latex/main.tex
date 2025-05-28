@@ -1,30 +1,52 @@
-\documentclass[ngerman]{scrartcl}
-% Mögliche Sprachen: ngerman, USenglish, UKenglish
+\documentclass[%
+paper=a4,       % Papiergröße
+fontsize=11pt,  % Schriftgröße
+ngerman         % Option für deutsche Sprache
+]{scrreprt}
+\usepackage{scrhack}
+\usepackage{comment} %makes commenting out easier
+\input{config.tex}
+\addbibresource{refs.bib}
 
-% \usepackage[utf8]{inputenc} % Ab TeX Live 2018 nicht mehr notwendig.
-\usepackage[T1]{fontenc}
-\input{Schönermachen/optics}
-\RequirePackage[backend=biber, style=numeric]{biblatex} %Literaturzitate
-\addbibresource{file1.bib}
+% Header & footer via fancyhdr
+\pagestyle{myheadings}
+\markright{\bfseries V402: Quantelung von Energie \hfill}
+\KOMAoptions{headsepline=.4pt:19\textwidth}  % 0.4pt thick line, full width
+\renewcommand*\chapterheadstartvskip{\vspace*{-1cm}}
 
-\KOMAoptions{fontsize=12pt,paper=a4}
-\KOMAoptions{DIV=13}
-\title{P4 Versuch 402 \\[1ex] \large Quantelung von Energie}
-\author{Parth \& Arieh Thill \& Noemi Ruppert}
-\date{Mai 2025}
 \begin{document}
 
-\maketitle
-\clearpage
+\begin{titlepage}
+  \centering
+  \vspace*{2cm}
+  
+  {\Large PRAKTIKUM 4}\\[0.5cm]
+  {\large ATOME, MOLEKÜLE, KONDENSIERTE MATERIE}\\[1cm]
+  
+  {\LARGE\bfseries Versuch 442: Rastertunnelmikroskopie}\\[1cm]
+  
+  Gruppe A202\\[1cm]
+  
+  \begin{tabular}{lll}
+    PARTH GADHAVI   & NOEMI RUPPERT   & ARIEH THILL \\
+  \end{tabular}\\[2cm]
+  
+  Versuchsdurchführung: 26.~/ 27.~Mai 2025
+  
+  \vfill
+\end{titlepage}
+
 \tableofcontents
 \clearpage
-%--------------------------------------------------------
-\section{Einleitung}
-
 \clearpage
-%--------------------------------------------------------
-
-
-
-
+\setcounter{page}{1}
+\include{Einleitung}
+\include{Fazit}
+\include{formeln}
+\appendix
+\printbibliography{}
+%\listoffigures\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+%\listoftables\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+\include{Anhang}
 \end{document}
+% rest of your document...
