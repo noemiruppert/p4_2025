@@ -1,16 +1,16 @@
-\documentclass[ngerman]{scrartcl}
+\documentclass[ngerman,12pt,a4paper]{report}
 % Mögliche Sprachen: ngerman, USenglish, UKenglish
 
 % \usepackage[utf8]{inputenc} % Ab TeX Live 2018 nicht mehr notwendig.
 \usepackage[T1]{fontenc}
-\input{Schönermachen/optics}
+ \input{config.tex} % (kept commented out to avoid missing file error)
 \RequirePackage[backend=biber, style=numeric]{biblatex} %Literaturzitate
 \addbibresource{file1.bib}
 
-\KOMAoptions{fontsize=12pt,paper=a4}
-\KOMAoptions{DIV=13}
+% Removed invalid KOMAoptions (fontsize and paper size are set in \documentclass)
+% \KOMAoptions{DIV=13} % Removed because DIV must be set in \documentclass options
 \title{P4 Versuch 402 \\[1ex] \large Quantelung von Energie}
-\author{Parth \& Arieh Thill \& Noemi Ruppert}
+\author{Parth Gadhavi\& Arieh Thill \& Noemi Ruppert}
 \date{Mai 2025}
 \begin{document}
 
@@ -38,13 +38,13 @@
 \clearpage
 \clearpage
 \setcounter{page}{1}
-\include{Einleitung}
-\include{Fazit}
-\include{formeln}
+ \include{Einleitung}
+ \include{Fazit}
+ \include{formeln}
 \appendix
 \printbibliography{}
-%\listoffigures\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
-%\listoftables\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
-\include{Anhang}
+\listoffigures\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoftables\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+ \include{Anhang}
 \end{document}
 % rest of your document...
