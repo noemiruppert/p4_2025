@@ -26,7 +26,7 @@ Die Eingabegeräte und der zugehörige Computer sind auf zwei separaten Tischen 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\linewidth]{figs/RTM}
+\includegraphics[width=0.75\textwidth]{figs/RTM}
 \caption{Aufbau des RTM \cite{RTM}}
 \label{fig:RTM}
 \end{figure}
@@ -34,7 +34,7 @@ Die Eingabegeräte und der zugehörige Computer sind auf zwei separaten Tischen 
 Das Rastertunnelmikroskop (RTM, engl. STM für Scanning Tunneling Microscope), wie in Abbildung \ref{fig:RTM} dargestellt, ist ein hochauflösendes Analyseinstrument zur Darstellung leitfähiger Oberflächen im atomaren Maßstab.
 \begin{figure}[H]
 \centering
-\includegraphics[width=\linewidth]{figs/RTM piezo}
+\includegraphics[width=0.75\textwidth]{figs/RTM piezo}
 \caption{a)Schematischer Aufbau der piezoelektrischen Stellglieder, b)Aufbau vom "Single Tube Scanner", c)Piezokreuz mit aufgesetztem "Single Tube" \cite{piezo}}
 \label{fig:piezo}
 \end{figure}
@@ -49,7 +49,7 @@ Es wurde Anfang der 1980er Jahre von Gerd Binnig und Heinrich Rohrer entwickelt 
 Dieser Tunneleffekt beschreibt die Möglichkeit von Teilchen, eine Energiebarriere zu durchqueren, obwohl ihre Energie unterhalb der Höhe dieser Barriere liegt. Dies ist ein Verhalten, das aus klassischer Sicht unmöglich wäre. In der Quantenmechanik wird ein Elektron durch eine Wahrscheinlichkeitsverteilung beschrieben, und seine Aufenthaltswahrscheinlichkeit reicht über potenzielle Barrieren hinaus.\\
 \begin{figure}[H]
 \centering
-\includegraphics[width=\linewidth]{figs/tunnelspitze}
+\includegraphics[width=0.75\textwidth]{figs/tunnelspitze}
 \caption{ Rasterverlauf der Spitze für a)einen kleinen Konuswinkel b)einen großen Konuswinkel \cite{piezo}}
 \label{fig:raster}
 \end{figure} 
@@ -80,17 +80,17 @@ Ein PID-Regler (Proportional-Integral-Differential-Regler) wird im Rastertunnelm
 Die Regelfunktion ist gegeben durch:
 
 \begin{equation}
-    u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{d e(t)}{dt}
+    u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{d e(t)}{dt},
 \end{equation}
 
 wobei $e(t) = I_{t, \text{Soll}} - I_t$ die Regelabweichung ist und die Verstärkungsfaktoren $K_p$, $K_i$ und $K_d$ das Regelverhalten bestimmen.
 
 \paragraph{Strom-Spannungs-Wandler}
-In einem Rastertunnelmikroskop (RTM) wandelt ein Spannungs-Strom-Wandler eine angelegte Spannung in einen präzisen Tunnelstrom um. Dieser Strom hängt exponentiell vom Abstand zwischen Spitze und Probe ab:
+In einem Rastertunnelmikroskop (RTM) wandelt ein Spannungs-Strom-Wandler eine angelegte Spannung in einen präzisen Tunnelstrom um. Dieser Strom hängt exponentiell vom Abstand zwischen Spitze und Probe ab \cite{Tunnelstrom}:
 \begin{equation}
-    I \propto e^{-\alpha d}, \quad \text{mit } \k \approx 1\, \mathrm{\AA}^{-1} %\AA soll Ein Armstrong sein.
+    I \propto e^{-\alpha d}, \quad \text{mit } \kappa \approx 1\, \text{\AA}^{-1}.
 \end{equation}
-\cite{Tunnelstrom}.
+
 
 Ein Transimpedanzverstärker misst und wandelt den Strom um, sodass ein PID-Regler die Spitze in Echtzeit verfolgen und einen konstanten Strom aufrechterhalten kann. Diese Regelung ist unerlässlich, da sie dem RTM ermöglicht, atomare Auflösung zu erreichen und feine Oberflächenstrukturen abzubilden.
 
