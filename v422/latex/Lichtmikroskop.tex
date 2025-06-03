@@ -1,12 +1,32 @@
 \chapter{Untersuchung mit dem Lichtmikroskop und Bestimmung des Maßstabs}
-Vor der Analyse mit dem Rastertunnelmikroskop wird der Zustand der Proben mit einem USB-Lichtmikroskop dokumentiert. Um den Maßstab der mikroskopischen Bilder zu bestimmen, erfolgt ein Vergleich mit einem TEM-Gitter, das durch regelmäßig angeordnete kleine rechteckige Öffnungen gekennzeichnet ist. Bevor dieser Vergleich durchgeführt werden kann, muss das TEM-Gitter zunächst mit einem Maßstab kalibriert werden.\\
+Bevor das eigentliche Experiment begonnen wird, ist es unbedingt erforderlich, einen Probelauf durchzuführen, um die Eigenschaften des STM sowie alle relevanten Parameter kennenzulernen. 
+Zunächst wird das Einsetzen der Spitze mit alten Spitzen geübt. Dies erfolgt, da ohne vorherige Erfahrung die neue und funktionierende Spitze sonst beschädigt werden könnte.
 
-%add picture of the grid under the microscope
-Das TEM-Gitter wird zusammen mit einem transparenten Maßstab mit einem Mikroskop abgebildet (siehe Abbildung %addref). 
-Der Abstand der Skalenstriche beträgt $d = \SI{0.5}{\milli\meter} !!!!!!!!!!!!$. %nachprüfen
-Anschließend wird die Anzahl der Pixel p zwischen den Skalenstrichen in einem Grafikprogramm gemessen. Der Umrechnungsfaktor k lässt sich über die Beziehung $b = k\cdotp$ ermitteln. Die Messwerte der in Abbildung %addref 
-markierten Abstände sind in Tabelle %addref
-aufgeführt.\\ %add table with calculated values if there are any
+Die eigentliche Zerstörung der Spitze kann hauptsächlich durch mechanischen Bruch auftreten, wenn sie mit der Probe in Kontakt kommt, oder durch übermäßige Tunnelströme, wenn der Abstand zur Probe zu gering ist. 
+In beiden Fällen ist ersichtlich, dass die zu erwartende Auflösung nicht erreicht werden kann; bei übermäßig hohen Strömen kann zudem Rauschen entstehen, verursacht durch das Aufschmelzen der Spitzenoberfläche. Der Spitzen-Durchmesser beträgt $\SI{0.3}{\nm}$ \cite{praktikum}. 
+Die resultierenden Bilder sind in  zu betrachten. 
+[IMAGE!!!!!!!!!!!!!!!]
 
-Daraus ergibt sich ein varianzgewichteter Mittelwert von $k = ( \pm ) \mu m/px$. Anschließend wird der Abstand l ermittelt, der genau ?? Gitterzellen umfasst. Daraus ergibt sich eine Messlänge von $(\pm)$ Pixeln, was mit dem zuvor ermittelten Umrechnungsfaktor zu $l = (\pm) \mu m$ führt. Der Abstand zwischen zwei Gitterzellen beträgt somit $a = (\pm) \mu m$.
-Diese Informationen können zur Kalibrierung der Bilder des USB-Mikroskops verwendet werden. Nach jeder Probenaufnahme wird das TEM-Gitter auf die Probenplatte gelegt und auf die gleiche Fokusebene des Mikroskops justiert. Anschließend wird ein Foto des TEM-Gitters aufgenommen und der Abstand zwischen den Gitterzellen gemessen. Der Maßstab wird durch Vergleich mit dem zuvor ermittelten Gitterzellenabstand d1 berechnet. Im Anhang befinden sich Bilder des TEM-Gitters in verschiedenen Fokusebenen.
+Da die für den Probelauf verwendete Spitze scharf abgeschnitten war, wurde sie weiterverwendet. Selbstverständlich kann nicht garantiert werden, dass die Spitze tatsächlich Einatomqualität besitzt. 
+Darüber hinaus war kein signifikanter Unterschied im Zustand der Spitze vor und nach der Messung erkennbar.
+
+Anschließend wird der Probenhalter mit Isopropanol gereinigt, um beispielsweise Hautfettrückstände zu entfernen, die aufgrund erhöhter Adhäsion durch den Piezo-Motor die Beweglichkeit beeinträchtigen könnten. 
+Danach wird der wesentliche Prozess des Heranfahrens mit einem leeren, einzusetzenden Probenhalter geübt. 
+Dieser Vorgang wird entweder mithilfe eines Stereomikroskops oder eines auf einem Stativ über dem STM montierten USB-Mikroskops beobachtet - in diesem Fall wurde letztere Methode gewählt. 
+Wird während des Heranfahrens keine Bewegung festgestellt, sollte der Probenhalter beschwert werden, um den Kontakt zum Fahrmotor zu verbessern, und erneut gereinigt werden.\\
+Es ist wichtig zu beachten, dass in diesem Stadium lediglich geprüft wird, ob der Heranfahrvorgang korrekt funktioniert - das STM selbst wird noch nicht als Abbildungsinstrument eingesetzt.
+Im vorliegenden Versuchsaufbau erfolgt das Heranfahren zunächst grob über die STM-''Advance''-Funktion und wird anschließend mithilfe der ''Approach''-Funktion verfeinert. 
+Im Fall der Goldprobe wird eine raue Oberflächenstruktur erwartet, weshalb der ''Constant Current Mode (CCM)'' zum Einsatz kommt. Darüber hinaus werden wolkenartige Strukturen erwartet, die die kleinen, auf das Saphirsubstrat verdampften Goldcluster repräsentieren. 
+Diese Dampfabscheidung ist erforderlich, da die Probe sonst nicht leitfähig wäre.
+
+Um im CCM-Modus zu arbeiten, werden am Controller kurze Integrationszeiten (d.h. große Werte für die I-Regelverstärkung) eingestellt, damit dieser schnell auf Änderungen des Abstands zwischen Probe und Spitze reagieren kann. Für das Heranfahren werden eine Spannung von \SI{500}{\mV} zwischen Spitze und Probe sowie ein Tunnelstrom von \SI{1}{\nA} verwendet.
+
+Anschließend erfolgt die Kalibrierung der Probe mithilfe des TEM-Gitters, das in diesem Fall mit ''$400 \times 100$'' beschriftet ist. Als Kalibrierreferenz wurde die 400-Achse verwendet. Die Bezeichnung ''$400 \times 100$'' besagt, dass diese Anzahl an Gitterquadraten in den jeweiligen Dimensionen in ein Quadratzoll passt.
+
+Um eine Länge im Mikroskopbild zu messen, nutzt man, dass die Breite/Länge eines sichtbaren Gitterquadrats jeweils $\frac{1}{400}$ Zoll bzw. $\frac{1}{100}$ Zoll entspricht [REF!!!]. Man zählt die Anzahl der Gitterquadrate und multipliziert diese mit einem der genannten Faktoren, um die Länge des sichtbaren Abschnitts zu erhalten. Wie zuvor beschrieben dient dies nun als Maßstab, mit dem die relative Größe beobachteter Objekte im USB-Mikroskop in absolute Einheiten umgerechnet werden kann.
+
+Das Kalibrierungsbild für das USB-Mikroskop ist in Abbildung 6!!!!!!!!!!! zu sehen, und das Bild der Probe ist in Abbildung 7!!!!!!!!! dargestellt.
+
+IMAGES PLEASE!!!
+
+
