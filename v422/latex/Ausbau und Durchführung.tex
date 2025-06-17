@@ -38,15 +38,22 @@ Das Rastertunnelmikroskop (RTM, engl. STM für Scanning Tunneling Microscope), w
 \caption{a)Schematischer Aufbau der piezoelektrischen Stellglieder, b)Aufbau vom "Single Tube Scanner", c)Piezokreuz mit aufgesetztem "Single Tube" \cite{piezo}}
 \label{fig:piezo}
 \end{figure}
-Das STM (Abbildung \ref{fig:piezo}) nutzt piezoelektrische Stellglieder zur präzisen Positionierung der Spitze in drei Raumrichtungen. Der dazu entstehende Piezoeffekt beschreibt die Eigenschaft bestimmter Kristalle, sich unter elektrischer Spannung mechanisch zu verformen, in diesem Fall im Sub-Nanometerbereich. Dadurch kann die Spitze rasterartig über die Probe bewegt und gleichzeitig der Abstand hochpräzise geregelt werden. Der Tunnelstrom wird über einen Strom-Spannungswandler detektiert und in einem PID-Regelkreis (Propotional, Integral and Differential) verarbeitet, der die z-Position der Spitze so anpasst, dass der Strom konstant bleibt (constant current mode). Die Spannung am z-Piezo ist damit direkt proportional zur Oberflächenhöhe. Alternativ kann im constant height mode gearbeitet werden, bei dem der Tunnelstrom selbst das Bild liefert, während die Höhe konstant bleibt. Dieser Modus ist schneller, aber risikobehafteter bei rauen Oberflächen.
+Das STM (Abbildung \ref{fig:piezo}) nutzt piezoelektrische Stellglieder zur präzisen Positionierung der Spitze in drei Raumrichtungen. Der dazu entstehende Piezoeffekt beschreibt die Eigenschaft bestimmter Kristalle, sich unter elektrischer Spannung mechanisch zu verformen, in diesem Fall im Sub-Nanometerbereich. Dadurch kann die Spitze rasterartig über die Probe bewegt und gleichzeitig der Abstand hochpräzise geregelt werden. Der Tunnelstrom wird über einen Strom-Spannungswandler detektiert und in einem PID-Regelkreis (Propotional, Integral and Differential) verarbeitet, der die z-Position der Spitze so anpasst, dass der Strom konstant bleibt (''Constant Current Mode''). Die Spannung am z-Piezo ist damit direkt proportional zur Oberflächenhöhe. Alternativ kann im ''Constant Height Mode'' gearbeitet werden, bei dem der Tunnelstrom selbst das Bild liefert, während die Höhe konstant bleibt. Dieser Modus ist schneller, aber risikobehafteter bei rauen Oberflächen.
 
 
 \subsubsection{Funktionsweise}
 Es wurde Anfang der 1980er Jahre von Gerd Binnig und Heinrich Rohrer entwickelt und basiert auf einem fundamentalen quantenmechanischen Phänomen: dem Tunneleffekt.
 
 \paragraph{Tunneleffekt}
-%add picture tunneleffekt
-Dieser Tunneleffekt beschreibt die Möglichkeit von Teilchen, eine Energiebarriere zu durchqueren, obwohl ihre Energie unterhalb der Höhe dieser Barriere liegt. Dies ist ein Verhalten, das aus klassischer Sicht unmöglich wäre. In der Quantenmechanik wird ein Elektron durch eine Wahrscheinlichkeitsverteilung beschrieben, und seine Aufenthaltswahrscheinlichkeit reicht über potenzielle Barrieren hinaus.\\
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\textwidth]{tunneff.png}
+\caption{Veranschaulichung des Tunneleffekts:
+$\psi$ entspricht der Wellenfunktion des Teilchens, welche das quantenmechanische Verhalten des Teilchens beschreibt, $W_{pot}$ gibt die Höhe der Potentialbarriere (grau) an. \cite{Tunneleff}}
+\label{fig:tunnel}  
+\end{figure}
+Dieser Tunneleffekt, wie in \cref{fig:tunnel} illustriert, beschreibt die Möglichkeit von Teilchen, eine Energiebarriere zu durchqueren, obwohl ihre Energie unterhalb der Höhe dieser Barriere liegt. 
+Dies ist ein Verhalten, das aus klassischer Sicht unmöglich wäre. In der Quantenmechanik wird ein Elektron durch eine Wahrscheinlichkeitsverteilung beschrieben, und seine Aufenthaltswahrscheinlichkeit reicht über potenzielle Barrieren hinaus.\\
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.75\textwidth]{figs/tunnelspitze}
@@ -96,7 +103,7 @@ Ein Transimpedanzverstärker misst und wandelt den Strom um, sodass ein PID-Regl
 
 \paragraph{Betriebsmodi des Rastertunnelmikroskops}
 
-Die Höhenunterschiede der Probe können durch unterschiedliche Betriebsmodi des RTM erfasst werden. Im \textbf{constant current mode} wird die Spitze so positioniert, dass der Tunnelstrom konstant bleibt. Dies geschieht durch Anpassung der z-Position der Spitze mittels eines PID-Regelkreises, der die Höhe der Spitze in Abhängigkeit vom gemessenen Tunnelstrom regelt. Im \textbf{constant height mode} hingegen wird die z-Position der Spitze konstant gehalten, und der Tunnelstrom variiert entsprechend den Höhenunterschieden der Probe. Dieser Modus ist schneller, birgt jedoch das Risiko, dass die Spitze bei größeren Höhenunterschieden die Probe berührt und beschädigt.
+Die Höhenunterschiede der Probe können durch unterschiedliche Betriebsmodi des RTM erfasst werden. Im \textbf{''Constant Current Mode''} wird die Spitze so positioniert, dass der Tunnelstrom konstant bleibt. Dies geschieht durch Anpassung der z-Position der Spitze mittels eines PID-Regelkreises, der die Höhe der Spitze in Abhängigkeit vom gemessenen Tunnelstrom regelt. Im \textbf{''Constant Height Mode''} hingegen wird die z-Position der Spitze konstant gehalten, und der Tunnelstrom variiert entsprechend den Höhenunterschieden der Probe. Dieser Modus ist schneller, birgt jedoch das Risiko, dass die Spitze bei größeren Höhenunterschieden die Probe berührt und beschädigt.
 
 \chapter{Übersicht des Versuchsablaufs}
 
@@ -106,7 +113,7 @@ Es kommen zwei Varianten des STM zum Einsatz: eines mit externem Controller und 
 Die STM-Spitze wird durch kontrolliertes Abreißen eines Pt-Ir-Drahts hergestellt und mit einer Halterung in das Gerät eingesetzt. Zur Dokumentation werden sowohl Spitze als auch Probe mit einer USB-Lupe mikroskopiert und kalibriert. Vor Messbeginn wird die Spitze durch mechanisches Advance der Probe angenähert, gefolgt von einem automatisierten Approach, bei dem der Tunnelkontakt präzise erkannt wird.
 Die Durchführung des Experiments erfolgt in mehreren Schritten, die im Folgenden detailliert beschrieben werden. Zunächst wird die STM-Spitze vorbereitet und kalibriert, gefolgt von der Probenvorbereitung und der eigentlichen Messung.
 
-Die erste Messungen erfolgt stets im constant current mode, um Schäden an der Spitze durch unkontrollierte Höhenunterschiede zu vermeiden. Typische Startparameter sind eine Tunnelspannung von $U = 1\,\text{V}$ und ein Strom von $I = 1\,\text{nA}$. Die PID-Regelparameter ($P = 1000$, $I = 2000$, $D = 0$) gewährleisten eine stabile Annäherung und Nachführung. Mit der Software wird ein Bildbereich (z.\,B. $200\,\text{nm} \times 200\,\text{nm}$) definiert und gescannt. Die resultierenden Bilder zeigen die topografischen Eigenschaften der Gold-Proben mit hoher lateraler und vertikaler Auflösung.
+Die erste Messungen erfolgt stets im ''Constant Current Mode'', um Schäden an der Spitze durch unkontrollierte Höhenunterschiede zu vermeiden. Typische Startparameter sind eine Tunnelspannung von $U = 1\,\text{V}$ und ein Strom von $I = 1\,\text{nA}$. Die PID-Regelparameter ($P = 1000$, $I = 2000$, $D = 0$) gewährleisten eine stabile Annäherung und Nachführung. Mit der Software wird ein Bildbereich (z.\,B. $200\,\text{nm} \times 200\,\text{nm}$) definiert und gescannt. Die resultierenden Bilder zeigen die topografischen Eigenschaften der Gold-Proben mit hoher lateraler und vertikaler Auflösung.
 
 Zur Analyse von HOPG-Proben wird die Graphitoberfläche zunächst mit Tesafilm abgezogen, um eine frische Schicht freizulegen. Nach dem Einbau wird ein Grobscan durchgeführt. Bei Erfolg werden schrittweise kleinere Bildbereiche gewählt ($10\,\text{nm} \times 10\,\text{nm}$ bis hin zu $4\,\text{nm} \times 4\,\text{nm}$), um atomare Strukturen zu erkennen. Dabei sollten die hexagonale Gitterstruktur von Graphit sichtbar sein. Mit geeigneter Software lassen sich Gitterabstände und -winkel bestimmen, um die Kalibrierung des STM zu überprüfen. Bei Problemen mit der Auflösung helfen Methoden wie Parameteranpassung, Spannungspulse zur Reinigung der Spitze oder der Austausch der Spitze.
 
