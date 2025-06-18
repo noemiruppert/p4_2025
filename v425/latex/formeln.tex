@@ -1,1 +1,156 @@
 \chapter{FORMULAS TO BE DELETED}
+Es gilt gemäß der Nyquist-Formel \cite{artofelectronics}:
+\begin{equation}
+  V^2 \;=\; 4\,k_B\,T\,R\,\Delta f. 
+\end{equation}
+
+Hierbei ist $k_B$ (= $\SI{1.38e-23}{\joule\per\kelvin}$ \cite{codata}) die Boltzmann-Konstante, $T$ die Temperatur, $R$ der Widerstand und $\Delta f$ die Frequenzbandbreite. 
+========================================\\
+Schrotrauschen entsteht durch die zufälligen Fluktuationen des Stroms aufgrund der Granularität der Ladungen. 
+Die Formel ist als folgende gegeben \cite{artofelectronics}:
+\begin{equation}
+  \Delta I^2 = 2\,e\,I_{\mathrm{dc}}\,\Delta f.
+\end{equation}
+
+Hierbei bezeichnet $\Delta I^2$ die Stromschwankung, $e$ die Elementarladung, $I_{\mathrm{dc}}$ den mittleren gemessenen Strom und $\Delta f$ die effektive Bandbreite.
+
+
+========================================\\
+In diesem Versuch wird die Bandbreite durch eine Hintereinanderschaltung von Hoch- und Tiefpass beschrieben. Diese werden jeweils durch ihre Grenzfrequenzen $f_T$ und $f_H$ charakterisiert, also die Frequenzen, bei denen die durchgelassene Spannungsamplitude auf $1/\sqrt{2}$ des Maximalwertes abgefallen ist. Baut man die Frequenzfilter aus einem Kondensator (Impedanz $Z_C = \tfrac{1}{\mathrm{Im}\,\omega\,C}$ mit Kreisfrequenz $\omega$ und Kapazität $C$) und einem ohmschen Widerstand (Impedanz $Z_R = R$) auf, so lassen sich die Grenzfrequenzen aus den Impedanzen der Bauteile bestimmen:
+\begin{equation}
+  f_T \;=\; f_H \;=\; \frac{1}{2\pi\,R\,C}\,.
+\end{equation}
+
+========================================\\
+Das Ansprechverhalten elektronischer Filter ist durch die Verstärkun \cite{praktikum}:
+\begin{equation}
+  G(f) \;=\; \frac{\mathrm{RMS}_{\mathrm{out}}}{\mathrm{RMS}_{\mathrm{in}}},
+\end{equation}
+charakterisiert, wobei RMS (root-mean-square) das quadratische Mittel der Signalstärke angibt.
+========================================\\
+Das Ansprechverhalten der hier verwendeten Filter (Butterworth-Filter 2. Ordnung) kann mit den folgenden Funktionen beschrieben werden \cite{praktikum}:
+\begin{align}
+  G_{\mathrm{LP}}(f) &= \biggl[1 + \Bigl(\frac{f}{f_\ell}\Bigr)^4\biggr]^{-\frac{1}{2}}, \\
+  G_{\mathrm{HP}}(f) &= \Bigl(\frac{f}{f_h}\Bigr)^2 \,\biggl[1 + \Bigl(\frac{f}{f_h}\Bigr)^4\biggr]^{-\frac{1}{2}},
+\end{align}
+wobei $f_\ell$ und $f_h$ die tatsächlich eingestellten Grenzfrequenzen des Tief- bzw. Hochpasses sind.
+========================================\\
+
+Die effektive Bandbreite ist definiert als \cite{praktikum}:
+\begin{equation}
+\begin{aligned}
+\Delta f_{\mathrm{eff}}
+  &= \int_{0}^{\infty} G^2(f)\,\mathrm{d}f
+   = \int_{0}^{\infty} G_{\mathrm{LP}}^2(f)\,G_{\mathrm{HP}}^2(f)\,\mathrm{d}f \\[6pt]
+  &= \int_{0}^{\infty}
+    \bigl[1 + \bigl(\tfrac{f}{f_L}\bigr)^4\bigr]^{-1}
+    \bigl(\tfrac{f}{f_H}\bigr)^4
+    \bigl[1 + \bigl(\tfrac{f}{f_H}\bigr)^4\bigr]^{-1}
+    \,\mathrm{d}f \\[6pt]
+  &= \frac{\sqrt{2\pi}\,f_L^4}{4\,(f_H + f_L)\,(f_H^2 + f_L^2)}.
+\end{aligned}
+\end{equation}
+========================================\\
+Wird der Multiplier im AxA-Modus betrieben, so gilt fur das Signal am Ausgang der HLE-Box \cite{praktikum}:
+
+\begin{equation}
+  V_{\mathrm{out}} = \frac{\overline{(V_{\mathrm{in}}(t))^2}}{10\,\mathrm{V}}.
+\end{equation}
+
+========================================\\
+
+Der am DMM gemessene Wert $V_{\mathrm{meter}}$ gilt - solange das Ausgangssignal im richtigen Spannungsbereich liegt \cite{praktikum}:
+\begin{equation}
+  V_{\mathrm{meter}} \;=\; \frac{\overline{V_J^2(t)}\,\bigl(600 \cdot \,G_2\bigr)^2}{10\,\mathrm{V}},
+\end{equation}
+wobei $G_2$ den Verstärkungsfaktor der HLE-Box darstellt.
+
+========================================\\
+Der Zusammenhang zwischen dem abgelesenen Wert des DMM ($V_{\mathrm{meter}}$) und dem Johnson- und Verstärker-Rauschen ($V_N$) ist gegeben durch \cite{praktikum}:
+\begin{equation}
+  V_{\mathrm{meter}}
+  \;=\;
+  \overline{V_J^2(t) + V_N^2(t)}\;\frac{\bigl(600 \cdot \,G_2\bigr)^2}{10\,\mathrm{V}}\,.
+\end{equation}
+
+========================================\\
+
+Da der invertierende Eingang des Operationsverstärkers einen vernachlässigbar kleinen Strom zieht, fließt $i_{\mathrm{dc}}$ vollständig durch den Widerstand $R_f$. Dies stellt sicher, dass \cite{praktikum}
+\begin{equation}
+  V_{\mathrm{monitor}} = -\,R_{f}\,i_{\mathrm{dc}}. 
+\end{equation}
+
+
+========================================\\
+Das quadratische Mittel (RMS) der zeitgemittelten Stromschwankungen $\overline{\delta i^2}$ ist gegeben durch \cite{praktikum}:
+\begin{equation}
+  \overline{\delta i^2}
+  = \frac{\overline{V_{\mathrm{meter}}(t)}\,10\,\mathrm{V}}
+         {(100\,G_2\,R_f)^2},
+\end{equation}
+wobei $\overline{V_{\mathrm{meter}}(t)}$ der abgelesene Wert auf dem DMM und $G_2$ die Verstärkung der HLE ist.
+
+
+========================================\\
+
+\begin{align}
+k_{B;1} &= \frac{m_1}{4\,\Delta f\,T}, \label{eq:kB1}\\[6pt]
+\Delta k_{B;1} &= \frac{1}{4}
+\sqrt{
+  \left(\frac{\Delta m_1}{\Delta f\,T}\right)^2
+  + \left(\frac{\Delta T\,m_1}{\Delta f\,T^2}\right)^2
+},\label{eq:dkB1}\\[6pt]
+k_{B;2} &= \frac{m_2}{4\,R\,T}, \label{eq:kB2}\\[6pt]
+\Delta k_{B;2} &= \frac{1}{4}
+\sqrt{
+  \left(\frac{\Delta m_2}{R\,T}\right)^2
+  + \left(\frac{\Delta T\,m_2}{R\,T^2}\right)^2
+  + \left(\frac{\Delta R\,m_2}{R^2\,T}\right)^2
+}.\label{eq:dkB2}
+\end{align}
+
+
+========================================\\
+
+\begin{align}
+I_{\mathrm{korr}} 
+&= \frac{V_{\mathrm{monitor}} - V_{\mathrm{monitor;Offset}}}{R_f}, \\[6pt]
+\Delta I_{\mathrm{korr}}
+&= \sqrt{ 
+     \frac{\Delta V_{\mathrm{monitor}}^2 + \Delta V_{\mathrm{monitor;Offset}}^2}{R_f^2}
+     + \frac{\bigl(V_{\mathrm{monitor}} - V_{\mathrm{monitor;Offset}}\bigr)^2\,\Delta R_f^2}{R_f^4}
+   }, \\[6pt]
+\delta i_{\mathrm{korr}}^2
+&= \frac{\overline{V_{\mathrm{meter}}(t)}\,10\,\mathrm{V}}{(100\,G_2\,R_f)^2}
+  - i_{\mathrm{Untergr}}^2, \\[6pt]
+\Delta\bigl(\delta i_{\mathrm{korr}}^2\bigr)
+&= \sqrt{
+     \Bigl(\tfrac{\Delta\!\bigl(\overline{V_{\mathrm{meter}}(t)}\,10\,\mathrm{V}\bigr)}{(100\,G_2\,R_f)^2}\Bigr)^2
+     + \bigl(\Delta i_{\mathrm{Untergr}}^2\bigr)^2
+     + \Bigl(\tfrac{\overline{V_{\mathrm{meter}}(t)}\,20\,\mathrm{V}\,\Delta R_f}{(100\,G_2)^2\,R_f^3}\Bigr)^2
+   }.
+\end{align}
+
+
+========================================\\
+
+Anpassungsgeraden identifizieren als:
+\begin{align}
+  \overline{\delta i^2}
+    &= \underbrace{2\,e\,\Delta f}_{=\,\text{Steigung }a} \cdot \;I, \\[6pt]
+  \overline{\delta i^2}
+    &= \underbrace{2\,e\,I}_{=\,\text{Steigung }c} \cdot \;\Delta f.
+\end{align}
+
+
+Damit ergeben sich die Messergebnisse für die Elementarladung durch:
+\begin{align}
+  e_1 &= \frac{a}{2\,\Delta f}, 
+  &\Delta e_1 &= \frac{\Delta a}{2\,\Delta f},\\
+  e_2 &= \frac{c}{2\,I}, 
+  &\Delta e_2 &= \sqrt{\Bigl(\tfrac{\Delta c}{2\,I}\Bigr)^2 
+                    + \Bigl(\tfrac{\Delta I\,c}{2\,I^2}\Bigr)^2}\,.
+\end{align}
+
+========================================\\
+
