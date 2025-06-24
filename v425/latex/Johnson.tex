@@ -1,3 +1,17 @@
+\documentclass{article}
+\usepackage{caption} % in der Präambel
+\usepackage{adjustbox}
+\usepackage[utf8]{inputenc}
+%\usepackage{graphicx}
+
+\title{P4 V425}
+\author{Noemi Ruppert}
+\date{June 2025}
+
+\begin{document}
+
+\maketitle
+
 \chapter{Johnson-Rauschen}
 In diesem Teil des Experiments wird das Johnson- oder thermische Rauschen untersucht. Dieses Rauschen entsteht durch die thermisch bedingte Bewegung freier Elektronen in ohmschen Widerständen. 
 Die Bewegung von Elektronen ist aufgrund zufälliger thermischer Energie ungeordnet und wird daher durch die statistische Physik beschrieben. In einem unbelasteten Stromkreis bewegen sich freie Elektronen ohne äußere Einflüsse zufällig, was zu Impulsübertragung und unabhängigen Spannungs- und Stromschwankungen führt. Diese überlagern sich und bilden das sogenannte weiße Rauschen.
@@ -162,8 +176,15 @@ Dieser Wert liegt im Bereich der allgemein akzeptierten Boltzmann-Konstante von 
 %---------------------------------------------------------------------------------------------------
 \subsection{Abhängigkeit des Johnson-Rauschens von der Bandbreite}
 
-\begin{table}[h!]
-\centering
+Die Nyquist-Formel beschreibt eine lineare Abhängigkeit der Rauschleistung von der vom System übertragenen Bandbreite. Zur experimentellen Validierung dieser Beziehung wurden insbesondere im HLE-Gehäuse verschiedene Hochpass- und Tiefpassfilterkonfigurationen implementiert. Um den Einfluss externer Störquellen zu minimieren und thermisches Rauschen zu isolieren, wurde ein Widerstand \(R = 1\,\mathrm{M\Omega} \) verwendet. Aufgrund der direkten Proportionalität des Johnson-Rauschens zum ohmschen Widerstand ist dieser Widerstand hier besonders stark ausgeprägt.
+
+Durch gezielte Variation der Grenzfrequenzen beider Filter konnten unterschiedliche Bandbreiten erreicht werden, deren resultierende effektive Ausgangsspannung mit einem Multimeter aufgezeichnet wurde. Zur anschließenden Analyse wird ein Linearfit erstellt. \\
+Dazu wurde die Rausch-Spannung gegen
+die Bandbreite aufgetragen. Die Datenpunkte sind in Tabelle Tabelle \ref{tab:gerundet} und das Diagramm in Abbildung \ref{fig:fit2} zu sehen. \\
+
+\begin{minipage}{1.35\textwidth}
+%\centering
+\begin{adjustbox}{width=0.9\textwidth}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
 $f_h$ & $\Delta f_l$ & $f_l$ & $\Delta f_h$ & $G$ & $\Delta G$ & $U_{\mathrm{DMM}}$ & $\Delta U_{\mathrm{DMM}}$ & $\Delta f$ & $\Delta f_{\text{err}}$ & $(V_j)^2$ & $\Delta (V_j)^2$ \\
@@ -180,9 +201,10 @@ $f_h$ & $\Delta f_l$ & $f_l$ & $\Delta f_h$ & $G$ & $\Delta G$ & $U_{\mathrm{DMM
 10     & 0.10   & 330     & 3.30     & 6000  & 60  & 0.710  & 0.030 & 320    & 1.05$\times10^{1}$ & $5.48\times10^{-13}$ & $2.63\times10^{-14}$ \\
 \hline
 \end{tabular}
+\end{adjustbox}
 \caption{Experimentelle Messwerte zur Rauschleistungsanalyse bei variierenden Frequenzen, Verstärkungen und Bandbreiten}
 \label{tab:gerundet}
-\end{table}
+\end{minipage}\\ \\
 
 \begin{figure}[htbp]
     \centering
@@ -200,7 +222,8 @@ Die Steigung $a$ entspricht dem Produkt $4 k_B T \Delta f$, wobei die Temperatur
 \begin{equation}
 k_B = \frac{a}{4 T \Delta f} = \frac{(1,47 \pm 0.53) \cdot 10^{-2} \,\mathrm{V}^2/\Omega}{4 \cdot (23,7 \pm 0,1) \cdot 10^{-3} \,\mathrm{K} \cdot \Delta f} = (1,38 \pm 0,49) \cdot 10^{-23} \,\mathrm{J/K}
 \end{equation}
-Dieser Wert liegt im Bereich der allgemein akzeptierten Boltzmann-Konstante von $k_B = 1.38 \cdot 10^{-23} \,\mathrm{J/K}$ \cite{} %add source
-, was die Korrektheit der experimentellen Durchführung und der Datenanalyse bestätigt.
+Dieser Wert liegt im Bereich der allgemein akzeptierten Boltzmann-Konstante von $k_B = 1.38 \cdot 10^{-23} \,\mathrm{J/K}$ \cite{boltzmann} %add source
+, was auf eine sorgfältige Durchführung des Experiments und eine konsistente Datenverarbeitung schließen lässt.
 %---------------------------------------------------------------------------------------------------
-\subsection{Bestimmung der Bolzmann-Konstante}
+
+\end{document}
