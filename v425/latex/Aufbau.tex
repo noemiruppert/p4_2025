@@ -31,14 +31,13 @@ Daraus ergibt sich die effektive Bandbreite als Integral über das Quadrat der G
 \begin{equation}
 \begin{aligned}
 \Delta f_{\mathrm{eff}}
-  &= \int_{0}^{\infty} G^2(f)\,\mathrm{d}f
-   = \int_{0}^{\infty} G_{\mathrm{LP}}^2(f)\,G_{\mathrm{HP}}^2(f)\,\mathrm{d}f \\[6pt]
-  &= \int_{0}^{\infty}
-    \bigl[1 + \bigl(\tfrac{f}{f_L}\bigr)^4\bigr]^{-1}
-    \bigl(\tfrac{f}{f_H}\bigr)^4
-    \bigl[1 + \bigl(\tfrac{f}{f_H}\bigr)^4\bigr]^{-1}
-    \,\mathrm{d}f \\[6pt]
-  &= \frac{\sqrt{2\pi}\,f_L^4}{4\,(f_H + f_L)\,(f_H^2 + f_L^2)}.
+= \int_{0}^{\infty} G^2(f)\,\mathrm{d}f
+= \frac{\sqrt{2\pi}\,f_l^4}{4\,(f_h + f_l)\,(f_h^2 + f_l^2)},\\
+\sigma_{\Delta f}
+= \sqrt{
+  \Bigl(\frac{\partial\,\Delta f_{\mathrm{eff}}}{\partial f_\ell}\,\sigma_\ell\Bigr)^{2}
+  +\Bigl(\frac{\partial\,\Delta f_{\mathrm{eff}}}{\partial f_h}\,\sigma_h\Bigr)^{2}
+}
 \end{aligned}
 \end{equation}
 
@@ -114,7 +113,7 @@ Diese Werte stimmen hervorragend mit den nominalen Hardware-Einstellungen der HL
 Die daraus bestimmte effektive Bandbreite des Bandpasses ergab sich zu
 
 \begin{equation}
-  \Delta f_{\mathrm{eff}} = 5733{,}42\,\mathrm{Hz}.
+  \Delta f_{\mathrm{eff}} = (5733{,}42 \pm 4.6)\,\mathrm{Hz}.
 \end{equation}
 
 Obwohl der reduzierte Chi-Quadrat-Wert der Anpassung
