@@ -1,41 +1,17 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 PWD /home/s6norupp/physik/p4_2025/v402/latex
 =======
-<<<<<<< HEAD
-PWD /home/s79athil/physik/p4_2025/v402/latex
-=======
-<<<<<<< HEAD
 PWD /home/ppg/p4_2025/v402/latex
-=======
-PWD /home/s6norupp/physik/p4_2025/v402/latex
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
->>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
-=======
-PWD /home/s79athil/physik/p4_2025/v402/latex
->>>>>>> abt
+>>>>>>> 1408fb3a04500060f8ab8a872292f066b7c09889
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 <<<<<<< HEAD
-<<<<<<< HEAD
 INPUT /home/s6norupp/physik/p4_2025/v402/latex/main.tex
 =======
-<<<<<<< HEAD
-INPUT /home/s79athil/physik/p4_2025/v402/latex/main.tex
-=======
-<<<<<<< HEAD
 INPUT /home/ppg/p4_2025/v402/latex/main.tex
-=======
-INPUT /home/s6norupp/physik/p4_2025/v402/latex/main.tex
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
->>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
-=======
-INPUT /home/s79athil/physik/p4_2025/v402/latex/main.tex
->>>>>>> abt
+>>>>>>> 1408fb3a04500060f8ab8a872292f066b7c09889
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
@@ -115,8 +91,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
@@ -129,7 +103,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -154,8 +127,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
@@ -225,7 +196,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
@@ -405,11 +375,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/locale/de/babel-de.ini
 INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -522,17 +487,17 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
@@ -634,10 +599,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/x11nam.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/x11nam.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/x11nam.def
@@ -876,6 +837,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -921,6 +883,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
@@ -957,7 +920,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
@@ -977,6 +940,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
@@ -988,7 +952,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.c
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -1082,6 +1045,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
@@ -1150,8 +1114,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1168,7 +1130,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -1226,48 +1188,15 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -1484,6 +1413,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+<<<<<<< HEAD
+=======
 INPUT ./main.aux
 INPUT main.aux
 INPUT main.aux
@@ -1499,12 +1430,10 @@ INPUT BalmerSerie.aux
 INPUT ./Fazit.aux
 INPUT Fazit.aux
 INPUT Fazit.aux
-INPUT ./formeln.aux
-INPUT formeln.aux
-INPUT formeln.aux
 INPUT ./Anhang.aux
 INPUT Anhang.aux
 INPUT Anhang.aux
+>>>>>>> 1408fb3a04500060f8ab8a872292f066b7c09889
 OUTPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
@@ -1564,11 +1493,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-di
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1606,12 +1531,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.st
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-=======
->>>>>>> 97a567384df6cb6288851752bbce33200c3c4c30
->>>>>>> 3b5a4536c341e3e7932788df7174f1206780983f
->>>>>>> 01f17406b5457fd1b8fb7d1d2596deb1c729a44d
-=======
->>>>>>> abt
 INPUT ./main.out
 INPUT main.out
 INPUT ./main.out
@@ -1622,6 +1541,7 @@ INPUT ./main.out
 INPUT main.out
 INPUT ./main.out
 INPUT ./main.out
+>>>>>>> 1408fb3a04500060f8ab8a872292f066b7c09889
 OUTPUT main.out
 OUTPUT main.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
@@ -1651,6 +1571,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
@@ -1716,7 +1638,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxbsy5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -1724,9 +1645,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx2074.tfm
-INPUT ./main.toc
-INPUT main.toc
-INPUT main.toc
 OUTPUT main.toc
 INPUT ./Einleitung.tex
 INPUT ./Einleitung.tex
@@ -1769,12 +1687,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmi7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXMI7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT ./figs/baenderschema_kathode_anode.png
 INPUT ./figs/baenderschema_kathode_anode.png
 INPUT figs/baenderschema_kathode_anode.png
 INPUT ./figs/baenderschema_kathode_anode.png
 INPUT ./figs/baenderschema_kathode_anode.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
@@ -1788,6 +1706,9 @@ INPUT ./figs/kontaktpotential_kurzgeschl_elektroden.png
 INPUT figs/kontaktpotential_kurzgeschl_elektroden.png
 INPUT ./figs/kontaktpotential_kurzgeschl_elektroden.png
 INPUT ./figs/kontaktpotential_kurzgeschl_elektroden.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT ./figs/365_1.png
@@ -1795,9 +1716,6 @@ INPUT ./figs/365_1.png
 INPUT figs/365_1.png
 INPUT ./figs/365_1.png
 INPUT ./figs/365_1.png
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxexx.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txexs.tfm
 INPUT ./figs/fvsU.png
@@ -1805,6 +1723,8 @@ INPUT ./figs/fvsU.png
 INPUT figs/fvsU.png
 INPUT ./figs/fvsU.png
 INPUT ./figs/fvsU.png
+<<<<<<< HEAD
+=======
 INPUT ./BalmerSerie.tex
 INPUT ./BalmerSerie.tex
 INPUT ./BalmerSerie.tex
@@ -1824,14 +1744,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmia.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txmiaSTbb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmi5.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXMI5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
 INPUT ./figs/dt_lila_145_51_5.png
 INPUT ./figs/dt_lila_145_51_5.png
 INPUT figs/dt_lila_145_51_5.png
 INPUT ./figs/dt_lila_145_51_5.png
 INPUT ./figs/dt_lila_145_51_5.png
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxmi5.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXMI5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
 INPUT ./Fazit.tex
 INPUT ./Fazit.tex
 INPUT ./Fazit.tex
@@ -1842,16 +1762,6 @@ INPUT ./Fazit.tex
 INPUT Fazit.tex
 INPUT ./Fazit.tex
 INPUT Fazit.tex
-INPUT ./formeln.tex
-INPUT ./formeln.tex
-INPUT ./formeln.tex
-OUTPUT formeln.aux
-INPUT ./formeln.tex
-INPUT ./formeln.tex
-INPUT ./formeln.tex
-INPUT formeln.tex
-INPUT ./formeln.tex
-INPUT formeln.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1859,6 +1769,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
+INPUT ./main.lof
+INPUT main.lof
+INPUT main.lof
+OUTPUT main.lof
+INPUT ./main.lot
+INPUT main.lot
+INPUT main.lot
+OUTPUT main.lot
 INPUT ./Anhang.tex
 INPUT ./Anhang.tex
 INPUT ./Anhang.tex
@@ -1956,9 +1874,6 @@ INPUT BalmerSerie.aux
 INPUT ./Fazit.aux
 INPUT Fazit.aux
 INPUT Fazit.aux
-INPUT ./formeln.aux
-INPUT formeln.aux
-INPUT formeln.aux
 INPUT ./Anhang.aux
 INPUT Anhang.aux
 INPUT Anhang.aux
@@ -1989,3 +1904,4 @@ INPUT /usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb
+>>>>>>> 1408fb3a04500060f8ab8a872292f066b7c09889
