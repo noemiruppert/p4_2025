@@ -1,0 +1,37 @@
+\chapter{Fazit}
+Die Filterantwort der HLE-Box wurde charakterisiert und eine effektive Bandbreite
+\begin{equation*}
+  \Delta f_{\mathrm{eff}} = (5733{,}4 \pm 4{,}6)\,\mathrm{Hz}
+\end{equation*}
+bestimmt. Johnson-Rauschmessungen lieferten experimentelle Werte
+\begin{equation*}
+  \begin{aligned}
+    k_B^{\mathrm{exp,strom}} &= (1{,}31\times10^{-23} \pm 2{,}083\times10^{-21})\,\mathrm{J/K},\\
+    k_B^{\mathrm{exp,freq}}  &= (1{,}35\times10^{-23} \pm 6{,}002\times10^{-21})\,\mathrm{J/K},
+  \end{aligned}
+\end{equation*}
+im Vergleich zum CODATA-Referenzwert $k_B^{\mathrm{lit}} = 1{,}380649\times10^{-23}\,\mathrm{J/K}$ \cite{codata}, was einer Abweichung von etwa $15{,}6\%$ entspricht.
+
+Aus der Schrotrausch-Analyse ergab sich
+\begin{equation*}
+  \begin{aligned}
+    e_{\mathrm{exp,strom}} &= (1{,}914\times10^{-19} \pm 2{,}083\times10^{-21})\,\mathrm{C},\\
+    e_{\mathrm{exp,freq}}  &= (1{,}809\times10^{-19} \pm 6{,}002\times10^{-21})\,\mathrm{C},
+  \end{aligned}
+\end{equation*}
+gegenüber dem akzeptierten Wert $e^{\mathrm{lit}} = 1{,}602176634\times10^{-19}\,\mathrm{C}$ \cite{codata}, was Differenzen von $19{,}5\%$ bzw.\ $12{,}9\%$ ergibt.
+
+
+Mehrere systematische Unsicherheiten können sowohl die Johnson- als auch die Schrotrauschbestimmungen verfälschen. 
+Zuerst führt jede Fehleinschätzung der effektiven Bandbreite $\Delta f_{\mathrm{eff}}$ - sei es durch zu grobes Sampling der Filterflanken oder durch nichtideal Butterworth-Roll-off - zu proportionalen Fehlern in $k_B$ und $e$. 
+Außerdem können Nichtidealitäten der Verstärkerkette (endliches eingangsbezogenes Rauschen, Gangdrift und Abweichungen im Multiplikatorskalierungsfaktor) die quadratische Spannungsmessung verzerren. 
+Weiterhin können Restnetzbrumm und Hochfrequenz-Einkopplungen, selbst außerhalb des nominalen Durchlassbereichs, den Rauschgrund anheben und die Basisrausch-Subtraktion beeinträchtigen. 
+Zusätzlich können die Auflösung des DMM und dessen Eingangslast Quantisierungs- und Einschwingfehler einführen. 
+Schließlich verändern Widerstandstoleranzen und Temperaturdrift die tatsächliche Johnson-Rauschquelle, während Dunkelstrom der Photodiode und Verstärker-Offset - sofern nicht rigoros subtrahiert - die Schrotrausch-Steigung kontaminieren.
+
+Die Minimierung dieser Effekte erfordert einen mehrgleisigen Ansatz. 
+Die effektive Bandbreite sollte durch dichte, logarithmische Frequenzsweeps und verfeinerte numerische Integration oder direkte Breitband-Weißrausch-Kalibrierung bestimmt werden. 
+Die Verstärkerstufen sind deutlich im linearen Bereich zu betreiben, mit regelmäßigen Gain-Referenzchecks und rauscharmen Netzteilen zur Driftunterdrückung. 
+Eine Kombination aus Faradayscher Abschirmung, verdrillten Leitungen und Notch-Filtern bei 50 Hz-Harmonischen eliminiert Netzbrumm und HF-Artefakte. 
+Hochauflösende RMS-Messmodule oder softwaregestützte Mittelwertbildung reduzieren Quantisierungsfehler, und True-RMS-Module verhindern Lasttransiente. 
+Schließlich gewährleisten Präzisions-Metalfilm-Widerstände auf temperaturgeregelten Haltern sowie rigorose Subtraktion von Dunkelstrom und Offset, dass nur die beabsichtigten thermischen und Schrotrauschanteile verbleiben.
