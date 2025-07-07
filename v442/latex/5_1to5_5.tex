@@ -5,8 +5,8 @@ In diesem Versuch wird ein Helium-Neon-Laser (HeNe-Laser) selbstständig auf ein
 Für die Realisierung eines Lasers sind grundsätzlich drei Hauptkomponenten erforderlich:
 
 \begin{itemize}
-    \item Ein aktives Medium, das mindestens ein Drei-Niveau-System aufweist, um eine Besetzungsinversion ermöglichen zu können. \\
-    \item Eine optische Pumpe, die Energie zuführt, um die Besetzungsinversion im aktiven Medium zu erzeugen. \\
+    \item Ein aktives Medium, das mindestens ein Drei-Niveau-System aufweist, um eine Besetzungsinversion ermöglichen zu können. 
+    \item Eine optische Pumpe, die Energie zuführt, um die Besetzungsinversion im aktiven Medium zu erzeugen. 
     \item Ein optischer Resonator, der die stimulierte Emission unterstützt, die Wellenlänge selektiert und die Strahlrichtung bestimmt.
 \end{itemize}
 
@@ -19,7 +19,7 @@ Im hier verwendeten Aufbau dient ein Gasgemisch aus Helium und Neon als aktives 
 \FloatBarrier
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=1\linewidth]{}
+\includegraphics[width=1\linewidth]{Energielevel for He-Ne.png}
 \caption{Energieleveldiagramm der Helium- und Neonatome. Der Energietransferprozess zur Erzeugung der Laserstrahlung ist schematisch dargestellt.}
 \label{fig:He-Ne}
 \end{figure}
@@ -38,7 +38,7 @@ Es existieren auch weitere Übergänge (z.B. im infraroten Bereich, siehe Abb.\r
 \FloatBarrier
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=1\linewidth]{}
+\includegraphics[width=1\linewidth]{Seiten aus p442laser (1).pdf}
 \caption{Weitere mögliche Übergänge im Neon-Atom.}
 \label{fig:Übergang}
 \end{figure}
@@ -55,25 +55,22 @@ Der komplette Aufbau erfolgt auf einer optischen Bank und erfordert besondere So
 Zunächst wird die optische Achse definiert. 
 Dazu kommt ein zusätzlicher, externer Laser (Pilotlaser) zum Einsatz, um die Achse möglichst präzise zu justieren.
 
-\FloatBarrier
 \begin{figure}[htbp]
-\centering
-\begin{minipage}[t]{0.48\textwidth}
-\centering
-\includegraphics[width=\textwidth]{}
-\caption{Justierung der optischen Achse mit Hilfe der Blenden.}
-\label{fig:Blende}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.48\textwidth}
-\centering
-\includegraphics[width=\textwidth]{}
-\caption{Justage der Resonatorspiegel.}
-\label{fig:Spiegel}
-\end{minipage}
+    \centering
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Seiten aus p442laser 2.pdf}
+        \caption{Justierung der optischen Achse mit Hilfe der Blenden.}
+        \label{fig:Blende}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Seiten aus p442laser (1)-2.pdf}
+        \caption{Justage der Resonatorspiegel.}
+        \label{fig:Spiegel}
+    \end{minipage}
 \end{figure}
-\FloatBarrie
-
 
 Zuerst wird die Blende auf der optischen Achse ausgerichtet (Abb. \ref{fig:Blende}). 
 Anschließend wird die Entladungsröhre eingebaut und so positioniert, dass möglichst wenig Licht innerhalb der Röhre verloren geht.
@@ -104,25 +101,15 @@ Der Abstand der Interferenzmaxima kann dann über die Gleichungen
 \end{equation*}
 
 berechnet werden.
-
-\FloatBarrier
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{}
-    \caption{Beugungsbild eines Gitters zur Wellenlängenbestimmung.}
-    \label{fig:Gitter}
-    \end{figure}
-\FloatBarrier
-
 Mit der Gitterkonstanten $g = 600$ lines/mm und den gemessenen Werten ergibt sich folgende Tabelle:
 
 \begin{table}[htbp]
     \centering
     \begin{tabular}{c|c|c|c}
         Ordnung & \(d_i ~[\text{m}]\) & \(a ~[\text{m}]\) & \(\lambda~[\text{nm}]\)\\
-        \hline
-        -1 & 0,823 \(\pm\) 0,006 & 1,964 \(\pm\) 0,006 & 644,14 \(\pm\) 4,70 \
-        1 & 0,824 \(\pm\) 0,006 & 1,964 \(\pm\) 0,006 & 644,80 \(\pm\) 4,70 \
+        \hline 
+        -1 & 0,823 \(\pm\) 0,006 & 1,964 \(\pm\) 0,006 & 644,14 \(\pm\) 4,70 \\
+        1 & 0,824 \(\pm\) 0,006 & 1,964 \(\pm\) 0,006 & 644,80 \(\pm\) 4,70 \\
     \end{tabular}
     \caption{Ermittelte Wellenlängen aus der ersten und negativen Ordnung.}
     \label{tab:Wellenlänge}
@@ -145,7 +132,7 @@ Zur Untersuchung des Polarisationszustands wurde ein Polarisator in den Strahlen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{}
+    \includegraphics[width=1\linewidth]{Seiten aus p442laser (1)-3.pdf}
     \caption{Versuchsaufbau zur Untersuchung der Polarisation des Laserlichts}
     \label{fig:Polar}
 \end{figure}
@@ -207,7 +194,7 @@ Die zugehörige Ausgleichskurve ist in Abbildung~\ref{fig:PolarisationFigur} dar
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{figs/Figure_2}
+    \includegraphics[width=1\linewidth]{Figure_2}
     \caption{Fit des Malus’schen Gesetzes an die Messwerte ($\chi^2_\text{red} = 5{,}16$)}
     \label{fig:PolarisationFigur}
 \end{figure}
@@ -315,7 +302,7 @@ Die durch Ausgleichsrechnung bestimmten Parameter sowie die theoretischen Vergle
 
 \begin{table}[htbp]
     \centering
-    \begin{tabular}{S|S|S||S|S|S}
+    \begin{tabular}{S|S|S|S|S|S}
         {$L\,\si{\centi\meter}$} & {$d_0\,\si{\micro\meter}$} & {$z_R\,\si{\centi\meter}$} &
         {$w_{0,\text{theo}}\,\si{\micro\meter}$} & {$z_{R,\text{theo}}\,\si{\centi\meter}$} & {$c$} \\
         \hline
@@ -332,14 +319,14 @@ Die zugehörigen Ausgleichskurven sind in den folgenden Abbildungen dargestellt:
     \centering
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{pfad/zur/abbildung1}
+        \includegraphics[width=\textwidth]{Figure_3.png}
         \caption{Strahlprofil für \(L = \SI{62.0}{\centi\meter}\), \(\chi^2 = 1{,}52\)}
         \label{fig:62}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{pfad/zur/abbildung2}
+        \includegraphics[width=\textwidth]{Figure_4.png}
         \caption{Strahlprofil für \(L = \SI{76.3}{\centi\meter}\), \(\chi^2 = 53{,}80\)}
         \label{fig:76}
     \end{subfigure}
