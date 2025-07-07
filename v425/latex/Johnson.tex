@@ -1,3 +1,5 @@
+\usepackage{adjustbox}
+
 \chapter{Johnson-Rauschen}
 In diesem Teil des Experiments wird das Johnson- oder thermische Rauschen untersucht. Dieses Rauschen entsteht durch die thermisch bedingte Bewegung freier Elektronen in ohmschen Widerständen. 
 Die Bewegung von Elektronen ist aufgrund zufälliger thermischer Energie ungeordnet und wird daher durch die statistische Physik beschrieben. In einem unbelasteten Stromkreis bewegen sich freie Elektronen ohne äußere Einflüsse zufällig, was zu Impulsübertragung und unabhängigen Spannungs- und Stromschwankungen führt. Diese überlagern sich und bilden das sogenannte weiße Rauschen.
@@ -168,8 +170,8 @@ Durch gezielte Variation der Grenzfrequenzen beider Filter konnten unterschiedli
 Dazu wurde die Rausch-Spannung gegen
 die Bandbreite aufgetragen. Die Datenpunkte sind in Tabelle Tabelle \ref{tab:gerundet} und das Diagramm in Abbildung \ref{fig:fit2} zu sehen. \\
 
-\begin{minipage}{1.35\textwidth}
-%\centering
+\begin{table}[h!]
+\centering
 \begin{adjustbox}{width=0.9\textwidth}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
@@ -190,7 +192,7 @@ $f_h$ & $\Delta f_l$ & $f_l$ & $\Delta f_h$ & $G$ & $\Delta G$ & $U_{\mathrm{DMM
 \end{adjustbox}
 \caption{Experimentelle Messwerte zur Rauschleistungsanalyse bei variierenden Frequenzen, Verstärkungen und Bandbreiten}
 \label{tab:gerundet}
-\end{minipage}\\ \\
+\end{table}
 
 \begin{figure}[htbp]
     \centering
