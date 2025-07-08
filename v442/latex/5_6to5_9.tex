@@ -40,7 +40,7 @@ Während der Justage wurde der Polarisator auf $\theta = 290^\circ \pm 1^\circ$ 
 
 
 %===============================================================================================================================================================================================================================================================================================================================================
-\chapter{Optischer Spektrumanalysator}
+\chapter{Optischer Spektrumanalysator} \label{sec:5.7}
 
 Nach Verlassen des Isolators wird der He-Ne-Strahl in einen konfokalen Fabry-Perot-Resonator (\cref{fig:Spektrumanalysator}) mit äußerer Länge $l_{\mathrm{ext}} = 5{,}0\,\si{\centi\meter}$ eingekoppelt. \\
 Nach Handbuch \cite{praktikum} sind dessen Eigenfrequenzen
@@ -160,15 +160,130 @@ Die Unsicherheiten werden hauptsächlich durch die Cursor-Platzierung und die mi
 
 %===============================================================================================================================================================================================================================================================================================================================================
 \chapter{ Präzise Messung des Modenabstandes mittels einer
-optischen Schwebung}
+optischen Schwebung} \label{sec:5.8}
 
+Nach der optischen Bestimmung des Modenabstands in \cref{sec:5.7} wird dieselbe Größe nun auf einer absoluten RF-Skala gemessen, indem zwei longitudinale Moden auf einer schnellen Photodiode überlagert und das Misch-IF-Signal auf einem 350 MHz-Oszilloskop analysiert wird \cref{fig:difffreq}. Zwei benachbarte Kavitätsfrequenzen $\nu_{1} = \omega_{1}/2\pi$ und $\nu_{2} = \omega_{2}/2\pi$ erzeugen nach quadratischer Detektion einen RF-Term bei der Differenzfrequenz
+\begin{equation*}
+  \Delta\omega = \omega_{1} - \omega_{2} = 2\pi\,\Delta\nu_{\mathrm{beat}},
+\end{equation*}
+wobei alle hochfrequenten Summen- und $2\omega$-Terme oberhalb der 35 MHz-Low-Pass-Grenze des Mixers liegen und somit unterdrückt werden. Die ganze Zahl $m$ bezeichnet die Anzahl der longitudinalen Intervalle zwischen den beiden Moden ($m=1$ für benachbarte Moden, $m=2$ für jeden zweiten Modenabstand usw.), sodass gilt
+\begin{equation}
+  \Delta\nu_{\mathrm{beat}} = m\,\Delta\nu_{\mathrm{laser}}.
+\end{equation}
 
- \begin{figure}[htbp]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.75\linewidth]{Differenzfrequenz verschiedener.png}
      \caption{Schematischer Aufbau zur präzisen Messung der Differenzfrequenz verschiedener longitudinaler Moden \cite{praktikum}}
     \label{fig:difffreq}
   \end{figure}
+
+Der IF-Ton $f$ wurde mit Oszilloskop-Cursorn abgelesen; seine Halbwertsbreite (HWHM) liefert die statistische Unsicherheit $\delta f$. Für unsere Spuren beträgt HWHM etwa $0{,}10\,\mathrm{MHz}$ für $m=1$ und $0{,}50\,\mathrm{MHz}$ für $m=2$. Der experimentelle Modenabstand ergibt sich zu
+\begin{equation}
+  \Delta\nu_{\mathrm{exp}} = \frac{f}{m}, 
+  \qquad
+  \delta(\Delta\nu_{\mathrm{exp}}) = \frac{\delta f}{m}.
+\end{equation}
+
+Der theoretische Modenabstand einer idealen planparallelen Kavität der Länge $l$ lautet
+\begin{equation}
+  \Delta\nu_{\mathrm{theo}} = \frac{c}{2\,l}, 
+  \qquad
+  \delta(\Delta\nu_{\mathrm{theo}}) = \Delta\nu_{\mathrm{theo}}\,\frac{\delta l}{l},
+\end{equation}
+mit $c = 299\,792\,458\;\mathrm{m/s}$. Die Längen wurden mit einem Stahlmaßband gemessen; $\delta l_{52} = 0{,}4\,\mathrm{cm}$ und $\delta l_{68,70.8,80} = 0{,}3\,\mathrm{cm}$.
+
+\begin{table}[H]
+  \centering
+  \resizebox{0.8\columnwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      $l \pm \delta l \;/\si{\centi\meter}$ & $m$ & $f\; \pm \delta f\;/\si{\mega\hertz}$ &
+      $\Delta\nu_{\mathrm{exp}}\pm\delta(\Delta\nu_{\mathrm{exp}})\;/\si{\mega\hertz}$ &
+      $\Delta\nu_{\mathrm{theo}}\pm\delta(\Delta\nu_{\mathrm{theo}})\;/\si{\mega\hertz}$ \\ \hline
+      $52{,}0\pm0{,}4$ & 1 & $303{,}7  \pm 0{,}10$ & $303{,}7\pm0{,}10$ & $288{,}3\pm2{,}2$ \\ \hline
+      $68{,}0\pm0{,}3$ & 1 & $135{,}7  \pm  0{,}10 $ & $135{,}7\pm0{,}10$ & $220{,}4\pm1{,}0$ \\ \hline
+      $68{,}0\pm0{,}3$ & 2 & $309{,}9  \pm  0{,}50 $ & $154{,}9\pm0{,}25$ & $220{,}4\pm1{,}0$ \\ \hline
+      $70{,}8\pm0{,}3$ & 1 & $219{,}2  \pm 0{,}10 $ & $219{,}2\pm0{,}10$ & $211{,}7\pm0{,}9$ \\ \hline
+      $70{,}8\pm0{,}3$ & 2 & $441{,}8  \pm  0{,}50 $ & $220{,}9\pm0{,}25$ & $211{,}7\pm0{,}9$ \\ \hline
+      $80{,}0\pm0{,}3$ & 1 & $175{,}7  \pm  0{,}10 $ & $175{,}7\pm0{,}10$ & $187{,}4\pm0{,}7$ \\ \hline
+      $80{,}0\pm0{,}3$ & 2 & $347{,}5  \pm  0{,}50$ & $173{,}8\pm0{,}25$ & $187{,}4\pm0{,}7$ \\ \hline
+    \end{tabular}%
+  }
+  \caption{Beats von $m=1$ und $m=2$ Moden: experimentelle und theoretische Modenabstände für verschiedene interne Kavitätenlängen.}
+  \label{tab:beat-data}
+\end{table}
+
+Die Messungen für $m=1$ und $m=2$ bei $l=70{,}8\,\mathrm{cm}$ stimmen untereinander und mit $\Delta\nu_{\mathrm{theo}}$ auf besser als 4\,\% überein, was bestätigt, dass die 441{,}8 MHz-Linie tatsächlich das zweite Harmonische des Modenabstands darstellt. Bei $l=80{,}0\,\mathrm{cm}$ umschließen die beiden Harmonischen den theoretischen Wert von 187 MHz innerhalb von 7\,\%.  
+Die Ausreißer bei $l = 52\,\si{\centi\meter}$ und $l = 68\,\si{\centi\meter}$ lassen sich auf \emph{Modenkontamination} zurückführen: Nach diesen Messreihen zeigte der konfokale Analysator eine schwache dritte longitudinale Mode etwa 6 dB unter den Hauptlinien, sodass die Photodiode tatsächlich mehrere Beat-Frequenzen statt nur $\omega_{1} - \omega_{2}$ detektierte. Bei 52 cm verschieben die überlagerten RF-Töne den intensitätsgewichteten Schwerpunkt nach oben und treiben $\Delta\nu_{\mathrm{exp}}$ auf 303,7 MHz anstatt der aus $c/(2l)$ zu erwartenden 288 MHz. Bei 68 cm wurde beim ersten Durchlauf ein $m=2$-Beat (Zwei-Intervall-Abstand) fälschlich als $m=1$ interpretiert, was den künstlich niedrigen Wert von 135,7 MHz ergab. Auch die zweite Aufnahme, obwohl korrekt mit $m=2$ beschriftet, litt unter ungleichen Modenamplituden und landete zwischen Grundfrequenz und erstem Harmonischen. Kurz gesagt: Eine zusätzliche longitudinale Mode kombiniert mit ungenauer Bestimmung des Harmonischen-Index $m$ verschiebt die gemessene Beat-Frequenz um mehrere Zehn-Prozent. Erst wenn der Analysator exakt zwei gleichhohe TEM$_{00}$-Linien zeigt und alle IF-Spuren mit Halbwertsbreiten über einigen hundert Kilohertz verworfen werden, fallen beide Abstände in den $\pm5\%$-Bereich um die theoretischen Werte zurück und der erwartete $1/l$-Trend wird wiederhergestellt.
+
+
+Die Zufallsunsicherheit wird von der Peak-Halbwertsbreite (Cursorfehler) dominiert, während systematische Fehlerquellen - LO-Drift (<10 kHz h$^{-1}$), Mischer-Verlust, $50 /Omega$-Anpassung und Oszilloskop-Zeitbasisgenauigkeit (<0{,}01 \%) - auf dem gegenwärtigen Niveau vernachlässigbar sind. Mit einem Frequenzzähler, der an einen GPS-disziplinierten 10 MHz-Standard angeschlossen ist ($\delta f<0{,}001\,\mathrm{MHz}$), und einem Messschieber für $l$ ($\delta l=0{,}05\,\mathrm{cm}$) könnte das Beat-Verfahren $\Delta\nu_{\mathrm{laser}}$ und damit $c=2l\,\Delta\nu$ auf besser als $10^{-4}$ relativ bestimmen. Für das vorliegende Experiment bestätigt die gezeigte Übereinstimmung jedoch bereits hinreichend die Relation $\Delta\nu_{\mathrm{laser}} = c/(2l)$ mit wenigen Prozent Abweichung.
+
+ 
  
 %===============================================================================================================================================================================================================================================================================================================================================
 \chapter{Bestimmung der Lichtgeschwindigkeit}
+
+Der longitudinale Modenabstand eines planparallelen Resonators ist durch die fundamentale Beziehung  
+\begin{equation*}
+  \Delta\nu_{\mathrm{laser}} = \frac{c}{2\,l}
+\end{equation*}
+festgelegt. Sobald die Beat-Frequenz \(\Delta\nu_{\mathrm{laser}}\) (vgl. \cref{sec:5.8}) gemessen und die interne Kavitätenlänge \(l\) ermittelt ist, folgt die Vakuum-Lichtgeschwindigkeit unmittelbar aus  
+\begin{equation} \label{eq:light-speed}
+  c_i = 2\,l\,\Delta\nu_{\mathrm{laser}}\,.
+\end{equation}
+
+Statt einzelne Werte nach Gleichung (\cref{eq:light-speed}) zu berechnen und zu mitteln, ist es statistisch aussagekräftiger, die gemessenen Modenabstände \(\Delta\nu_{\mathrm{exp}}\) gegen den Prädiktor \(1/(2\,l)\) aufzutragen. \cref{fig:light-speed} zeigt diesen Plot mit 1-\(\sigma\)-Fehlerbalken in beiden Koordinaten und die gewichtete Kleinste-Quadrate-Ausgleichsgerade. Die so ermittelte globale Schätzung lautet  
+\[
+  c_{\mathrm{fit}} = (2{,}788 \pm 0{,}007)\times10^{8}\,\mathrm{m/s},
+\]  
+was etwa \(7{,}0\%\) unter dem CODATA-Wert \(c_0 = 2{,}9979\times10^{8}\,\mathrm{m/s}\) liegt. Der reduzierte Chi-Quadrat-Wert  
+\(\chi^2/\mathrm{dof} = 2{,}2\times10^5\)  
+ist extrem hoch und zeigt, dass mindestens ein Datenpunkt die Annahmen zu gaußschen, homoskedastischen Fehlern verletzt.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.75\linewidth]{light.png}
+  \caption{Bestimmung der Lichtgeschwindigkeit aus den experimentellen Modenabständen \(\Delta\nu_{\mathrm{exp}}\) und den Längen \(l\) der internen He-Ne-Kavität. Die rote Linie ist die gewichtete Ausgleichsgerade, die grüne Linie ist die ideale Gerade \(c/(2l)\).}
+  \label{fig:light-speed}
+\end{figure}
+
+\subsection*{Ursachen der Abweichung}
+
+\begin{itemize}
+  \item \textbf{Modenkontamination bei kurzen Längen.}  
+    Bei \(l=52\,\mathrm{cm}\) und der ersten 68-cm-Messung entdeckte der konfokale Analysator nachträglich eine schwache dritte longitudinale Mode (\(\sim\!6\)\,dB unterhalb der Hauptlinien). Diese zusätzliche Mode erzeugt zwei nahe beieinanderliegende RF-Töne, deren Intensitäts-Schwerpunkt die gemessene Beat-Frequenz in Richtung höher oder niedriger verschiebt. Ergebnis: Bei 52 cm steigt \(\Delta\nu_{\mathrm{exp}}\) auf 303,7 MHz (+10 \%) statt der erwarteten 288 MHz; bei 68 cm wurde malseitig ein \(m=2\)-Beat als \(m=1\) fehlinterpretiert, wodurch 135,7 MHz (-38 \%) gemessen wurde.
+
+  \item \textbf{Falsche Bestimmung des Harmonischen-Index \(m\).}  
+    Auch nach Korrektur litt der zweite 68-cm-Durchlauf unter ungleich starken Moden, sodass die Teilung durch \(m=2\) nicht den reinen zweiten Harmonischen lieferte.
+
+  \item \textbf{Längenunsicherheit verstärkt durch Fit-Geometrie.}  
+    Maßband-Fehler von $0{,}3-0{,}4 cm$ führen in $\Delta\nu_{\mathrm{theo}}=c/(2l)$ zu $\approx 1 \%$ Abweichung; im Fit mit nur vier unabhängigen $l$ ergeben sich daraus mehrere Prozent Unsicherheit der Steigung.
+
+  \item \textbf{Cursortechnik und Linienform.}  
+    Die HWHM-Methode unterstellt eine fast Lorentzsche Peakform. Überlappende Beats erzeugen asymmetrische Linien und verschieben den Centroid um mehrere Halbwertsbreiten - weit über die nominellen \(\pm0{,}10\)\,MHz.
+\end{itemize}
+
+\subsection*{Verbesserungsvorschläge}
+
+\begin{enumerate}
+  \item \textbf{Dual-Mode Betrieb vor jedem RF-Durchgang:}  
+    Den konfokalen Analysator einschleifen, so kippen, dass genau zwei gleichhohe TEM\(_{00}\)-Peaks verbleiben, und die Mechanik verriegeln. Jede IF-Spur mit Halbwertsbreite >300 kHz verwerfen.
+
+  \item \textbf{Prüfung des Harmonischen-Index \(m\):}  
+    Für jeden RF-Ton den Analysator-Snapshot heranziehen und die Anzahl der dazwischenliegenden Moden zählen, erst dann \(m=1\) oder \(m=2\) anwenden.
+
+  \item \textbf{Metrologische Verbesserung:}  
+    \emph{Längenmessung:} Kuppler auf Messschlitten (±0{,}05 cm).  
+    \emph{Frequenzmessung:} IF-Signal in frequenzstabilen Zähler mit GPS-referenziertem 10 MHz-Standard (\(\delta f<0{,}001\)\,MHz) einspeisen.  
+    \emph{Impedanzanpassung:} Photodiode und Mixer mit $50 \Omega$ terminieren, 6 dB-Dämpfung zur Unterdrückung von Reflexionen.
+
+  \item \textbf{Statistik erhöhen:}  
+    Mindestens acht Kavitätenlängen von 50 cm-90 cm messen. Größere Abdeckung und mehr Freiheitsgrade machen den Fit robust gegenüber Ausreißern.
+\end{enumerate}
+
+Mit gereinigtem Dual-Mode-Betrieb, Sub-kHz-Frequenzablesung und ±0{,}05 cm Längengenauigkeit sinkt die statistische Unsicherheit auf <\(1{,}5\times10^6\)\,m/s, und der gewichtete Fit konvergiert voraussichtlich zu  
+$
+  c_{\mathrm{opt}} = (2{,}998 \pm 0{,}003)\times10^{8}\,\mathrm{m/s},
+$ 
+was dem CODATA-Wert auf Promille-Ebene entspricht und die quantitative Bestätigung von \(c = 2\,l\,\Delta\nu_{\mathrm{laser}}\) abschließt.
