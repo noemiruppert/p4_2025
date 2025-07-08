@@ -55,7 +55,7 @@ Die Eigenfrequenzen eines konfokalen Resonators ergeben sich laut Handbuch \cite
   = \Bigl(q + \tfrac{m+n+1}{2}\Bigr)\,\frac{c}{2\,l} .
 \end{equation}
 wobei \( q \) der longitudinale und \( n, m \) die transversalen Modenzahlen sind. 
-Gleiche transversale Moden TEM$_{nm}$ liegen damit im Abstand des freien Spektralbereichs
+Gleiche transversale Moden TEM$_{nm}$ liegen damit im Abstand des freien Spektralbereichs \cite{praktikum}
 \begin{equation*}
   \Delta\nu_{\mathrm{FSR}}
   = \frac{c}{2\,l},
@@ -115,7 +115,7 @@ Eine korrekte Ausrichtung war erreicht, wenn bei jeder Piezo-Position ein einzel
   = \frac{299\,792\,458\;\mathrm{m/s}}{2 \times 0{,}050\;\mathrm{m}}
   \approx 3{,}00\;\mathrm{GHz},
 \end{equation}
-wobei $l_{\mathrm{ext}} = 5{,}0\;\mathrm{cm}$.
+wobei $l_{\mathrm{ext}} = 5{,}0\;\mathrm{cm}$ und  $c = 299\,792\,458\;\mathrm{m/s}$ \cite{codata}.
 
 Der experimentell bestimmte Modenabstand ergibt sich zu:
 \begin{equation}
@@ -237,28 +237,13 @@ Die Kavitätslängen wurden mit einem Stahlmaßband gemessen; $\delta l_{52} = 0
   \label{tab:beat-data}
 \end{table}
 
-Die Messungen für $m=1$ und $m=2$ bei $l=70{,}8\,\mathrm{cm}$ stimmen untereinander und mit $\Delta\nu_{\mathrm{theo}}$ auf besser als 4\,\% überein, was bestätigt, dass es sich bei der 441{,}8\,MHz-Linie um das zweite Harmonische des Modenabstands handelt. 
-Bei $l=80{,}0\,\mathrm{cm}$ umschließen die beiden Harmonischen den theoretischen Wert von 187\,MHz innerhalb von 7\,\%.
+Die Messungen für $m=1$ und $m=2$ bei $l=70{,}8\,\mathrm{cm}$ stimmen untereinander und mit $\Delta\nu_{\mathrm{theo}}$ auf besser als 4\,\% überein, was bestätigt, dass die 441{,}8 MHz-Linie tatsächlich das zweite Harmonische des Modenabstands darstellt. Bei $l=80{,}0\,\mathrm{cm}$ umschließen die beiden Harmonischen den theoretischen Wert von 187 MHz innerhalb von 7\,\%.  Die Abweichung bei $l=52{,}0\,\mathrm{cm}$ ist mit $\approx 5\,\%$ noch akzeptabel, während die 68-cm-Messung mit $6\,\%$ bsw. $7\,\%$ Abweichung aus dem Rahmen fällt.\\
+Die Abweichungen sind zum \emph{Modenkontamination} zurückführen: Nach diesen Messreihen zeigte der konfokale Analysator eine schwache dritte longitudinale Mode etwa 6 dB unter den Hauptlinien, sodass die Photodiode tatsächlich mehrere Beat-Frequenzen statt nur $\omega_{1} - \omega_{2}$ detektierte. Bei 52 cm verschieben die überlagerten RF-Töne den intensitätsgewichteten Schwerpunkt nach oben und treiben $\Delta\nu_{\mathrm{exp}}$ auf 303,7 MHz anstatt der aus $c/(2l)$ zu erwartenden 288 MHz. Bei 68 cm wurde beim ersten Durchlauf ein $m=2$-Beat (Zwei-Intervall-Abstand) fälschlich als $m=1$ interpretiert, was den künstlich niedrigen Wert von 135,7 MHz ergab. Auch die zweite Aufnahme, obwohl korrekt mit $m=2$ beschriftet, litt unter ungleichen Modenamplituden und landete zwischen Grundfrequenz und erstem Harmonischen. Kurz gesagt: Eine zusätzliche longitudinale Mode kombiniert mit ungenauer Bestimmung des Harmonischen-Index $m$ verschiebt die gemessene Beat-Frequenz um mehrere Zehn-Prozent. Erst wenn der Analysator exakt zwei gleichhohe TEM$_{00}$-Linien zeigt und alle IF-Spuren mit Halbwertsbreiten über einigen hundert Kilohertz verworfen werden, fallen beide Abstände in den $\pm5\%$-Bereich um die theoretischen Werte zurück und der erwartete $1/l$-Trend wird wiederhergestellt.
 
-Die Abweichungen bei $l = 52\,\si{\centi\meter}$ und $l = 68\,\si{\centi\meter}$ lassen sich auf \emph{Modenkontamination} zurückführen: 
-Nach diesen Messreihen zeigte der konfokale Analysator eine schwache dritte longitudinale Mode, etwa 6\,dB unter den Hauptlinien. 
-Die Photodiode detektierte somit mehrere Beat-Frequenzen anstelle nur von $\omega_{1} - \omega_{2}$. 
-Bei 52\,cm verschoben die überlagerten RF-Töne den intensitätsgewichteten Schwerpunkt nach oben und führten zu $\Delta\nu_{\mathrm{exp}} = 303{,}7\,\mathrm{MHz}$ anstatt der erwarteten 288\,MHz. 
-Bei 68\,cm wurde zunächst ein $m=2$-Beat fälschlich als $m=1$ interpretiert, was den zu niedrigen Wert von 135{,}7\,MHz erklärt. 
-Auch die korrekt als $m=2$ beschriftete Messung litt unter ungleichen Modenamplituden und ergab einen Zwischenwert. 
-Kurz gesagt: 
-Eine zusätzliche longitudinale Mode in Kombination mit unklarer Bestimmung des Harmonischen-Index $m$ kann die gemessene Beat-Frequenz um mehrere Zehn-Prozent verschieben. 
-Erst wenn der konfokale Filter exakt zwei gleich starke TEM$_{00}$-Moden zeigt und alle IF-Spuren mit Halbwertsbreiten über mehreren hundert Kilohertz verworfen werden, stimmen die Abstände wieder mit den theoretischen Werten im $\pm5\,\%$-Bereich überein und der erwartete $1/l$-Trend wird sichtbar.
 
-Die Zufallsunsicherheit wird hauptsächlich von der Peak-Halbwertsbreite (Cursorfehler) bestimmt. 
-Systematische Fehlerquellen – etwa LO-Drift (<10\,kHz/h), Mischerverluste, Impedanzanpassung (50\,$\Omega$) oder Oszilloskop-Zeitbasisfehler (<0{,}01\,\%) – sind auf dem aktuellen Niveau vernachlässigbar. 
-Mit einem GPS-synchronisierten 10\,MHz-Frequenzstandard ($\delta f < 0{,}001\,\mathrm{MHz}$) und einem Messschieber für $l$ ($\delta l = 0{,}05\,\mathrm{cm}$) ließe sich der Modenabstand $\Delta\nu_{\mathrm{laser}}$ – und damit auch $c = 2l\,\Delta\nu$ – relativ auf besser als $10^{-4}$ genau bestimmen. 
-Für das vorliegende Experiment bestätigt die beobachtete Übereinstimmung jedoch bereits hinreichend die Relation
-\[
-\Delta\nu_{\mathrm{laser}} = \frac{c}{2l}
-\]
-mit nur wenigen Prozent Abweichung.
+Die Zufallsunsicherheit wird von der Peak-Halbwertsbreite (Cursorfehler) dominiert, während systematische Fehlerquellen - LO-Drift (<10 kHz h$^{-1}$), Mischer-Verlust, $50 \Omega$-Anpassung und Oszilloskop-Zeitbasisgenauigkeit (<0{,}01 \%) - auf dem gegenwärtigen Niveau vernachlässigbar sind. Mit einem Frequenzzähler, der an einen GPS-disziplinierten 10 MHz-Standard angeschlossen ist ($\delta f<0{,}001\,\mathrm{MHz}$), und einem Messschieber für $l$ ($\delta l=0{,}05\,\mathrm{cm}$) könnte das Beat-Verfahren $\Delta\nu_{\mathrm{laser}}$ und damit $c=2l\,\Delta\nu$ auf besser als $10^{-4}$ relativ bestimmen. Für das vorliegende Experiment bestätigt die gezeigte Übereinstimmung jedoch bereits hinreichend die Relation $\Delta\nu_{\mathrm{laser}} = c/(2l)$ mit wenigen Prozent Abweichung.
 
+ 
  
 %===============================================================================================================================================================================================================================================================================================================================================
 \chapter{Bestimmung der Lichtgeschwindigkeit}
@@ -280,7 +265,7 @@ Da \(\Delta\nu = c/(2l)\) eine lineare Beziehung ist, erlaubt eine lineare Regre
 \[
   c_{\mathrm{fit}} = (2{,}788 \pm 0{,}007)\times10^{8}\,\mathrm{m/s},
 \]  
-was etwa \(9{,}3\%\) unter dem CODATA-Wert \(c_0 = 2{,}9979\times10^{8}\,\mathrm{m/s}\) liegt. Der reduzierte Chi-Quadrat-Wert  
+was etwa \(9{,}3\%\) unter dem CODATA-Wert \cite{codata} \(c_0 = 2{,}9979\times10^{8}\,\mathrm{m/s}\) liegt. Der reduzierte Chi-Quadrat-Wert  
 \(\chi^2/\mathrm{dof} = 2{,}2\times10^5\)  
 ist extrem hoch und zeigt, dass die zugrunde gelegten Fehlerannahmen (z.\,B. Normalverteilung und konstante Varianz) für mindestens einen Datenpunkt nicht erfüllt sind.
 
@@ -294,11 +279,8 @@ ist extrem hoch und zeigt, dass die zugrunde gelegten Fehlerannahmen (z.\,B. Nor
 \subsection*{Ursachen der Abweichung}
 
 \begin{itemize}
-  \item \textbf{Modenkontamination bei kurzen Längen:}  
-    Bei \(l = 52\,\mathrm{cm}\) und der ersten 68-cm-Messung zeigte der konfokale Analysator eine schwache dritte longitudinale Mode (\(\sim\!6\,\mathrm{dB}\) unterhalb der Hauptlinien). 
-    Diese zusätzliche Mode erzeugt zwei nahe beieinanderliegende RF-Töne durch Interferenz mit den dominanten Moden. 
-    Der daraus resultierende Intensitäts-Schwerpunkt verschiebt die gemessene Beat-Frequenz. 
-    Ergebnis: Bei \(l = 52\,\mathrm{cm}\) steigt \(\Delta\nu_{\mathrm{exp}}\) auf 303{,}7\,MHz (+10\,\%) statt der erwarteten 288\,MHz; bei 68\,cm wurde ein \(m = 2\)-Beat fälschlich als \(m = 1\) interpretiert, wodurch nur 135{,}7\,MHz (-38\,\%) gemessen wurden.
+  \item \textbf{Modenkontamination bei kurzen Längen.}  
+    Bei \(l=52\,\mathrm{cm}\) und der ersten 68-cm-Messung entdeckte der konfokale Analysator nachträglich eine schwache dritte longitudinale Mode (\(\sim\!6\)\,dB unterhalb der Hauptlinien). Diese zusätzliche Mode erzeugt zwei nahe beieinanderliegende RF-Töne, deren Intensitäts-Schwerpunkt die gemessene Beat-Frequenz in Richtung höher oder niedriger verschiebt. Ergebnis: Bei 52 cm steigt \(\Delta\nu_{\mathrm{exp}}\) auf 303,7 MHz (+10 \% Differenz) statt der erwarteten 288 MHz; bei 68 cm wurde malseitig ein \(m=2\)-Beat als \(m=1\) fehlinterpretiert, wodurch 135,7 MHz (-38 \% Differenz) gemessen wurde.
 
   \item \textbf{Falsche Bestimmung des Harmonischen-Index \(m\):}  
     Trotz Korrektur wies der zweite 68-cm-Durchlauf ungleich starke Moden auf, sodass die Division der Beatfrequenz durch \(m = 2\) keine reine zweite Harmonische ergab.
