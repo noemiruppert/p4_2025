@@ -20,7 +20,7 @@ Im hier verwendeten Aufbau dient ein Gasgemisch aus Helium und Neon als aktives 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\linewidth]{Energielevel for He-Ne.png}
-\caption{Energieleveldiagramm der Helium- und Neonatome. Der Energietransferprozess zur Erzeugung der Laserstrahlung ist schematisch dargestellt.}
+\caption{Energieleveldiagramm der Helium- und Neonatome. Der Energietransferprozess zur Erzeugung der Laserstrahlung ist schematisch dargestellt.\cite{praktikum}}
 \label{fig:He-Ne}
 \end{figure}
 \FloatBarrier
@@ -39,7 +39,7 @@ Es existieren auch weitere Übergänge (z.B. im infraroten Bereich, siehe Abb.\r
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\linewidth]{mehrere Übergänge.png}
-\caption{Weitere mögliche Übergänge im Neon-Atom.}
+\caption{Weitere mögliche Übergänge im Neon-Atom.\cite{praktikum}}
 \label{fig:Übergang}
 \end{figure}
 \FloatBarrier
@@ -47,7 +47,7 @@ Es existieren auch weitere Übergänge (z.B. im infraroten Bereich, siehe Abb.\r
 
 
 
-\section{Aufbau}
+\chapter{Justage des Helium-Neon-Lasers}
 
 
 Der komplette Aufbau erfolgt auf einer optischen Bank und erfordert besondere Sorgfalt und Justiergenauigkeit.
@@ -60,14 +60,14 @@ Dazu kommt ein zusätzlicher, externer Laser (Pilotlaser) zum Einsatz, um die Ac
     \begin{minipage}[t]{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{optische Achse.png}
-       \caption{Justierung der optischen Achse mit Hilfe der Blenden.}
+       \caption{Justierung der optischen Achse mit Hilfe der Blenden.\cite{praktikum}}
         \label{fig:Blende}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{resonance spiegel.png}
-        \caption{Justage der Resonatorspiegel.}
+        \caption{Justage der Resonatorspiegel.\cite{praktikum}}
         \label{fig:Spiegel}
    \end{minipage}
 \end{figure}
@@ -84,21 +84,16 @@ Durch feine Justierung der Spiegel sollte der Laser schließlich sichtbar aufbli
 \chapter{Bestimmung der Wellenlänge}
 
 Zur Wellenlängenbestimmung wird ein optisches Gitter außerhalb des Resonators hinter dem halbdurchlässigen Spiegel angebracht. 
-Der Abstand der Interferenzmaxima kann dann über die Gleichungen
-
-\begin{equation*}
-    \tan(\alpha_i) = \frac{d_i}{a}
-\end{equation*}
-\begin{equation*}
-    \sin(\alpha_i) = \frac{\delta}{g}; \qquad \text{mit} \qquad \delta = i \cdot \lambda
-\end{equation*}
-\begin{equation*}
-    \Rightarrow \lambda = \frac{\sin\big(\arctan\big(\frac{d_i}{a}\big)\big)}{i \cdot g} \label{eq:Wellenlänge}
-\end{equation*}
-\begin{equation*}
-    \Delta \lambda = \frac{1}{i \cdot g} \cdot \frac{1}{(d_i^2 + a^2)^\frac{3}{2}} \cdot \sqrt{(a^2 \cdot \Delta d)^2 + (da \cdot \Delta a
-    )^2}
-\end{equation*}
+Der Abstand der Interferenzmaxima kann dann über die Gleichungen \cite{Gitterformel}
+\begin{centering}
+\begin{itemize}
+    \item [] $\tan(\alpha_i) = \frac{d_i}{a},$
+    \item [] $\sin(\alpha_i) = \frac{\delta}{g}; \qquad \text{mit} \qquad \delta = i \cdot \lambda,$
+    \item [] $\Rightarrow \lambda = \frac{\sin\big(\arctan\big(\frac{d_i}{a}\big)\big)}{i \cdot g} \label{eq:Wellenlänge},$
+    \item []  $\Delta \lambda = \frac{1}{i \cdot g} \cdot \frac{1}{(d_i^2 + a^2)^\frac{3}{2}} \cdot \sqrt{(a^2 \cdot \Delta d)^2 + (da \cdot \Delta a
+    )^2},$
+\end{itemize}
+\end{centering}
 
 berechnet werden.
 Mit der Gitterkonstanten $g = 600$ lines/mm und den gemessenen Werten ergibt sich folgende Tabelle:
@@ -132,8 +127,8 @@ Zur Untersuchung des Polarisationszustands wurde ein Polarisator in den Strahlen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{Polarisation.png}
-    \caption{Versuchsaufbau zur Untersuchung der Polarisation des Laserlichts}
+    \includegraphics[width=0.5\linewidth]{Polarisation.png}
+    \caption{Versuchsaufbau zur Untersuchung der Polarisation des Laserlichts\cite{praktikum}}
    \label{fig:Polar}
 \end{figure}
 
@@ -169,10 +164,10 @@ Die gemessenen Werte sind in Tabelle~\ref{tab:Wellenlaenge} dargestellt.
     \label{tab:Wellenlaenge}
 \end{table}
 
-Da der Laser annähernd linear polarisiert ist, kann der Verlauf der Intensität in Abhängigkeit vom Polarisationswinkel durch das \textbf{Malus’sche Gesetz} beschrieben werden:
+Da der Laser annähernd linear polarisiert ist, kann der Verlauf der Intensität in Abhängigkeit vom Polarisationswinkel durch das \textbf{Malus’sche Gesetz} \cite{Malus} beschrieben werden:
 
 \begin{equation*}
-    I = I_0 \cdot \cos^2(\theta - \theta_0) + b
+    I = I_0 \cdot \cos^2(\theta - \theta_0) + b .
 \end{equation*}
 
 Hierbei ist $I_0$ die maximale Intensität, $\theta_0$ der Winkel der Polarisationsebene und $b$ ein Offset (z.\,B. durch Umgebungslicht oder systematische Messfehler).
@@ -194,7 +189,7 @@ Die zugehörige Ausgleichskurve ist in Abbildung~\ref{fig:PolarisationFigur} dar
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{Figure_2}
+    \includegraphics[width=0.5\linewidth]{Figure_2}
     \caption{Fit des Malus’schen Gesetzes an die Messwerte ($\chi^2_\text{red} = 5{,}16$)}
     \label{fig:PolarisationFigur}
 \end{figure}
@@ -213,9 +208,9 @@ Die Abweichungen lassen sich durch verschiedene systematische Fehler erklären:
 
 Trotz der genannten Unstimmigkeiten lässt sich erkennen, dass die gemessenen Spannungen in guter Näherung dem Verlauf eines $\cos^2$-Gesetzes folgen, was das Malus’sche Gesetz bestätigt.
 
-Der Polarisationsgrad \( PG \) des Lasers lässt sich aus den Fit-Parametern wie folgt berechnen:
+Der Polarisationsgrad \( PG \) des Lasers lässt sich aus den Fit-Parametern wie folgt berechnen \cite{praktikum}:
 \begin{equation*}
-    PG = \frac{U_\text{max} - U_\text{min}}{U_\text{max} + U_\text{min}} = \frac{U_0 - b}{U_0 + b} = 0{,}98 \pm 0{,}01
+    PG = \frac{U_\text{max} - U_\text{min}}{U_\text{max} + U_\text{min}} = \frac{U_0 - b}{U_0 + b} = 0{,}98 \pm 0{,}01.
 \end{equation*}
 
 Da der Polarisationsgrad kleiner als 1 ist, lässt sich daraus schließen, dass das Laserlicht nicht vollständig linear polarisiert ist. 
@@ -232,13 +227,13 @@ Durch schrittweise Verkleinerung der Spaltbreite wird der Strahl zunehmend besch
 Sobald diese Verluste größer sind als die Verstärkung im Lasermedium, bricht die Laseremission ab. 
 Die kritische Spaltbreite hängt daher direkt vom lokalen Strahldurchmesser ab.
 
-Das Strahlprofil eines idealen transversalen Grundmodus (TEM\textsubscript{00}) eines Gauß-Strahls folgt der bekannten Form:
+Das Strahlprofil eines idealen transversalen Grundmodus (TEM\textsubscript{00}) eines Gauß-Strahls folgt der bekannten Form \cite{praktikum} :
 
 \begin{equation*}
     w(z) = w_0 \cdot \sqrt{1+\left(\frac{z}{z_R}\right)^2}
 \end{equation*}
  
-mit einem Minimum der Strahlweite \( w_0 \) an der Stelle \( z = 0 \), der sogenannten Strahltaille. Für einen halbsymmetrischen Resonator mit einem planen und einem sphärischen Spiegel ergibt sich die theoretische Taille \( w_0 \) aus:
+mit einem Minimum der Strahlweite \( w_0 \) an der Stelle \( z = 0 \), der sogenannten Strahltaille. Für einen halbsymmetrischen Resonator mit einem planen und einem sphärischen Spiegel ergibt sich die theoretische Taille \( w_0 \) aus \cite{praktikum}:
 
 \begin{equation*}
     w_0 = \sqrt{\frac{\lambda}{\pi} \cdot \sqrt{L \cdot (R - L)}}
@@ -259,7 +254,7 @@ Zur Auswertung der Messdaten wurde die Form des Gaußstrahlradius
 \end{equation*}
 
 durch nichtlineare Regression an die experimentellen Daten angepasst. 
-Dabei ist zu beachten, dass die gemessene kritische Spaltbreite \( d(z) \) nicht dem theoretischen Strahldurchmesser \( 2w(z) \) entspricht, sondern nur proportional dazu ist. Dieser Zusammenhang wird durch eine Proportionalitätskonstante \( c \) beschrieben:
+Dabei ist zu beachten, dass die gemessene kritische Spaltbreite \( d(z) \) nicht dem theoretischen Strahldurchmesser \( 2w(z) \) entspricht, sondern nur proportional dazu ist. Dieser Zusammenhang \cite{praktikum} wird durch eine Proportionalitätskonstante \( c \) beschrieben:
 
 \begin{equation}
     2 \cdot w(z) = c \cdot d(z)
