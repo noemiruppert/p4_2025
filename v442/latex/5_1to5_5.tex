@@ -67,7 +67,7 @@ Dazu kommt ein zusätzlicher, externer Laser (Pilotlaser) zum Einsatz, um die Ac
     \begin{minipage}[t]{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{resonance spiegel.png}
-        \caption{Justage der Resonatorspiegel.}
+        \caption{Justage der Resonatorspiegel. \cite{praktikum}}
         \label{fig:Spiegel}
    \end{minipage}
 \end{figure}
@@ -85,15 +85,15 @@ Durch feine Justierung der Spiegel sollte der Laser schließlich sichtbar aufbli
 
 Zur Wellenlängenbestimmung wird ein optisches Gitter außerhalb des Resonators hinter dem halbdurchlässigen Spiegel angebracht. 
 Der Abstand der Interferenzmaxima kann dann über die Gleichungen \cite{Gitterformel}
-\begin{centering}
-\begin{itemize}
-    \item [] $\tan(\alpha_i) = \frac{d_i}{a},$
-    \item [] $\sin(\alpha_i) = \frac{\delta}{g}; \qquad \text{mit} \qquad \delta = i \cdot \lambda,$
-    \item [] $\Rightarrow \lambda = \frac{\sin\big(\arctan\big(\frac{d_i}{a}\big)\big)}{i \cdot g} \label{eq:Wellenlänge},$
-    \item []  $\Delta \lambda = \frac{1}{i \cdot g} \cdot \frac{1}{(d_i^2 + a^2)^\frac{3}{2}} \cdot \sqrt{(a^2 \cdot \Delta d)^2 + (da \cdot \Delta a
-    )^2},$
-\end{itemize}
-\end{centering}
+\begin{align}
+\tan(\alpha_i) &= \frac{d_i}{a},\\
+\sin(\alpha_i) &= \frac{\delta}{g}, 
+\quad\text{mit}\quad \delta = i\,\lambda,\\
+\Rightarrow\quad \lambda &= \frac{\sin\bigl(\arctan(\tfrac{d_i}{a})\bigr)}{i\,g},\label{eq:Wellenlänge}\\
+\Delta \lambda &= \frac{1}{i\,g}\,\frac{1}{(d_i^2 + a^2)^{3/2}}
+\sqrt{(a^2\,\Delta d)^2 + (d_i\,a\,\Delta a)^2}.
+\end{align}
+
 
 berechnet werden.
 Mit der Gitterkonstanten $g = 600$ lines/mm und den gemessenen Werten ergibt sich folgende Tabelle:
@@ -128,7 +128,7 @@ Zur Untersuchung des Polarisationszustands wurde ein Polarisator in den Strahlen
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{Polarisation.png}
-    \caption{Versuchsaufbau zur Untersuchung der Polarisation des Laserlichts}
+    \caption{Versuchsaufbau zur Untersuchung der Polarisation des Laserlichts \cite{praktikum}}
    \label{fig:Polar}
 \end{figure}
 
